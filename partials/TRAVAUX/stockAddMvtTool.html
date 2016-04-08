@@ -1,0 +1,73 @@
+<button type="button" class="close" ng-click="cancel();">
+        <i class="fa fa-times-circle-o" style="margin:10px;color:blue;"></i>
+    </button>
+    <div class="modal-header">
+        <h3 class="modal-title">{{ title }}</h3>
+    </div>
+    <div class="modal-body">
+        <form name="toolMvt_form" class="form-horizontal" role="form" novalidate>
+
+            <form-element label="CHANTIER/MAGASIN " mod="toolMvt">
+            <ui-select ng-model="toolMvt.SelectLocation" theme="bootstrap" reset-search-input="true" ng-change="changeLocation(toolMvt.SelectLocation.id_location)" required style="width: 319px;">
+                <ui-select-match placeholder="Chercher chantier/magasin ...">{{$select.selected.description_f}}</ui-select-match>
+                <ui-select-choices repeat="l in locations | filter: $select.search" ui-disable-choice="l.id_location == toolMvt.SelectLocation_to.id_location">
+                    <div ng-bind-html="l.description_f | highlight: $select.search"></div>
+                </ui-select-choices>
+            </ui-select>
+            </form-element>
+
+            <form-element label="ARTICLE" mod="toolMvt">
+                <ui-select ng-model="toolMvt.stockArticle" theme="bootstrap" ng-disabled="disabled" ng-change="changeStockArticle()" style="width: 319px;">
+                    <ui-select-match placeholder="chercher un article..."> <small>{{$select.selected.quantite_current +' - '+$select.selected.nom_article}}</small></ui-select-match>
+                    <ui-select-choices repeat="article in stocksArticle | filter: $select.search" ui-disable-choice="article.quantite_current == 0">
+                        <small ng-bind-html="article.quantite_current"></small>
+                        <small ng-bind-html="article.nom_article | highlight: $select.search"></small>
+                        <small ng-bind-html="article.code_barre | highlight: $select.search"></small>
+                        <small ng-bind-html="article.unite | highlight: $select.search"></small>
+                    </ui-select-choices>
+                </ui-select>
+                <small class="errorMessage" ng-show="toolMvt_form.stockArticle.$dirty && toolMvt_form.stockArticle.$invalid">Stock Article Requies.</small>
+            </form-element>
+
+            <form-element label="QUANTITE" mod="toolMvt" class="inputNumber">
+                <input type="number" ng-model="toolMvt.quantite" placeholder="1 - {{ toolMvt.stockArticle.quantite_current }}" id="quantite" name="quantite" min="1" max="{{ toolMvt.stockArticle.quantite_current | num}}" class="form-control" integer required/>
+                <small ng-show="toolMvt_form.quantite.$dirty && toolMvt_form.quantite.$invalid" class="help-inline">QUANTITE Requies</small>
+            </form-element>
+
+            <form-element label="DATE MOUVEMENT" mod="toolMvt">
+                <input type="date" name="date_mvt" ng-model="toolMvt.date_mvt" placeholder="dd-MM-yyyy" min="2013-01-01" max="2016-12-31" required focus/>
+                <small ng-show="toolMvt_form.date_mvt.$dirty && toolMvt_form.date_mvt.$invalid" class="help-inline">Date Mouvement Requies</small>
+            </form-element>
+
+            <form-element label="A STOCK ARTICLE" mod="toolMvt">
+                <ui-select ng-model="toolMvt.SelectLocation_to" theme="bootstrap" reset-search-input="true" name="SelectLocation_to" required style="width: 319px;">
+                    <ui-select-match placeholder="Chercher chantier/magasin ...">{{$select.selected.description_f}}</ui-select-match>
+                    <ui-select-choices repeat="a in locations_to | filter: $select.search" ui-disable-choice="a.id_location == toolMvt.SelectLocation.id_location">
+                        <div ng-bind-html="a.description_f | highlight: $select.search"></div>
+                    </ui-select-choices>
+                </ui-select>
+                <small class="errorMessage" ng-show="toolMvt_form.SelectLocation_to.$dirty && toolMvt_form.SelectLocation_to.$invalid"> STOCK Article Requies.</small>
+            </form-element>
+
+            <form-element label="PLUS D'INFORMATIONS" mod="toolMvt">
+                <textarea class="form-control" name="further_information" placeholder="PLUS D'INFORMATIONS" ng-model="toolMvt.further_information"></textarea>
+            </form-element>
+
+            <div class="space"></div>
+            <div class="space-4"></div>
+            <div class="modal-footer">
+                <form-element label="">
+                    <div class="text-right">
+                        <a class="btn btn-sm" ng-click="cancel()"><i class="ace-icon fa fa-reply"></i>Annuler</a>
+                        <button ng-click="savetoolMvt(toolMvt);"
+                                ng-disabled="toolMvt_form.$invalid || enableUpdate"
+                                class="btn btn-sm btn-primary"
+                                type="submit">
+                            <i class="ace-icon fa fa-check"></i>{{buttonText}}
+                        </button>
+                    </div>
+                </form-element>
+            </div>
+        </form>
+    </div>
+
