@@ -12,10 +12,10 @@
         <span class="glyphicon glyphicon-transfer" aria-hidden="true"></span>
         <span class="btn-txt">Ajouter un mouvement</span>
     </button>
-    <!--<button type="button" class="btn btn-sm btn-info" ng-click="openOrderInternal(c);">-->
-    <!--<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>-->
-    <!--<span class="btn-txt">Préparer Commande Etage</span>-->
-    <!--</button>-->
+    <button type="button" class="btn btn-sm btn-danger" ng-click="exportPDF();">
+    <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+    <span class="btn-txt">Export Stock PDF</span>
+    </button>
     <!--<button type="button" class="btn btn-sm btn-info" ng-click="go('/RVA/FinalizeOrder');">-->
     <!--<span class="glyphicon glyphicon-save" aria-hidden="true"></span>-->
     <!--<span class="btn-txt">Finaliser Commande Etage</span>-->
@@ -69,20 +69,22 @@
             </div>
         </div>
         <div class="panel-body">
+
             <!--fixed-table-headers="scrollable-area"-->
-            <table data-toggle="table"  data-cache="false" data-height="200" class="table table-hover table-striped" data-height="200" >
+            <table id="table_1" data-toggle="table"  data-cache="false" data-height="200" class="table table-hover table-striped" data-height="200" >
                 <tr ng-show="items.length==0"><td style="vertical-align:middle;"><i class="fa fa-ban fa-3x"></i>&nbsp;Aucune donnée trouvée.</td></tr>
                 <tr ng-hide="items.length>-1"><td style="vertical-align:middle;"><i class="fa fa-cog fa-3x fa-spin"></i>&nbsp;Loading</td></tr>
                 <thead>
                 <tr><th ng-repeat="c in columns">{{c.text}}</th></tr>
                 </thead>
                 <tbody>
-                <tr ng-repeat="t in filtered = items
-                | filter : filterLocation.location.name_location
-                | filter : filterMaterial.location.nom
-                | filter : filterfamily.location.name_family
+                <tr ng-repeat="t in (filtered = (items
+                | filter : filterLocation.location.name_location : true
+                | filter : filterMaterial.location.nom : true
+                | filter : filterfamily.location.name_family : true
                 | filter : filterRow
                 | filter : search
+                ))
                 | startFrom :(currentPage-1)* entryLimit
                 | limitTo : entryLimit
                 "

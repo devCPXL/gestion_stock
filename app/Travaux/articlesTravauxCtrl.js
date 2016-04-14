@@ -1,6 +1,7 @@
-app.controller('articlesTravauxCtrl', function ($rootScope, $scope, $modal, $filter, Data) {
+app.controller('articlesTravauxCtrl', function ($rootScope, $scope, $modal, $filter, Data, filterFilter) {
     $scope.article = {};
     $scope.familyFilter = [];
+    $scope.articles = [];
 
     $scope.loadData = function(){
 
@@ -14,6 +15,26 @@ app.controller('articlesTravauxCtrl', function ($rootScope, $scope, $modal, $fil
 
     };
     $scope.loadData();
+
+    $scope.currentPage = 1;
+    $scope.totalarticles = $scope.articles.length;
+    $scope.entryLimit = 10; // articles per page
+    $scope.noOfPages = Math.ceil($scope.totalarticles / $scope.entryLimit);
+
+    // $watch search to update pagination
+    $scope.$watch('search', function (newVal, oldVal) {
+        $scope.filtered = filterFilter($scope.articles, newVal);
+        $scope.totalarticles = $scope.filtered.length;
+        $scope.noOfPages = Math.ceil($scope.totalarticles / $scope.entryLimit);
+        $scope.currentPage = 1;
+    }, true);
+
+
+
+
+
+
+
 
     $scope.changeArticleStatus = function(article){
         article.status = (article.status=="Active" ? "Inactive" : "Active");
