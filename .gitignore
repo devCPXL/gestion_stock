@@ -24,6 +24,8 @@
 .idea/libraries
 
 # Mongo Explorer plugin:
+/angularjs-pdf-master
+/angular-file-upload-master
 .idea/mongoSettings.xml
 
 ## File-based project format:
