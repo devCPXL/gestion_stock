@@ -68,15 +68,16 @@ app.controller('articlesTravauxCtrl', function ($rootScope, $scope, $modal, $fil
 
     $scope.columns = [
         {text:"ID",predicate:"id_article",sortable:true,dataType:"number"},
-        {text:"MARQUE",predicate:"Marque",sortable:true},
         {text:"MODELE",predicate:"Modele",sortable:true},
+        {text:"DESCRIPTION",predicate:"DESCRIPTION",sortable:true},
+        {text:"MARQUE",predicate:"Marque",sortable:true},
         {text:"REFERENCE",predicate:"REFERENCE",sortable:true},
         {text:"TYPE",predicate:"Type",sortable:true},
-        {text:"DESCRIPTION",predicate:"DESCRIPTION",sortable:true},
         //{text:"QUANTITE",predicate:"quantite",reverse:true,sortable:true,dataType:"number"},
+        {text:"PRIX_HT",predicate:"PRIX HT",sortable:true},
         {text:"TVA",predicate:"vat",sortable:true},
         {text:"FAMILLE",predicate:"FAMILLE",sortable:true},
-        {text:"STATUS",predicate:"status",sortable:true},
+        //{text:"STATUS",predicate:"status",sortable:true},
         {text:"ACTION",predicate:"",sortable:false}
     ];
 

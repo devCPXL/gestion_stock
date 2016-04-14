@@ -43,12 +43,12 @@
           <tbody>
               <tr ng-repeat="c in articles | filter:filterArticle | filter:filterFamily:strict | orderBy:'family' | orderBy:'nom'" id="{{c.id_article}}" animate-on-change='c.code_barre + c.description_f + c.quantite + c.unite + c.family' ng-animate=" 'animate'">
                   <td>{{c.id_article}}</td>
-                  <td>{{c.mark}}</td>
                   <td>{{c.nom}}</td>
+                  <td>{{c.description_f}}</td>
+                  <td>{{c.mark}}</td>
                   <td>{{c.code_barre}}</td>
                   <td>{{c.unite}}</td>
-                  <td>{{c.description_f}}</td>
-                  <!--<td>{{c.quantite}}</td>-->
+                  <td>{{c.price == 0 ? '_' : c.price+' €'}} </td>
                   <td>{{c.vat == null ? '' : c.vat+'%'}} </td>
                   <td>{{c.family}}</td>
 

@@ -17,7 +17,7 @@
             </form-element>
 
             <form-element label="MARQUE" mod="article">
-                <input type="text" name="mark" class="form-control" placeholder="..." ng-model="article.mark" required />
+                <input type="text" name="mark" class="form-control" placeholder="..." ng-model="article.mark"  />
                 <small class="help-inline errorMessage" ng-show="article_form.mark.$dirty && article_form.mark.$invalid" > Marque Requie.</small>
             </form-element>
 
@@ -41,6 +41,14 @@
                     <!--<option value="" > Electrique</option>-->
                 <!--</select>-->
 
+            </form-element>
+
+            <form-element label="PRIX HT" mod="article">
+                <div class="input-group">
+                    <input type="text" ng-model="article.price" placeholder="00.00" name="price" class="form-control" only-numbers/>
+                    <span class="input-group-addon">€</span>
+                </div>
+                <small ng-show="article_form.price.$dirty && article_form.price.$invalid" class="help-inline">Prix HT Requies</small>
             </form-element>
 
             <form-element label="TVA" mod="article">

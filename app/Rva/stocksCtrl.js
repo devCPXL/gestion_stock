@@ -508,7 +508,8 @@ app.controller('stockRvaAddCtrl', function ($scope, $route, $modal, $modalInstan
 
 });
 
-app.controller('stockRvaDeliveryCtrl', function ($scope, $route, $modal, $modalInstance, $filter, item, Data, toaster) {
+app.controller('stockRvaDeliveryCtrl', function ($rootScope, $scope, $route, $modal, $modalInstance, $filter, item, Data, toaster) {
+
     var DateNow = $filter("date")(Date.now(), 'yyyy-MM-dd');
     $scope.title = 'Reception au Stock Economat';
     $scope.subTitle = item.nom_article;
@@ -544,7 +545,10 @@ app.controller('stockRvaDeliveryCtrl', function ($scope, $route, $modal, $modalI
         DeliveryStock.type_mvt = 'DELIVERY';
 
         DeliveryStock.quantite = DeliveryStock.quantite * DeliveryStock.pack_carton;
-        DeliveryStock.price = DeliveryStock.price / DeliveryStock.pack_carton;
+
+        /** Fix price for service Travaux*/
+        if($rootScope.id_service == ID_RVA_SERVICE)
+            DeliveryStock.price = DeliveryStock.price / DeliveryStock.pack_carton;
         //delete DeliveryStock.pack_carton;
 
         console.log(DeliveryStock);

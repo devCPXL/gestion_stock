@@ -24,6 +24,7 @@ function articles($id_service) {
     ga.quantite,
     ga.unite,
     ga.status,
+    ga.price,
     ga.vat,
     ga.mark,
     ga.order_article
@@ -154,6 +155,7 @@ function putArticles($id){
     $data1->id_family       = $data->id_family;
     $data1->mark            = $data->mark;
     $data1->unite           = $data->unite;
+    $data1->price           = $data->price;
     $data1->vat             = $data->vat;
     $data1->order_article   = (!empty($data->order_article) ? $data->order_article : '');
 
