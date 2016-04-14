@@ -29,6 +29,8 @@
 ## File-based project format:
 *.iws
 
+/jQuery-File-Upload-9.10.0
+/jsPDF
 ## Plugin-specific files:
 
 # IntelliJ
