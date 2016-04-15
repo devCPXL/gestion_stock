@@ -203,6 +203,21 @@ app.controller('stocksTravauxCtrl', function ($scope, $rootScope, $modal, $filte
         });
     };
 
+    $scope.openAssessmentLocation = function(p,size){
+        var modalInstance = $modal.open({
+            templateUrl: 'partials/TRAVAUX/assessmentLocation.html',
+            controller: 'assessmentLocationCtrl',
+            size: size,
+            resolve: {
+                item: function(){
+                    return p;
+                }
+            }
+        });
+        modalInstance.result.then(function() {
+        });
+    };
+
     $scope.exportPDF = function(filtered,size){
 
         var today = new Date();
@@ -295,10 +310,6 @@ app.controller('stocksTravauxCtrl', function ($scope, $rootScope, $modal, $filte
         }
 
         getImageFromUrl('assets/global/img/logoCPASXL.jpg', createPDF);
-
-
-
-
         //doc.save('table.pdf');
         //console.log(doc);
     };
@@ -513,5 +524,137 @@ app.controller('stockDeliveryCtrl', function ($scope, $route, $modal, $modalInst
 });
 
 
+app.controller('assessmentLocationCtrl', function ($scope, $route, $modal, $modalInstance, $filter, item, Data) {
 
+    $scope.title = 'GENERER BILAN CHANTIER';
+    $scope.buttonText = 'Générer & Télécharger';
+    $scope.assessmentLocation = {};
+
+    $scope.cancel = function () {
+        $modalInstance.dismiss('Close');
+    };
+
+    Data.get('locations').then(function(data){
+        $scope.locations = data.data;
+        console.log($scope.locations);
+    });
+
+
+    $scope.generatePdf = function(p,size){
+        console.log(p);
+        var today = new Date();
+        var dd = today.getDate();
+        var mm = today.getMonth()+1; //January is 0!
+        var yyyy = today.getFullYear();
+        var hh = today.getHours();
+        var mn = today.getMinutes();
+
+        if(mm<10) { mm='0'+mm }
+        if(dd<10) { dd='0'+dd }
+        if(hh<10) { hh='0'+hh }
+        if(mn<10) { mn='0'+mn }
+        today = mm+'/'+dd+'/'+yyyy;
+        var time = hh+':'+mn;
+        var columns = [
+            {title:"REFERENCE",dataKey:"code_barre"},
+            {title:"MODELE",dataKey:"nom"},
+            {title:"DESCRIPTION",dataKey:"description_f"},
+            {title:"UNITE",dataKey:"unite"},
+            {title:"TYPE",dataKey:"type_article"},
+            {title:"FAMILLE",dataKey:"name_family"},
+            {title:"QTE",dataKey:"quantite_current"},
+            {title:"PRIX",dataKey:"price"},
+            {title:"MONTANT",dataKey:"amount"},
+            {title:"TVA",dataKey:"vat"},
+            {title:"TOTAL",dataKey:"total"}
+        ];
+
+        Data.get('stocksMaterials/'+$scope.assessmentLocation.location.id_location).then(function(data){
+            $scope.stocksMaterials = data.data;
+            console.log($scope.stocksMaterials);
+
+            $scope.TotalTTC = 0;
+            $scope.TotalHT = 0;
+
+            for (var key in $scope.stocksMaterials) {
+                var data = {};
+                console.log($scope.stocksMaterials[key]);
+
+                $scope.stocksMaterials[key].price = $scope.stocksMaterials[key].price == null ? 0 : $scope.stocksMaterials[key].price;
+                $scope.stocksMaterials[key].amount = (parseFloat($scope.stocksMaterials[key].price) * parseInt($scope.stocksMaterials[key].quantite_current)).toFixed(2);
+                $scope.stocksMaterials[key].total = (parseFloat($scope.stocksMaterials[key].amount) * (1 + (parseFloat($scope.stocksMaterials[key].vat)/100))).toFixed(2);
+
+                $scope.TotalHT = $scope.TotalHT + parseFloat($scope.stocksMaterials[key].amount);
+                $scope.TotalTTC = $scope.TotalTTC + parseFloat($scope.stocksMaterials[key].total);
+
+                $scope.stocksMaterials[key].vat = $scope.stocksMaterials[key].vat + ' %';
+                $scope.stocksMaterials[key].total = $scope.stocksMaterials[key].total + ' €';
+            }
+
+            console.log($scope.TotalTTC.toFixed(2));
+        });
+
+        var getImageFromUrl = function(url, callback) {
+            var img = new Image();
+
+            img.onError = function() {
+                alert('Cannot load image: "'+url+'"');
+            };
+            img.onload = function() {
+                callback(img);
+            };
+            img.src = url;
+        }
+
+
+        var createPDF = function(imgData) {
+            var doc = new jsPDF('landscape', 'pt');
+
+            doc.autoTable(columns, $scope.stocksMaterials, {
+                theme: 'grid',
+                styles: {
+                    fontSize: 8,
+                    overflow: 'linebreak'
+                },
+                //columnStyles: {
+                //    id: {fillColor: 255}
+                //},
+                margin: {top: 130},
+                beforePageContent: function(data) {
+                    doc.addImage(imgData, 25, 25, 230, 40);
+                    doc.setTextColor(100);
+                    doc.setFontSize(12);
+                    doc.text("SERVICE DES TRAVAUX", 360, 70);
+                    doc.text("BILAN CHANTIER", 380, 85);
+                    doc.setFontSize(10);
+                    doc.text("CORPS DE METIER : "+$scope.assessmentLocation.location.type_location, 60, 100);
+                    doc.text("NOM CHANTIER : "
+                        +$scope.assessmentLocation.location.description_f + ' '
+                        +$scope.assessmentLocation.location.start_date + ' --> '
+                        +$scope.assessmentLocation.location.end_date, 60, 115);
+
+                    //console.log($scope.filterLocation);
+                    //console.log($scope.filterMaterial);
+                    //console.log($scope.filterfamily);
+
+                },
+                afterPageContent: function (data) {
+                    $scope.TotalTTC.toFixed(2)
+
+                    doc.text(" Total HT : "+$scope.TotalHT.toFixed(2)+' €', 600, 500);
+                    doc.text(" Total TTC : "+$scope.TotalTTC.toFixed(2)+' €', 700, 500);
+                    doc.text("SERVICE DES TRAVAUX CHAUSSEE DE BOONDAEL 98, 1050 BRUXELLES Tel : 02.641.55.21 Fax : 02.641.54.79 ", 220, 570);
+                    doc.text("Générer le : "+today+" à "+time, 60, 570);
+                }
+            });
+            // Output as Data URI
+            //doc.output('datauri');
+            doc.save('ServiceTravaux_BilanChantier_'+today+'_'+time+'.pdf');
+        }
+        getImageFromUrl('assets/global/img/logoCPASXL.jpg', createPDF);
+    };
+
+
+
+});
 
