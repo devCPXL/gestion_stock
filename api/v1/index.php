@@ -494,8 +494,8 @@ function getMovementsStock($id)
 };
 
 // ====== Get Suppliers Mouvements ====================================== //
-$app->get('/movementSupplier/:id_stock', 'getMovementSupplier');
-function getMovementSupplier($id)
+$app->get('/movementSupplier/:id_service/:id_stock', 'getMovementSupplier');
+function getMovementSupplier($id_service, $id_stock)
 {
     global $db;
     $rows = $db->selectComplex("
@@ -519,7 +519,8 @@ function getMovementSupplier($id)
         LEFT JOIN gestion_stock gss on gss.id_stock = gsm.from_id_stock
         LEFT JOIN gestion_Suppliers gsup on gsup.id_supplier = gss.id_location
         WHERE gsm.type_mvt = 'DELIVERY'
-        AND gsm.to_id_stock = $id
+        AND gsm.to_id_stock = $id_stock
+        AND gs.id_service = $id_service
         ORDER BY gsm.date_mvt DESC"
     );
     echoResponse(200, $rows);

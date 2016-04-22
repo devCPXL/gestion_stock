@@ -3,6 +3,7 @@ app.controller('stocksTravauxCtrl', function ($scope, $rootScope, $modal, $filte
     $scope.filterLocation = {};
     $scope.filterMaterial = {};
     $scope.filterfamily = {};
+    $scope.filterSupplier = {};
     $scope.materials = [];
 
 
@@ -218,6 +219,21 @@ app.controller('stocksTravauxCtrl', function ($scope, $rootScope, $modal, $filte
         });
     };
 
+    $scope.openDeliveryList = function(p,size){
+        var modalInstance = $modal.open({
+            templateUrl: 'partials/RVA/stockDeliveryList.html',
+            controller: 'stockRvaDeliveryListCtrl',
+            size: size,
+            resolve: {
+                item: function(){
+                    return false;
+                }
+            }
+        });
+        modalInstance.result.then(function() {
+        });
+    };
+
     $scope.exportPDF = function(filtered,size){
 
         var today = new Date();
@@ -281,18 +297,18 @@ app.controller('stocksTravauxCtrl', function ($scope, $rootScope, $modal, $filte
 
                     doc.setTextColor(100);
                     doc.setFontSize(9);
-                    doc.text("Magasin : ", 60, 90);
+                    doc.text("Chantier/Magasin : ", 50, 90);
                     doc.text( $scope.filterLocation && $scope.filterLocation.location ? $scope.filterLocation.location.name_location : "vide",
-                        110,
-                        90);
-                    doc.text("Article : ", 280, 90);
+                                            110, 90);
+                    doc.text("Article : ", 200, 90);
                     doc.text( $scope.filterMaterial && $scope.filterMaterial.location ? $scope.filterMaterial.location.nom : "vide" ,
-                        320,
-                        90);
-                    doc.text("Famille : ", 550, 90);
+                                            240, 90);
+                    doc.text("Famille : ", 460, 90);
                     doc.text( $scope.filterfamily && $scope.filterfamily.location ? $scope.filterfamily.location.name_family : "vide",
-                        600,
-                        90);
+                                            510, 90);
+                    doc.text("Fournisseur : ", 640, 90);
+                    doc.text( $scope.filterfamily && $scope.filterSupplier.location ? $scope.filterSupplier.location.name_supplier : "vide",
+                                            690, 90);
 
                     //console.log($scope.filterLocation);
                     //console.log($scope.filterMaterial);
@@ -324,6 +340,7 @@ app.controller('stocksTravauxCtrl', function ($scope, $rootScope, $modal, $filte
         {text:"QTE",predicate:"QTE"},
         {text:"PRIX",predicate:"PRIX"},
         {text:"FAMILLE",predicate:"FAMILLE"},
+        {text:"SUPL.",predicate:"SUPL."},
         {text:"ACTION",predicate:"ACTION"},
         {text:"RECEPTION",predicate:"RECEPTION"},
         {text:"STATUS",predicate:"STATUS"}
@@ -627,8 +644,8 @@ app.controller('assessmentLocationCtrl', function ($scope, $route, $modal, $moda
                     doc.text("SERVICE DES TRAVAUX", 360, 70);
                     doc.text("BILAN CHANTIER", 380, 85);
                     doc.setFontSize(10);
-                    doc.text("CORPS DE METIER : "+$scope.assessmentLocation.location.type_location, 60, 100);
-                    doc.text("NOM CHANTIER : "
+                    doc.text("TYPE : "+$scope.assessmentLocation.location.type_location, 60, 100);
+                    doc.text("CHANTIER : "
                         +$scope.assessmentLocation.location.description_f + ' '
                         +$scope.assessmentLocation.location.start_date + ' --> '
                         +$scope.assessmentLocation.location.end_date, 60, 115);

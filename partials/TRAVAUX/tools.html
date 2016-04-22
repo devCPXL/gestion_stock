@@ -86,8 +86,8 @@
                 </thead>
                 <tbody>
                 <tr ng-repeat="t in tools
-                | filter : filterTool.location.nom
-                | filter : filterLocation.location.name_location
+                | filter : filterTool.location.nom : true
+                | filter : filterLocation.location.name_location : true
                 "
                     id="{{t.id_stock}}"
                     animate-on-change='t.nom + t.mark + t.code_barre'

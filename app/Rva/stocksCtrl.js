@@ -624,7 +624,7 @@ app.controller('orderInternalCtrl', function ($scope, $route, $modal, $window, $
 });
 
 
-app.controller('stockRvaDeliveryListCtrl', function ($scope, $route, $modal, $modalInstance, $filter, item, Data, toaster) {
+app.controller('stockRvaDeliveryListCtrl', function ($rootScope, $scope, $route, $modal, $modalInstance, $filter, item, Data, toaster) {
 
     console.log(item);
     $scope.title = 'Liste Reception ';
@@ -645,12 +645,12 @@ app.controller('stockRvaDeliveryListCtrl', function ($scope, $route, $modal, $mo
 
     $scope.loadData = function () {
         if(item != false){
-            Data.get('movementSupplier/'+item.id_stock).then(function(data){
+            Data.get('movementSupplier/'+ $rootScope.id_service +'/'+item.id_stock).then(function(data){
                 $scope.movementSupplier = data.data;
 
             });
         }else
-            Data.get('movementSupplier/gsm.to_id_stock').then(function(data){
+            Data.get('movementSupplier/'+ $rootScope.id_service +'/gsm.to_id_stock').then(function(data){
                 $scope.movementSupplier = data.data;
             });
     };
