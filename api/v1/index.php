@@ -829,6 +829,7 @@ function getGenerateWeeklyOrderFilePDF($location) {
 
     $pdf->Ln(2);
     $pdf->SetFont('Arial','',10);
+    $pdf->Cell(0,6,$data['date_order_delivery'],0,1,'L');
     $pdf->Cell(0,6," Le bon doit etre contresigne par le Responsable du ".$data['service']. " : ..............................",0,1,'L');
 
     $pdf->SetFont('Arial','',12);
