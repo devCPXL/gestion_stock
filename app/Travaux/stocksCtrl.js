@@ -234,6 +234,21 @@ app.controller('stocksTravauxCtrl', function ($scope, $rootScope, $modal, $filte
         });
     };
 
+    $scope.openLastMvt = function(p,size){
+        var modalInstance = $modal.open({
+            templateUrl: 'partials/lastMvtList.html',
+            controller: 'stockLastMvtListCtrl',
+            size: size,
+            resolve: {
+                item: function(){
+                    return false;
+                }
+            }
+        });
+        modalInstance.result.then(function() {
+        });
+    };
+
     $scope.exportPDF = function(filtered,size){
 
         var today = new Date();
@@ -675,3 +690,37 @@ app.controller('assessmentLocationCtrl', function ($scope, $route, $modal, $moda
 
 });
 
+app.controller('stockLastMvtListCtrl', function ($rootScope, $scope, $route, $modal, $modalInstance, $filter, item, Data, toaster) {
+
+    console.log(item);
+    $scope.title = 'Liste Dernière mouvement ';
+    var original = item;
+
+    $scope.cancel = function () {
+        $modalInstance.dismiss('Close');
+    };
+
+    $scope.isClean = function() {
+        return angular.equals(original, $scope.stock);
+    };
+
+    $scope.loadData = function () {
+        Data.get('lastMvtStockTravaux').then(function(data){
+            $scope.lastMvtMaterial = data.data;
+        });
+    };
+    $scope.stock = angular.copy(item);
+    $scope.loadData();
+
+    $scope.columns = [
+        {text:"REFERENCE",predicate:"REFERENCE",sortable:true,dataType:"number"},
+        {text:"ARTICLE",predicate:"ARTICLE",sortable:true},
+        {text:"STOCK DEPART",predicate:"STOCK DEPART",sortable:true},
+        {text:"STOCK ARRIVEE",predicate:"STOCK ARRIVEE",sortable:true},
+        {text:"QTE",predicate:"QTE",sortable:true},
+        {text:"DATE MVT",predicate:"DATE MVT"},
+        {text:"COMMENTAIRE",predicate:"Commentaire",sortable:true}
+    ];
+
+
+});

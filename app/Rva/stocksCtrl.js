@@ -634,7 +634,6 @@ app.controller('stockRvaDeliveryListCtrl', function ($rootScope, $scope, $route,
         var original = item;
     }
 
-
     $scope.cancel = function () {
         $modalInstance.dismiss('Close');
     };

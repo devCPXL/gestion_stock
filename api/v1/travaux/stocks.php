@@ -70,4 +70,118 @@ function getStocksMaterials($id_location) {
 //};
 
 
+// === Get Movements Stock TRAVAUX ===================================================== //
 
+$app->get('/movementsStockTravaux/:id_stock', 'getMovementsStock');
+function getMovementsStock($id)
+{
+    global $db;
+    $condition = array('from_id_stock' => $id);
+    $rows = $db->selectComplex("
+        SELECT
+            gsm.id_mvt,
+            gsm.from_id_stock,
+            gsm.to_id_stock,
+            gsm.further_information,
+            DATE_FORMAT(gsm.dt_creation,'%d-%m-%Y %H:%i ')  as dt_creation,
+            DATE_FORMAT(gsm.date_mvt,'%d %M %Y')            as date_mvt,
+            gsm.type_mvt,
+            gsm.quantite,
+
+            g_location.description_f   as nameStock_from ,
+            g_location_t.description_f   as nameStock_to ,
+            g_sup.name,
+            g_location_s.description_f  as nameStock_to_s
+
+		FROM gestion_stock_mvt_x gsm
+
+            left join gestion_stock gs_f            on gs_f.id_stock = gsm.from_id_stock  and gsm.type_mvt = 'INTERNAL'
+            left join gestion_location g_location   on g_location.id_location = gs_f.id_location
+
+            left join gestion_stock gs_t            on gs_t.id_stock = gsm.to_id_stock    and gsm.type_mvt = 'INTERNAL'
+            left join gestion_location g_location_t on g_location_t.id_location = gs_t.id_location
+
+            left join gestion_stock gss             on gss.id_stock = gsm.from_id_stock   and gsm.type_mvt = 'DELIVERY'
+            left join gestion_Suppliers g_sup       on g_sup.id_supplier = gss.id_location
+
+            left join gestion_stock gs_ts           on gs_ts.id_stock = gsm.to_id_stock   and gsm.type_mvt = 'DELIVERY'
+            left join gestion_location g_location_s on g_location_s.id_location = gs_ts.id_location
+
+        WHERE gsm.from_id_stock = $id
+        OR gsm.to_id_stock = $id
+        Order By gsm.dt_creation ASC
+    ");
+    echoResponse(200, $rows);
+};
+
+// === Get Movements Stock TRAVAUX ===================================================== //
+$app->get('/lastMvtStockTravaux', 'getLastMvtStockTravaux');
+function getLastMvtStockTravaux()
+{
+    global $db;
+
+    $rows = $db->selectComplex("
+        SELECT
+            gsm.id_mvt,
+            gsm.from_id_stock,
+            gsm.to_id_stock,
+            gsm.further_information,
+            DATE_FORMAT(gsm.dt_creation,'%d-%m-%Y %H:%i ')  as dt_creation,
+            DATE_FORMAT(gsm.date_mvt,'%d %M %Y')            as date_mvt,
+            gsm.type_mvt,
+            gsm.quantite,
+
+            g_location.description_f   as nameStock_from ,
+            g_location_t.description_f   as nameStock_to,
+            ga.nom as name_article,
+            ga.code_barre as reference_article
+
+		FROM gestion_stock_mvt_x gsm
+
+            left join gestion_stock gs_f            on gs_f.id_stock = gsm.from_id_stock  and gsm.type_mvt = 'INTERNAL'
+            left join gestion_location g_location   on g_location.id_location = gs_f.id_location
+
+            left join gestion_stock gs_t            on gs_t.id_stock = gsm.to_id_stock    and gsm.type_mvt = 'INTERNAL'
+            left join gestion_location g_location_t on g_location_t.id_location = gs_t.id_location
+
+            LEFT JOIN gestion_article ga            on ga.id_article = gs_f.id_article
+
+        WHERE gs_f.type_stock = 'MATERIAL'
+        Order By gsm.dt_creation DESC
+        LIMIT 100
+    ");
+    echoResponse(200, $rows);
+};
+
+// ====== Get Suppliers Mouvements ====================================== //
+$app->get('/movementSupplier/:id_service/:id_stock', 'getMovementSupplier');
+function getMovementSupplier($id_service, $id_stock)
+{
+    global $db;
+    $rows = $db->selectComplex("
+    SELECT  gsm.id_mvt,	gsm.from_id_stock,	gsm.to_id_stock,
+        DATE_FORMAT(gsm.dt_creation,'%d-%m-%Y %H:%i ') as dt_creation,
+        DATE_FORMAT(gsm.date_mvt,'%d %M %Y') as date_mvt,
+        DATE_FORMAT(gsm.date_order,'%d %M %Y') as date_order,
+        gsm.type_mvt,
+        gsm.quantite,
+        TRUNCATE(gsm.price,2) as price,
+        gsm.purchase_order,
+        gsm.pack_carton,
+        gsm.further_information,
+        ga.nom as nom_article,
+        gsup.name as name_supplier
+        FROM gestion_stock_mvt_x gsm
+        -- retrive name article
+        LEFT JOIN gestion_stock gs on gs.id_stock = gsm.to_id_stock
+        LEFT JOIN gestion_article ga on ga.id_article = gs.id_article
+        -- retrive name Suppliers
+        LEFT JOIN gestion_stock gss on gss.id_stock = gsm.from_id_stock
+        LEFT JOIN gestion_Suppliers gsup on gsup.id_supplier = gss.id_location
+        WHERE gsm.type_mvt = 'DELIVERY'
+        AND gsm.to_id_stock = $id_stock
+        AND gs.id_service = $id_service
+        ORDER BY gsm.date_mvt DESC"
+    );
+    echoResponse(200, $rows);
+}
