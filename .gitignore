@@ -32,7 +32,7 @@
 *.iws
 
 /jQuery-File-Upload-9.10.0
-/jsPDF
+/api/libs/jsPDF
 ## Plugin-specific files:
 
 # IntelliJ
