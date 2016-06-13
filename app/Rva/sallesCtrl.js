@@ -53,7 +53,13 @@ app.controller('salleEditCtrl', function ($scope, $modalInstance, item, Data) {
 
     //$scope.salle = {};
     $scope.salle = (angular.isDefined(item.id_salle))? angular.copy(item) : {service : 'Service Cuisine'};
-    $scope.services = ['Service Cuisine', 'Service Générale', 'Service Hôtellerie', 'Service Incontinence', 'Service Lingerie', 'Service Logistique'];
+    $scope.services = [ 'Service Cuisine',
+                        'Service Générale',
+                        'Service Hôtellerie',
+                        'Service Incontinence',
+                        'Service Lingerie',
+                        'Service Logistique',
+                        'Service Materiel medical'];
     $scope.title = (item.id_salle > 0) ? 'Editer salle' : 'Ajouter salle';
     $scope.buttonText = (item.id_salle > 0) ? 'Mise à jour salle' : 'Ajouter nouveau salle';
 
