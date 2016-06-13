@@ -122,88 +122,90 @@ app.config(['$routeProvider','$locationProvider',
 }]);
 
 app.run(['$location', '$rootScope','Data', function($location, $rootScope, Data) {
-    //console.log("app.run");
-    $rootScope.authenticated = false;
+	//console.log("app.run");
+    $rootScope.authenticated = true;
+    $rootScope.rva = true;
+    $rootScope.travaux = true;
 
-    $rootScope.$_GET = {};
-    $rootScope.$_GET.agent_session = window.localStorage.getItem('agent_session');
-    $rootScope.$_GET.session_langue = window.localStorage.getItem('session_langue');
-    $rootScope.$_GET.session_username = window.localStorage.getItem('session_username');
-    if($rootScope.$_GET.session_username){
-        Data.put('agent',$rootScope.$_GET).then(function(data){
-            if(data.status == 'success'){
-                $rootScope.authenticated = true;
-                $rootScope.agent = data.data;
-                $rootScope.agent_session = data.agent_session;
-                $rootScope.rva = $.inArray('INTRA_STOCK_RVA', $rootScope.agent_session.session_group) > -1;
-                $rootScope.travaux = $.inArray('INTRA_STOCK_TRAVAUX', $rootScope.agent_session.session_group) > -1;
-
-                //console.log($rootScope.agent_session);
-                //console.log("location.path = /Home");
-                //$location.path("/home");
-                //$(location).attr('href', 'http://stackoverflow.com');
-                //$location.path("/home");
-                //angular.element(document.getElementById('homeCtrl')).scope();
-
-                var host = $location.host();
-                var protocol = $location.protocol();
-                //window.location.replace(protocol +'://'+ host +'/gestion_stock/index.html');
-                //alert('utilisateure trouvee');
-
-            }
-            else
-                alert('utilisateure non trouvee');
-        });
-
-    }
-    else{
-        var host = $location.host();
-        var protocol = $location.protocol();
-        window.location.replace(protocol +'://'+ host +'/coquille_intranet/index4.php');
-    }
+    //$rootScope.$_GET = {};
+    //$rootScope.$_GET.agent_session = window.localStorage.getItem('agent_session');
+    //$rootScope.$_GET.session_langue = window.localStorage.getItem('session_langue');
+    //$rootScope.$_GET.session_username = window.localStorage.getItem('session_username');
+    //if($rootScope.$_GET.session_username){
+    //    Data.put('agent',$rootScope.$_GET).then(function(data){
+    //        if(data.status == 'success'){
+    //            $rootScope.authenticated = true;
+    //            $rootScope.agent = data.data;
+    //            $rootScope.agent_session = data.agent_session;
+    //            $rootScope.rva = $.inArray('INTRA_STOCK_RVA', $rootScope.agent_session.session_group) > -1;
+    //            $rootScope.travaux = $.inArray('INTRA_STOCK_TRAVAUX', $rootScope.agent_session.session_group) > -1;
+    //
+    //            //console.log($rootScope.agent_session);
+    //            //console.log("location.path = /Home");
+    //            //$location.path("/home");
+		//		//$(location).attr('href', 'http://stackoverflow.com');
+		//		//$location.path("/home");
+		//		//angular.element(document.getElementById('homeCtrl')).scope();
+    //
+		//		var host = $location.host();
+    //            var protocol = $location.protocol();
+		//		//window.location.replace(protocol +'://'+ host +'/gestion_stock/index.html');
+		//		//alert('utilisateure trouvee');
+    //
+    //        }
+    //        else
+    //            alert('utilisateure non trouvee');
+    //    });
+    //
+    //}
+    //else{
+    //    var host = $location.host();
+    //    var protocol = $location.protocol();
+    //    window.location.replace(protocol +'://'+ host +'/coquille_intranet/index4.php');
+    //}
 
     $rootScope.$on("$routeChangeStart", function (event, next, current) {
-        console.log("$routeChangeStart");
-
+    //    console.log("$routeChangeStart");
+    //
         var pathArray = $location.path().split("/");
         pathArray.shift();
         $rootScope.id_service = (pathArray[0] == 'RVA') ? ID_RVA_SERVICE : ((pathArray[0] == 'TRAVAUX') ? ID_TRAVAUX_SERVICE : '');
-
-        Data.get('session').then(function (results) {
-            //console.log(results);
-            if ((results.agent) && (results.agent_session)) {
-                $rootScope.authenticated = true;
-                $rootScope.agent = results.agent;
-                $rootScope.agent_session = results.agent_session;
-                //console.log($rootScope.agent_session);
-                //window.location.replace('index.html#/home');
-
-            } else {
-                window.localStorage.clear();
-                $rootScope.agent = {};
-                $rootScope.agent_session = {};
-                console.log($rootScope.agent_session);
-                //$location.path("/home");
-                var host = $location.host();
-                var protocol = $location.protocol();
-                window.location.replace(protocol +'://'+ host +'/coquille_intranet/index4.php');
-            }
-        });
-
-
-        if(next.$$route && $rootScope.agent_session){
-            var nextUrl = next.$$route.originalPath;
-            var nextUrlArray = nextUrl.split("/");
-            nextUrlArray.shift();
-            //if($rootScope.agent_session)
-            //    if(!($rootScope.agent_session.session_group.toString().indexOf(nextUrlArray[0]) > -1) || nextUrlArray[0] == 'home')
-            //        $location.path("/home");
-        }
+    //
+    //    Data.get('session').then(function (results) {
+    //        //console.log(results);
+    //        if ((results.agent) && (results.agent_session)) {
+    //            $rootScope.authenticated = true;
+    //            $rootScope.agent = results.agent;
+    //            $rootScope.agent_session = results.agent_session;
+    //            //console.log($rootScope.agent_session);
+    //            //window.location.replace('index.html#/home');
+    //
+    //        } else {
+    //            window.localStorage.clear();
+    //            $rootScope.agent = {};
+    //            $rootScope.agent_session = {};
+    //            console.log($rootScope.agent_session);
+    //            //$location.path("/home");
+    //            var host = $location.host();
+    //            var protocol = $location.protocol();
+    //            window.location.replace(protocol +'://'+ host +'/coquille_intranet/index4.php');
+    //        }
+    //    });
+    //
+    //
+    //    if(next.$$route && $rootScope.agent_session){
+    //        var nextUrl = next.$$route.originalPath;
+    //        var nextUrlArray = nextUrl.split("/");
+    //        nextUrlArray.shift();
+    //        //if($rootScope.agent_session)
+    //        //    if(!($rootScope.agent_session.session_group.toString().indexOf(nextUrlArray[0]) > -1) || nextUrlArray[0] == 'home')
+    //        //        $location.path("/home");
+    //    }
     });
 
 
     $rootScope.$on('$routeChangeSuccess', function (event, current, previous) {
-        //console.log("$routeChangeSuccess");
+	//console.log("$routeChangeSuccess");
 
     });
 

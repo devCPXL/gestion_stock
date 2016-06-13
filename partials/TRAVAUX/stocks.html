@@ -12,14 +12,22 @@
         <span class="glyphicon glyphicon-transfer" aria-hidden="true"></span>
         <span class="btn-txt">Ajouter un mouvement</span>
     </button>
-    <!--<button type="button" class="btn btn-sm btn-info" ng-click="openOrderInternal(c);">-->
-    <!--<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>-->
-    <!--<span class="btn-txt">Préparer Commande Etage</span>-->
+    <button type="button" class="btn btn-sm btn-danger" ng-click="exportPDF();">
+        <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+        <span class="btn-txt">Export Stock PDF</span>
+    </button>
+    <!--<button type="button" class="btn btn-sm btn-success" ng-click="openAssessmentLocation();">-->
+        <!--<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>-->
+        <!--<span class="btn-txt">Bilan Chantier PDF</span>-->
     <!--</button>-->
-    <!--<button type="button" class="btn btn-sm btn-info" ng-click="go('/RVA/FinalizeOrder');">-->
-    <!--<span class="glyphicon glyphicon-save" aria-hidden="true"></span>-->
-    <!--<span class="btn-txt">Finaliser Commande Etage</span>-->
-    <!--</button>-->
+    <button type="button" class="btn btn-sm btn-warning" ng-click="openDeliveryList();">
+        <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+        <span class="btn-txt"> Liste Reception</span>
+    </button>
+    <button type="button" class="btn btn-sm btn-warning" ng-click="openLastMvt();">
+        <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+        <span class="btn-txt"> Dernière mouvement</span>
+    </button>
 </nav>
 
 <div class="table-responsive">
@@ -28,8 +36,8 @@
         <div class="panel-heading">
             <div class="row">
 
-                <ui-select id="filterLocation" ng-model="filterLocation.location" theme="bootstrap" reset-search-input="true" style="width: 230px;">
-                    <ui-select-match placeholder="Chercher chantier/magasin ...">
+                <ui-select id="filterLocation" ng-model="filterLocation.location" theme="bootstrap" reset-search-input="true" style="width: 170px;">
+                    <ui-select-match placeholder="Magasin/Chantier ...">
                         <span>{{$select.selected.name_location | limitTo : 20}}</span>
                         <button class="clear" ng-click="clear('filterLocation')">X</button>
                     </ui-select-match>
@@ -38,7 +46,7 @@
                     </ui-select-choices>
                 </ui-select>
 
-                <ui-select id="filterMaterial" ng-model="filterMaterial.location" theme="bootstrap" reset-search-input="true"style="width: 350px;">
+                <ui-select id="filterMaterial" ng-model="filterMaterial.location" theme="bootstrap" reset-search-input="true"style="width: 300px;">
                     <ui-select-match placeholder="Chercher article...">
                         <span>{{$select.selected.nom | limitTo : 40}}</span>
                         <button class="clear" ng-click="clear('filterMaterial')">X</button>
@@ -49,7 +57,7 @@
                     </ui-select-choices>
                 </ui-select>
 
-                <ui-select id="filterfamily" ng-model="filterfamily.location" theme="bootstrap" reset-search-input="true" style="width: 280px;">
+                <ui-select id="filterfamily" ng-model="filterfamily.location" theme="bootstrap" reset-search-input="true" style="width: 220px;">
                     <ui-select-match placeholder="Chercher famille...">
                         <span>{{$select.selected.name_family | limitTo : 40}}</span>
                         <button class="clear" ng-click="clear('filterfamily')">X</button>
@@ -58,10 +66,22 @@
                         <small ng-bind-html="l.name_family | highlight: $select.search"></small>
                     </ui-select-choices>
                 </ui-select>
+
+                <ui-select id="filterSupplier" ng-model="filterSupplier.location" theme="bootstrap" reset-search-input="true" style="width: 220px;">
+                    <ui-select-match placeholder="Chercher Fournisseur...">
+                        <span>{{$select.selected.name_supplier | limitTo : 40}}</span>
+                        <button class="clear" ng-click="clear('filterSupplier')">X</button>
+                    </ui-select-match>
+                    <ui-select-choices repeat="l in items | unique:'name_supplier' | orderBy:'name_supplier' | filter: $select.search">
+                        <small ng-bind-html="l.name_supplier | highlight: $select.search"></small>
+                    </ui-select-choices>
+                </ui-select>
+
+
                 <div class="sw-search filter-tool" >
                     <div class="nav-search" id="nav-search">
                         Filter: <span class="input-icon">
-                            <input placeholder="Filter Liste Materiels ..." class="nav-search-input" ng-model="filterRow" ng-change="resetLimit();"  autocomplete="off" type="text" style="width:300px;">
+                            <input placeholder="Filter Liste Materiels ..." class="nav-search-input" ng-model="filterRow" ng-change="resetLimit();"  autocomplete="off" type="text" style="width:250px;">
                             <i class="search-icon fa fa-search nav-search-icon"></i>
                         </span>
                     </div>
@@ -69,20 +89,23 @@
             </div>
         </div>
         <div class="panel-body">
+
             <!--fixed-table-headers="scrollable-area"-->
-            <table data-toggle="table"  data-cache="false" data-height="200" class="table table-hover table-striped" data-height="200" >
+            <table id="table_1" data-toggle="table"  data-cache="false" data-height="200" class="table table-hover table-striped" data-height="200" >
                 <tr ng-show="items.length==0"><td style="vertical-align:middle;"><i class="fa fa-ban fa-3x"></i>&nbsp;Aucune donnée trouvée.</td></tr>
                 <tr ng-hide="items.length>-1"><td style="vertical-align:middle;"><i class="fa fa-cog fa-3x fa-spin"></i>&nbsp;Loading</td></tr>
                 <thead>
                 <tr><th ng-repeat="c in columns">{{c.text}}</th></tr>
                 </thead>
                 <tbody>
-                <tr ng-repeat="t in filtered = items
-                | filter : filterLocation.location.name_location
-                | filter : filterMaterial.location.nom
-                | filter : filterfamily.location.name_family
+                <tr ng-repeat="t in (filtered = (items
+                | filter : filterLocation.location.name_location : true
+                | filter : filterMaterial.location.nom : true
+                | filter : filterfamily.location.name_family : true
+                | filter : filterSupplier.location.name_supplier : true
                 | filter : filterRow
                 | filter : search
+                ))
                 | startFrom :(currentPage-1)* entryLimit
                 | limitTo : entryLimit
                 "
@@ -96,7 +119,9 @@
                     <td>{{t.type_article}}</td>
                     <td>{{t.unite}}</td>
                     <td>{{t.quantite_current}}</td>
+                    <td>{{t.price == '0 €' ? '_' : t.price}}</td>
                     <td>{{t.name_family}}</td>
+                    <td>{{t.name_supplier}}</td>
 
                     <td style="width: 100px;">
                         <button type="button" class="btn btn-default fa fa-history" title="Ajouter Inventaire" class="btn" ng-click="openAddInventory(t);" data-ng-hide="t.id_location != '7'"></button>
@@ -119,12 +144,17 @@
             <!--<div>-->
                 <!--<pagination page="currentPage" max-size="noOfPages" total-items="totalItems" items-per-page="entryLimit"></pagination>-->
             <!--</div>-->
-            <pagination
-                ng-model="currentPage"
-                total-items="items.length"
-                max-size="10"
-                boundary-links="true">
-            </pagination>
+            <div class="row">
+                <div class="col-md-10">
+                    <pagination
+                            ng-model="currentPage"
+                            total-items="items.length"
+                            max-size="10"
+                            boundary-links="true">
+                    </pagination>
+                </div>
+                <div class="col-md-2">Total de Stocks : <strong> {{filtered.length}} </strong></div>
+            </div>
 
             <!--<div>-->
                 <!--<button type="button" class="btn btn-default" ng-disabled="currentPage == 0" ng-click="currentPage=currentPage-1">Previous</button>-->

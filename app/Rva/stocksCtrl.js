@@ -508,7 +508,8 @@ app.controller('stockRvaAddCtrl', function ($scope, $route, $modal, $modalInstan
 
 });
 
-app.controller('stockRvaDeliveryCtrl', function ($scope, $route, $modal, $modalInstance, $filter, item, Data, toaster) {
+app.controller('stockRvaDeliveryCtrl', function ($rootScope, $scope, $route, $modal, $modalInstance, $filter, item, Data, toaster) {
+
     var DateNow = $filter("date")(Date.now(), 'yyyy-MM-dd');
     $scope.title = 'Reception au Stock Economat';
     $scope.subTitle = item.nom_article;
@@ -544,7 +545,10 @@ app.controller('stockRvaDeliveryCtrl', function ($scope, $route, $modal, $modalI
         DeliveryStock.type_mvt = 'DELIVERY';
 
         DeliveryStock.quantite = DeliveryStock.quantite * DeliveryStock.pack_carton;
-        DeliveryStock.price = DeliveryStock.price / DeliveryStock.pack_carton;
+
+        /** Fix price for service Travaux*/
+        if($rootScope.id_service == ID_RVA_SERVICE)
+            DeliveryStock.price = DeliveryStock.price / DeliveryStock.pack_carton;
         //delete DeliveryStock.pack_carton;
 
         console.log(DeliveryStock);
@@ -620,7 +624,7 @@ app.controller('orderInternalCtrl', function ($scope, $route, $modal, $window, $
 });
 
 
-app.controller('stockRvaDeliveryListCtrl', function ($scope, $route, $modal, $modalInstance, $filter, item, Data, toaster) {
+app.controller('stockRvaDeliveryListCtrl', function ($rootScope, $scope, $route, $modal, $modalInstance, $filter, item, Data, toaster) {
 
     console.log(item);
     $scope.title = 'Liste Reception ';
@@ -629,7 +633,6 @@ app.controller('stockRvaDeliveryListCtrl', function ($scope, $route, $modal, $mo
         $scope.subTitle = item.nom_article;
         var original = item;
     }
-
 
     $scope.cancel = function () {
         $modalInstance.dismiss('Close');
@@ -641,12 +644,12 @@ app.controller('stockRvaDeliveryListCtrl', function ($scope, $route, $modal, $mo
 
     $scope.loadData = function () {
         if(item != false){
-            Data.get('movementSupplier/'+item.id_stock).then(function(data){
+            Data.get('movementSupplier/'+ $rootScope.id_service +'/'+item.id_stock).then(function(data){
                 $scope.movementSupplier = data.data;
 
             });
         }else
-            Data.get('movementSupplier/gsm.to_id_stock').then(function(data){
+            Data.get('movementSupplier/'+ $rootScope.id_service +'/gsm.to_id_stock').then(function(data){
                 $scope.movementSupplier = data.data;
             });
     };

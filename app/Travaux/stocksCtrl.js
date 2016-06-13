@@ -3,6 +3,7 @@ app.controller('stocksTravauxCtrl', function ($scope, $rootScope, $modal, $filte
     $scope.filterLocation = {};
     $scope.filterMaterial = {};
     $scope.filterfamily = {};
+    $scope.filterSupplier = {};
     $scope.materials = [];
 
 
@@ -47,22 +48,6 @@ app.controller('stocksTravauxCtrl', function ($scope, $rootScope, $modal, $filte
     }, true);
 
 
-    //$scope.$watch('currentPage + numPerPage', function() {
-    //    var begin = (($scope.currentPage - 1) * $scope.numPerPage)
-    //        , end = begin + $scope.numPerPage;
-    //
-    //    $scope.filteredTodos = $scope.todos.slice(begin, end);
-    //});
-
-
-
-    //$scope.currentPage = 0;
-    //$scope.pageSize = 10;
-    //$scope.materials = [];
-    //
-    //$scope.numberOfPages=function(){
-    //    return Math.ceil($scope.materials.length/$scope.pageSize);
-    //}
 
     $scope.clear = function(filterName) {
         $scope[filterName] = {};
@@ -219,6 +204,147 @@ app.controller('stocksTravauxCtrl', function ($scope, $rootScope, $modal, $filte
         });
     };
 
+    $scope.openAssessmentLocation = function(p,size){
+        var modalInstance = $modal.open({
+            templateUrl: 'partials/TRAVAUX/assessmentLocation.html',
+            controller: 'assessmentLocationCtrl',
+            size: size,
+            resolve: {
+                item: function(){
+                    return p;
+                }
+            }
+        });
+        modalInstance.result.then(function() {
+        });
+    };
+
+    $scope.openDeliveryList = function(p,size){
+        var modalInstance = $modal.open({
+            templateUrl: 'partials/RVA/stockDeliveryList.html',
+            controller: 'stockRvaDeliveryListCtrl',
+            size: size,
+            resolve: {
+                item: function(){
+                    return false;
+                }
+            }
+        });
+        modalInstance.result.then(function() {
+        });
+    };
+
+    $scope.openLastMvt = function(p,size){
+        var modalInstance = $modal.open({
+            templateUrl: 'partials/lastMvtList.html',
+            controller: 'stockLastMvtListCtrl',
+            size: size,
+            resolve: {
+                item: function(){
+                    return false;
+                }
+            }
+        });
+        modalInstance.result.then(function() {
+        });
+    };
+
+    $scope.exportPDF = function(filtered,size){
+
+        var today = new Date();
+        var dd = today.getDate();
+        var mm = today.getMonth()+1; //January is 0!
+        var yyyy = today.getFullYear();
+        var hh = today.getHours();
+        var mn = today.getMinutes();
+
+        if(mm<10) { mm='0'+mm }
+        if(dd<10) { dd='0'+dd }
+        if(hh<10) { hh='0'+hh }
+        if(mn<10) { mn='0'+mn }
+        today = mm+'/'+dd+'/'+yyyy;
+        var time = hh+':'+mn;
+
+        var columns = [
+            {title:"MAGASIN / CHANTIER",dataKey:"name_location"},
+            {title:"MODELE",dataKey:"nom"},
+            {title:"DESCRIPTION",dataKey:"description_f"},
+            {title:"REFERENCE",dataKey:"code_barre"},
+            {title:"TYPE",dataKey:"type_article"},
+            {title:"UNITE",dataKey:"unite"},
+            {title:"QTE",dataKey:"quantite_current"},
+            {title:"PRIX",dataKey:"price"},
+            {title:"FAMILLE",dataKey:"name_family"}
+        ];
+
+        var getImageFromUrl = function(url, callback) {
+            var img = new Image();
+
+            img.onError = function() {
+                alert('Cannot load image: "'+url+'"');
+            };
+            img.onload = function() {
+                callback(img);
+            };
+            img.src = url;
+        }
+
+
+        var createPDF = function(imgData) {
+            var doc = new jsPDF('landscape', 'pt');
+
+            doc.autoTable(columns, $scope.filtered, {
+                theme: 'grid',
+                styles: {
+                    fontSize: 8,
+                    overflow: 'linebreak'
+                },
+                //columnStyles: {
+                //    id: {fillColor: 255}
+                //},
+                margin: {top: 100},
+                beforePageContent: function(data) {
+                    doc.addImage(imgData, 25, 25, 230, 40);
+                    doc.setTextColor(100);
+                    doc.setFontSize(12);
+                    doc.text("SERVICE DES TRAVAUX / ETAT DU STOCKS", 320, 50);
+
+
+                    doc.setTextColor(100);
+                    doc.setFontSize(9);
+                    doc.text("Chantier/Magasin : ", 50, 90);
+                    doc.text( $scope.filterLocation && $scope.filterLocation.location ? $scope.filterLocation.location.name_location : "vide",
+                                            110, 90);
+                    doc.text("Article : ", 200, 90);
+                    doc.text( $scope.filterMaterial && $scope.filterMaterial.location ? $scope.filterMaterial.location.nom : "vide" ,
+                                            240, 90);
+                    doc.text("Famille : ", 460, 90);
+                    doc.text( $scope.filterfamily && $scope.filterfamily.location ? $scope.filterfamily.location.name_family : "vide",
+                                            510, 90);
+                    doc.text("Fournisseur : ", 640, 90);
+                    doc.text( $scope.filterfamily && $scope.filterSupplier.location ? $scope.filterSupplier.location.name_supplier : "vide",
+                                            690, 90);
+
+                    //console.log($scope.filterLocation);
+                    //console.log($scope.filterMaterial);
+                    //console.log($scope.filterfamily);
+
+                },
+                afterPageContent: function (data) {
+                    doc.text("SERVICE DES TRAVAUX CHAUSSEE DE BOONDAEL 98, 1050 BRUXELLES Tel : 02.641.55.21 Fax : 02.641.54.79 ", 220, 570);
+                    doc.text("Générer le : "+today+" à "+time, 60, 570);
+                }
+            });
+            // Output as Data URI
+            //doc.output('datauri');
+            doc.save('Stocks_ServiceTravaux_'+today+'_'+time+'.pdf');
+        }
+
+        getImageFromUrl('assets/global/img/logoCPASXL.jpg', createPDF);
+        //doc.save('table.pdf');
+        //console.log(doc);
+    };
+
     $scope.columns = [
         {text:"MAGASIN/CHANTIER",predicate:"MAGASIN/CHANTIER"},
         {text:"MODELE",predicate:"MODELE"},
@@ -227,7 +353,9 @@ app.controller('stocksTravauxCtrl', function ($scope, $rootScope, $modal, $filte
         {text:"TYPE",predicate:"TYPE"},
         {text:"UNITE",predicate:"UNITE"},
         {text:"QTE",predicate:"QTE"},
+        {text:"PRIX",predicate:"PRIX"},
         {text:"FAMILLE",predicate:"FAMILLE"},
+        {text:"SUPL.",predicate:"SUPL."},
         {text:"ACTION",predicate:"ACTION"},
         {text:"RECEPTION",predicate:"RECEPTION"},
         {text:"STATUS",predicate:"STATUS"}
@@ -428,5 +556,171 @@ app.controller('stockDeliveryCtrl', function ($scope, $route, $modal, $modalInst
 });
 
 
+app.controller('assessmentLocationCtrl', function ($scope, $route, $modal, $modalInstance, $filter, item, Data) {
+
+    $scope.title = 'GENERER BILAN CHANTIER';
+    $scope.buttonText = 'Générer & Télécharger';
+    $scope.assessmentLocation = {};
+
+    $scope.cancel = function () {
+        $modalInstance.dismiss('Close');
+    };
+
+    Data.get('locations').then(function(data){
+        $scope.locations = data.data;
+        console.log($scope.locations);
+    });
 
 
+    $scope.generatePdf = function(p,size){
+        console.log(p);
+        var today = new Date();
+        var dd = today.getDate();
+        var mm = today.getMonth()+1; //January is 0!
+        var yyyy = today.getFullYear();
+        var hh = today.getHours();
+        var mn = today.getMinutes();
+
+        if(mm<10) { mm='0'+mm }
+        if(dd<10) { dd='0'+dd }
+        if(hh<10) { hh='0'+hh }
+        if(mn<10) { mn='0'+mn }
+        today = mm+'/'+dd+'/'+yyyy;
+        var time = hh+':'+mn;
+        var columns = [
+            {title:"REFERENCE",dataKey:"code_barre"},
+            {title:"MODELE",dataKey:"nom"},
+            {title:"DESCRIPTION",dataKey:"description_f"},
+            {title:"UNITE",dataKey:"unite"},
+            {title:"TYPE",dataKey:"type_article"},
+            {title:"FAMILLE",dataKey:"name_family"},
+            {title:"QTE",dataKey:"quantite_current"},
+            {title:"PRIX",dataKey:"price"},
+            {title:"MONTANT",dataKey:"amount"},
+            {title:"TVA",dataKey:"vat"},
+            {title:"TOTAL",dataKey:"total"}
+        ];
+
+        Data.get('stocksMaterials/'+$scope.assessmentLocation.location.id_location).then(function(data){
+            $scope.stocksMaterials = data.data;
+            console.log($scope.stocksMaterials);
+
+            $scope.TotalTTC = 0;
+            $scope.TotalHT = 0;
+
+            for (var key in $scope.stocksMaterials) {
+                var data = {};
+                console.log($scope.stocksMaterials[key]);
+
+                $scope.stocksMaterials[key].price = $scope.stocksMaterials[key].price == null ? 0 : $scope.stocksMaterials[key].price;
+                $scope.stocksMaterials[key].amount = (parseFloat($scope.stocksMaterials[key].price) * parseInt($scope.stocksMaterials[key].quantite_current)).toFixed(2);
+                $scope.stocksMaterials[key].total = (parseFloat($scope.stocksMaterials[key].amount) * (1 + (parseFloat($scope.stocksMaterials[key].vat)/100))).toFixed(2);
+
+                $scope.TotalHT = $scope.TotalHT + parseFloat($scope.stocksMaterials[key].amount);
+                $scope.TotalTTC = $scope.TotalTTC + parseFloat($scope.stocksMaterials[key].total);
+
+                $scope.stocksMaterials[key].vat = $scope.stocksMaterials[key].vat + ' %';
+                $scope.stocksMaterials[key].total = $scope.stocksMaterials[key].total + ' €';
+            }
+
+            console.log($scope.TotalTTC.toFixed(2));
+        });
+
+        var getImageFromUrl = function(url, callback) {
+            var img = new Image();
+
+            img.onError = function() {
+                alert('Cannot load image: "'+url+'"');
+            };
+            img.onload = function() {
+                callback(img);
+            };
+            img.src = url;
+        }
+
+
+        var createPDF = function(imgData) {
+            var doc = new jsPDF('landscape', 'pt');
+
+            doc.autoTable(columns, $scope.stocksMaterials, {
+                theme: 'grid',
+                styles: {
+                    fontSize: 8,
+                    overflow: 'linebreak'
+                },
+                //columnStyles: {
+                //    id: {fillColor: 255}
+                //},
+                margin: {top: 130},
+                beforePageContent: function(data) {
+                    doc.addImage(imgData, 25, 25, 230, 40);
+                    doc.setTextColor(100);
+                    doc.setFontSize(12);
+                    doc.text("SERVICE DES TRAVAUX", 360, 70);
+                    doc.text("BILAN CHANTIER", 380, 85);
+                    doc.setFontSize(10);
+                    doc.text("TYPE : "+$scope.assessmentLocation.location.type_location, 60, 100);
+                    doc.text("CHANTIER : "
+                        +$scope.assessmentLocation.location.description_f + ' '
+                        +$scope.assessmentLocation.location.start_date + ' --> '
+                        +$scope.assessmentLocation.location.end_date, 60, 115);
+
+                    //console.log($scope.filterLocation);
+                    //console.log($scope.filterMaterial);
+                    //console.log($scope.filterfamily);
+
+                },
+                afterPageContent: function (data) {
+                    $scope.TotalTTC.toFixed(2)
+
+                    doc.text(" Total HT : "+$scope.TotalHT.toFixed(2)+' €', 600, 500);
+                    doc.text(" Total TTC : "+$scope.TotalTTC.toFixed(2)+' €', 700, 500);
+                    doc.text("SERVICE DES TRAVAUX CHAUSSEE DE BOONDAEL 98, 1050 BRUXELLES Tel : 02.641.55.21 Fax : 02.641.54.79 ", 220, 570);
+                    doc.text("Générer le : "+today+" à "+time, 60, 570);
+                }
+            });
+            // Output as Data URI
+            //doc.output('datauri');
+            doc.save('ServiceTravaux_BilanChantier_'+today+'_'+time+'.pdf');
+        }
+        getImageFromUrl('assets/global/img/logoCPASXL.jpg', createPDF);
+    };
+
+
+
+});
+
+app.controller('stockLastMvtListCtrl', function ($rootScope, $scope, $route, $modal, $modalInstance, $filter, item, Data, toaster) {
+
+    console.log(item);
+    $scope.title = 'Liste Dernière mouvement ';
+    var original = item;
+
+    $scope.cancel = function () {
+        $modalInstance.dismiss('Close');
+    };
+
+    $scope.isClean = function() {
+        return angular.equals(original, $scope.stock);
+    };
+
+    $scope.loadData = function () {
+        Data.get('lastMvtStockTravaux').then(function(data){
+            $scope.lastMvtMaterial = data.data;
+        });
+    };
+    $scope.stock = angular.copy(item);
+    $scope.loadData();
+
+    $scope.columns = [
+        {text:"REFERENCE",predicate:"REFERENCE",sortable:true,dataType:"number"},
+        {text:"ARTICLE",predicate:"ARTICLE",sortable:true},
+        {text:"STOCK DEPART",predicate:"STOCK DEPART",sortable:true},
+        {text:"STOCK ARRIVEE",predicate:"STOCK ARRIVEE",sortable:true},
+        {text:"QTE",predicate:"QTE",sortable:true},
+        {text:"DATE MVT",predicate:"DATE MVT"},
+        {text:"COMMENTAIRE",predicate:"Commentaire",sortable:true}
+    ];
+
+
+});
