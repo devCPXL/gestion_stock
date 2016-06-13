@@ -633,7 +633,7 @@ function putFinalizeOrder($id_location){
 
 
 
-//=============================== StockStatusPDF =================================//
+//=============================== StockStatusPDF RVA =================================//
 
 
 
@@ -691,7 +691,7 @@ function getStockStatusPDF() {
     //echoResponse(200, $result);
 };
 
-// =========================== GenerateWeeklyOrderFilePDF ===========================//
+// =========================== GenerateWeeklyOrderFilePDF RVA ===========================//
 
 $app->get('/GenerateWeeklyOrderFilePDF/:nameSalle', 'getGenerateWeeklyOrderFilePDF');
 function getGenerateWeeklyOrderFilePDF($location) {

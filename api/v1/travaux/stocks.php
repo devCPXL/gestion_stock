@@ -114,7 +114,7 @@ function getMovementsStock($id)
     echoResponse(200, $rows);
 };
 
-// === Get Movements Stock TRAVAUX ===================================================== //
+// === Get Last Movements Stock TRAVAUX ===================================================== //
 $app->get('/lastMvtStockTravaux', 'getLastMvtStockTravaux');
 function getLastMvtStockTravaux()
 {
