@@ -21,7 +21,7 @@
     <favorites_list name="gestion_stock" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,6 +37,7 @@
         <option value="$PROJECT_DIR$/partials/RVA/finalizeOrder.html" />
         <option value="$PROJECT_DIR$/partials/RVA/orderInternal.html" />
         <option value="$PROJECT_DIR$/app/Rva/sallesCtrl.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -80,7 +81,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -101,6 +101,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files" />
       </pane>
@@ -161,7 +162,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994187" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -202,7 +203,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/api/v1/index.php</url>
-          <line>669</line>
+          <line>594</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
@@ -463,33 +464,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/v1/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.54847276">
           <caret line="799" column="0" selection-start-line="799" selection-start-column="0" selection-end-line="799" selection-end-column="0" />
           <folding>
-            <marker date="1464853455937" expanded="true" signature="2623:4687" placeholder="SELECT AGENT..cpas_agents..." />
-            <marker date="1464853455937" expanded="true" signature="5751:6703" placeholder="select g_sto..gestion_stock..." />
-            <marker date="1464853455937" expanded="true" signature="7032:7658" placeholder="select g_sto..gestion_stock..." />
-            <marker date="1464853455937" expanded="true" signature="7972:8499" placeholder="select g_sto..gestion_stock..." />
-            <marker date="1464853455937" expanded="true" signature="8909:9643" placeholder="select g_sto..gestion_stock..." />
-            <marker date="1464853455937" expanded="true" signature="15688:17156" placeholder="SELECT gsm.i..gestion_stock_mvt_x..." />
-            <marker date="1464853455937" expanded="true" signature="17499:19040" placeholder="SELECT gsm.i..gestion_stock_mvt_x..." />
-            <marker date="1464853455937" expanded="true" signature="19314:20297" placeholder="SELECT gsm.i..gestion_stock_mvt_x..." />
-            <marker date="1464853455937" expanded="true" signature="20693:21534" placeholder="select g_sto..gestion_stock..." />
-            <marker date="1464853455937" expanded="true" signature="26330:27553" placeholder="select g_sto..gestion_stock..." />
-            <marker date="1464853455937" expanded="true" signature="28934:29481" placeholder="SELECT ga.no..gestion_stock..." />
-            <marker date="1464853455937" expanded="true" signature="29941:30003" placeholder="SELECT * FRO..gestion_salle..." />
-            <marker date="1464853455937" expanded="true" signature="31340:32074" placeholder="SELECT ga.no..gestion_stock..." />
-            <marker date="1464853455937" expanded="true" signature="32833:32858" placeholder="SELECT * FRO..measuremnts..." />
-            <marker date="1464853455937" expanded="true" signature="33236:33327" placeholder="SELECT * FRO..measuremnts..." />
+            <marker date="1465815953175" expanded="true" signature="2623:4687" placeholder="SELECT AGENT..cpas_agents..." />
+            <marker date="1465815953175" expanded="true" signature="5751:6703" placeholder="select g_sto..gestion_stock..." />
+            <marker date="1465815953175" expanded="true" signature="7032:7658" placeholder="select g_sto..gestion_stock..." />
+            <marker date="1465815953175" expanded="true" signature="7972:8499" placeholder="select g_sto..gestion_stock..." />
+            <marker date="1465815953175" expanded="true" signature="8909:9643" placeholder="select g_sto..gestion_stock..." />
+            <marker date="1465815953175" expanded="true" signature="15688:17156" placeholder="SELECT gsm.i..gestion_stock_mvt_x..." />
+            <marker date="1465815953175" expanded="true" signature="17499:19040" placeholder="SELECT gsm.i..gestion_stock_mvt_x..." />
+            <marker date="1465815953175" expanded="true" signature="19314:20297" placeholder="SELECT gsm.i..gestion_stock_mvt_x..." />
+            <marker date="1465815953175" expanded="true" signature="17603:18444" placeholder="select g_sto..gestion_stock..." />
+            <marker date="1465815953175" expanded="true" signature="23240:24463" placeholder="select g_sto..gestion_stock..." />
+            <marker date="1465815953175" expanded="true" signature="25844:26391" placeholder="SELECT ga.no..gestion_stock..." />
+            <marker date="1465815953175" expanded="true" signature="26851:26913" placeholder="SELECT * FRO..gestion_salle..." />
+            <marker date="1465815953175" expanded="true" signature="28250:28984" placeholder="SELECT ga.no..gestion_stock..." />
+            <marker date="1465815953175" expanded="true" signature="29743:29768" placeholder="SELECT * FRO..measuremnts..." />
+            <marker date="1465815953175" expanded="true" signature="30146:30237" placeholder="SELECT * FRO..measuremnts..." />
           </folding>
         </state>
       </provider>
@@ -591,6 +585,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4698457">
           <caret line="32" column="77" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37683284">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
           <folding />
         </state>
       </provider>
