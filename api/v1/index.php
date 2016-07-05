@@ -283,7 +283,6 @@ $app->put('/stocks/:id_stock', 'putStocks');
 function putStocks($id){
     global $app;
     $data = json_decode($app->request()->getBody());
-    $data->dt_update = date("Y-m-d H:i:s");
     $condition = array('id_stock'=>$id);
     $mandatory = array();
     global $db;
@@ -303,7 +302,6 @@ function postStocks(){
     global $app;
     $data = json_decode($app->request()->getBody());
 
-    $data->dt_creation = date("Y-m-d H:i:s");
     $data->id_service = RVA_SERVICE;
     $data->quantite_current = 0;
     $data->status = 'Active';
@@ -328,7 +326,6 @@ function postStocks(){
             $data_mvt_stock->from_id_stock = $lastInsertId;
             $data_mvt_stock->to_id_stock = $lastInsertId;
             $data_mvt_stock->quantite = $data->quantite_current;
-            $data_mvt_stock->dt_creation = date("Y-m-d H:i:s");
             $data_mvt_stock->further_information = 'INIT_INVENTORY' ;
 
             $mandatory = array();
@@ -356,7 +353,6 @@ function postStockMvt(){
     $data_mvt_stock->from_id_stock          = $data->stockArticle->id_stock;
     $data_mvt_stock->to_id_stock            = $data->to_stockArticle->id_stock;
     $data_mvt_stock->quantite               = $data->quantite;
-    $data_mvt_stock->dt_creation            = date("Y-m-d H:i:s");
     $data_mvt_stock->further_information    = (!empty($data->further_information) ? $data->further_information : '') ;
     $data_mvt_stock->price                  = (!empty($data->price)? $data->price : '') ;
     $data_mvt_stock->purchase_order         = (!empty($data->purchase_order)? $data->purchase_order : '') ;
@@ -458,7 +454,6 @@ function putStocksSallesToExcel($id_location){
     $file_exist= false;
     $data = json_decode($app->request()->getBody());
 
-    $data->dt_creation = date("Y-m-d H:i:s");
     $result = array();
 
     $rows = $db->selectComplex("
@@ -517,7 +512,6 @@ function putOrderWeeklyStock(){
             $data_mvt_stock->from_id_stock      = $row->id_stock;
             $data_mvt_stock->to_id_stock        = $row->id_stock;
             $data_mvt_stock->quantite           = $row->stock_etage;
-            $data_mvt_stock->dt_creation        = date("Y-m-d H:i:s");
             $data_mvt_stock->further_information = ('inventaire de consommation') ;
 
             $mandatory = array();
@@ -554,7 +548,6 @@ function putOrderWeeklyStock(){
             $data_mvt_stock_recue->from_id_stock        = $row->from_id_stock;
             $data_mvt_stock_recue->to_id_stock          = $row->id_stock;
             $data_mvt_stock_recue->quantite             = $row->recue;
-            $data_mvt_stock_recue->dt_creation          = date("Y-m-d H:i:s");
             $data_mvt_stock_recue->further_information  = (' Recue de Economat vers Etage ') ;
             $mandatory = array();
             $rows4 = $db->insert("gestion_stock_mvt_x", $data_mvt_stock_recue, $mandatory);
