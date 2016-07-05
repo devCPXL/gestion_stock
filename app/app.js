@@ -98,11 +98,6 @@ app.config(['$routeProvider','$locationProvider',
             templateUrl: 'partials/movementList.html',
             controller: 'listMvtCtrl'
         })
-        .when('/measuremnt', {
-            title: 'formDate',
-            templateUrl: 'partials/formDate.html',
-            controller: 'formDateCtrl'
-        })
         .when('/RVA/readXlsx', {
             title: 'readXlsx',
             templateUrl: 'partials/readXlsx.php'
@@ -258,30 +253,7 @@ app.filter('unique', function() {
     };
 });
 
-app.controller('formDateCtrl', function($scope, $location, Data) {
-    console.log('formDateCtrl');
-    $scope.measuremnt = {};
-    Data.get('measuremnts').then(function(data){
-        $scope.measuremnts = data.data;
-        console.log(data.data);
-    });
 
-    $scope.savemeasuremnt = function(measuremnt){
-        console.log(measuremnt);
-        Data.put('measuremnts',measuremnt).then(function(data){
-            $scope.measuremnts = data.data;
-        });
-    };
-
-    $scope.columns = [
-        {text:"stn",predicate:"stn",sortable:true},
-        {text:"mml1",predicate:"mml1",sortable:true},
-        {text:"mml2",predicate:"mml2 ",sortable:true},
-        {text:"mm_start",predicate:"mm_start",sortable:true},
-        {text:"mm_end",predicate:"mm_end",sortable:true}
-    ];
-
-});
 
 app.filter('propsFilter', function() {
     return function(items, props) {
