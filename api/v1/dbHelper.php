@@ -14,25 +14,11 @@ class dbHelper {
             $response["status"] = "error";
             $response["message"] = 'Connection failed: ' . $e->getMessage();
             $response["data"] = null;
-//            echoResponse(200, $response);
+            echoResponse(200, $response);
 //            exit;
         }
-
-
-//            $dsn1 = 'mysql:host=10.102.98.69;dbname=test;charset=utf8';
-//        try {
-//            $this->db_test = new PDO($dsn1, 'root', '', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
-//            $this->db_test->exec("set names utf8");
-//        } catch (PDOException $e) {
-//            $response["status"] = "error";
-//            $response["message"] = 'Connection failed: ' . $e->getMessage();
-//            $response["data"] = null;
-//            echoResponse(200, $response);
-//            //exit;
-//        }
-
-
     }
+
     function select($table, $columns, $where){
         try{
             $a = array();
@@ -59,6 +45,7 @@ class dbHelper {
         }
         return $response;
     }
+
     function selectComplex($query){
         try{
             $a = array();
@@ -114,65 +101,79 @@ class dbHelper {
         return $response;
     }
     function insert($table, $columnsArray, $requiredColumnsArray) {
-        $this->verifyRequiredParams($columnsArray, $requiredColumnsArray);
-        
-        try{
-            $a = array();
-            $c = "";
-            $v = "";
-            foreach ($columnsArray as $key => $value) {
-                $c .= $key. ", ";
-                $v .= ":".$key. ", ";
-                $a[":".$key] = $value;
-            }
-            $c = rtrim($c,', ');
-            $v = rtrim($v,', ');
-            $stmt =  $this->db->prepare("INSERT INTO $table($c) VALUES($v)");
-            $stmt->execute($a);
-            $affected_rows = $stmt->rowCount();
-            $lastInsertId = $this->db->lastInsertId();
-            $response["status"] = "success";
-            $response["message"] = $affected_rows." row inserted into database";
-            $response["data"] = $lastInsertId;
-        }catch(PDOException $e){
-            $response["status"] = "error";
-            $response["message"] = 'Insert Failed: ' .$e->getMessage();
-            $response["data"] = 0;
-        }
-        return $response;
-    }
-    function update($table, $columnsArray, $where, $requiredColumnsArray){ 
-        $this->verifyRequiredParams($columnsArray, $requiredColumnsArray);
-        try{
-            $a = array();
-            $w = "";
-            $c = "";
-            foreach ($where as $key => $value) {
-                $w .= " and " .$key. " = :".$key;
-                $a[":".$key] = $value;
-            }
-            foreach ($columnsArray as $key => $value) {
-                $c .= $key. " = :".$key.", ";
-                $a[":".$key] = $value;
-            }
-                $c = rtrim($c,", ");
+        if (!isset($_SESSION) && !isset($_SESSION['User'])) {
+            session_name("intranet_v2_session");
+            session_start();
+            $user = $_SESSION['User'][0];
+            $columnsArray->user_creation = $user->id_agent;
+            $columnsArray->dt_creation = date("Y-m-d H:i:s");
+            $this->verifyRequiredParams($columnsArray, $requiredColumnsArray);
 
-            $stmt =  $this->db->prepare("UPDATE $table SET $c WHERE 1=1 ".$w);
-            $stmt->execute($a);
-            $affected_rows = $stmt->rowCount();
-            if($affected_rows<=0){
-                $response["status"] = "warning";
-                $response["message"] = "No row updated";
-            }else{
+            try {
+                $a = array();
+                $c = "";
+                $v = "";
+                foreach ($columnsArray as $key => $value) {
+                    $c .= $key . ", ";
+                    $v .= ":" . $key . ", ";
+                    $a[":" . $key] = $value;
+                }
+                $c = rtrim($c, ', ');
+                $v = rtrim($v, ', ');
+                $stmt = $this->db->prepare("INSERT INTO $table($c) VALUES($v)");
+                $stmt->execute($a);
+                $affected_rows = $stmt->rowCount();
+                $lastInsertId = $this->db->lastInsertId();
                 $response["status"] = "success";
-                $response["message"] = $affected_rows." row(s) updated in database";
+                $response["message"] = $affected_rows . " row inserted into database";
+                $response["data"] = $lastInsertId;
+            } catch (PDOException $e) {
+                $response["status"] = "error";
+                $response["message"] = 'Insert Failed: ' . $e->getMessage();
+                $response["data"] = 0;
             }
-        }catch(PDOException $e){
-            $response["status"] = "error";
-            $response["message"] = "Update Failed: " .$e->getMessage();
-            $response["columnsArray"] = $columnsArray;
+            return $response;
         }
-        return $response;
+    }
+    function update($table, $columnsArray, $where, $requiredColumnsArray){
+        if (!isset($_SESSION) && !isset($_SESSION['User'])){
+            session_name("intranet_v2_session");
+            session_start();
+            $user = $_SESSION['User'][0];
+            $columnsArray->user_update = $user->id_agent;
+            $columnsArray->dt_update = date("Y-m-d H:i:s");
+
+            $this->verifyRequiredParams($columnsArray, $requiredColumnsArray);
+            try {
+                $a = array();
+                $w = "";
+                $c = "";
+                foreach ($where as $key => $value) {
+                    $w .= " and " . $key . " = :" . $key;
+                    $a[":" . $key] = $value;
+                }
+                foreach ($columnsArray as $key => $value) {
+                    $c .= $key . " = :" . $key . ", ";
+                    $a[":" . $key] = $value;
+                }
+                $c = rtrim($c, ", ");
+
+                $stmt = $this->db->prepare("UPDATE $table SET $c WHERE 1=1 " . $w);
+                $stmt->execute($a);
+                $affected_rows = $stmt->rowCount();
+                if ($affected_rows <= 0) {
+                    $response["status"] = "warning";
+                    $response["message"] = "No row updated";
+                } else {
+                    $response["status"] = "success";
+                    $response["message"] = $affected_rows . " row(s) updated in database";
+                }
+            } catch (PDOException $e) {
+                $response["status"] = "error";
+                $response["message"] = "Update Failed: " . $e->getMessage();
+            }
+            return $response;
+        }
     }
     function delete($table, $where){
         if(count($where)<=0){
@@ -251,22 +252,19 @@ class dbHelper {
     }
 
     public function getSession(){
-        $sess = array();
 
         if (!isset($_SESSION)) {
+            session_name("intranet_v2_session");
             session_start();
         }
+        $result['session'] = true;
 
-        if(isset($_SESSION['agent']))
-            $sess['agent'] = $_SESSION['agent'];
-
-        if(isset($_SESSION['agent_session']))
-            $sess['agent_session'] = $_SESSION['agent_session'];
-
-        return $sess;
+        return $result;
     }
+
     public function destroySession(){
         if (!isset($_SESSION)) {
+            session_name("intranet_v2_session");
             session_start();
         }
         $_SESSION = array();
@@ -278,9 +276,8 @@ class dbHelper {
             );
             $msg="Logged Out Successfully...";
         }
-
+        session_name("intranet_v2_session");
         session_destroy();
-
         return $msg;
     }
 
