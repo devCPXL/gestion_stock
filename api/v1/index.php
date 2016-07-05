@@ -55,6 +55,49 @@ function getSession() {
     echoResponse(200, $session );
 };
 
+$app->get('/menu/:id_service', 'getMenu');
+function getMenu($id_service) {
+    global $db;
+    $rows = null;
+
+    if (!isset($_SESSION)) {
+        session_name("intranet_v2_session");
+        session_start();
+    }
+    $rows['session'] = $_SESSION;
+    $id_agent = (empty($_SESSION['User'][0]->id_agent)) ? '' : $_SESSION['User'][0]->id_agent;
+    if (!empty($id_agent)){
+
+        $rows = $db->selectComplex("
+                SELECT *
+                FROM gestion_user_url guu
+                JOIN gestion_url gu on gu.id_url = guu.id_url
+                where guu.id_user = $id_agent
+                and gu.id_service_url = $id_service
+            ");
+    }
+    echoResponse(200, $rows);
+};
+
+// === elements
+$app->put('/elements', 'putElements');
+function putElements() {
+    global $db, $app;
+    $data = json_decode($app->request()->getBody());
+    $rows = null;
+
+    $rows = $db->selectComplex("
+            SELECT *
+            FROM gestion_user_elements guel
+            JOIN gestion_url_elements gue on guel.id_element = gue.id_element
+            JOIN gestion_url gu on gu.id_url = gue.id_url
+            where gu.link_url = '$data->link_url'
+
+        ");
+
+    echoResponse(200, $rows);
+};
+
 $app->put('/agent', 'putAgent');
 function putAgent() {
     global $app,$db;

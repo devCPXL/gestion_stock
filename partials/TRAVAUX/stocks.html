@@ -4,27 +4,33 @@
     }
 </style>
 <nav>
-    <button type="button" class="btn btn-sm btn-warning" ng-click="openAddMaterial();">
+    <button id="btn-add-stock-material" data-ng-hide="btn_add_stock_material_hide" data-ng-disabled="btn_add_stock_material_disable"
+            type="button" class="btn btn-sm btn-warning" ng-click="openAddMaterial();">
         <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
         <span class="btn-txt">Ajouter Stock Marchandise</span>
     </button>
-    <button type="button" class="btn btn-sm btn-info" ng-click="openAddMvt('MATERIAL');">
+    <button id="btn-add-mvt-material" data-ng-hide="btn_add_mvt_material_hide" data-ng-disabled="btn_add_mvt_material_disable"
+            type="button" class="btn btn-sm btn-info" ng-click="openAddMvt('MATERIAL');">
         <span class="glyphicon glyphicon-transfer" aria-hidden="true"></span>
         <span class="btn-txt">Ajouter un mouvement</span>
     </button>
-    <button type="button" class="btn btn-sm btn-danger" ng-click="exportPDF();">
+    <button id="btn-export-pdf" data-ng-disabled="btn_export_pdf_disable" data-ng-hide="btn_export_pdf_hide"
+            type="button" class="btn btn-sm btn-danger" ng-click="exportPDF();">
         <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
         <span class="btn-txt">Export Stock PDF</span>
     </button>
-    <!--<button type="button" class="btn btn-sm btn-success" ng-click="openAssessmentLocation();">-->
-        <!--<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>-->
-        <!--<span class="btn-txt">Bilan Chantier PDF</span>-->
-    <!--</button>-->
-    <button type="button" class="btn btn-sm btn-warning" ng-click="openDeliveryList();">
+    <button id="btn-assessment-location" data-ng-hide="btn_assessment_location_hide" data-ng-disabled="btn_assessment_location_disable"
+            type="button" class="btn btn-sm btn-success" ng-click="openAssessmentLocation();">
+        <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+        <span class="btn-txt">Bilan Chantier PDF</span>
+    </button>
+    <button  id="btn-list-reception" data-ng-hide="btn_list_reception_hide" data-ng-disabled="btn_list_reception_disable"
+             type="button" class="btn btn-sm btn-warning" ng-click="openDeliveryList();">
         <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
         <span class="btn-txt"> Liste Reception</span>
     </button>
-    <button type="button" class="btn btn-sm btn-warning" ng-click="openLastMvt();">
+    <button id="btn-last-mvt" data-ng-hide="btn_last_mvt_hide" data-ng-disabled="btn_last_mvt_disable"
+            type="button" class="btn btn-sm btn-warning" ng-click="openLastMvt();">
         <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
         <span class="btn-txt"> Dernière mouvement</span>
     </button>
@@ -124,14 +130,21 @@
                     <td>{{t.name_supplier}}</td>
 
                     <td style="width: 100px;">
-                        <button type="button" class="btn btn-default fa fa-history" title="Ajouter Inventaire" class="btn" ng-click="openAddInventory(t);" data-ng-hide="t.id_location != '7'"></button>
-                        <button type="button" class="btn btn-default fa fa-list" class="btn" ng-click="getListMvt(t);"></button>
+                        <button id="btn-add-inventory" data-ng-hide="" data-ng-disabled=""
+                                type="button" class="btn btn-default fa fa-history" title="Ajouter Inventaire" class="btn" ng-click="openAddInventory(t);" data-ng-hide="t.id_location != '7'"></button>
+
+                        <button id="btn-list-mvt" data-ng-hide="" data-ng-disabled=""
+                                type="button" class="btn btn-default fa fa-list" title="liste mouvements" class="btn" ng-click="getListMvt(t);"></button>
                     </td>
                     <td style="width: 100px;" >
-                        <button type="button" title="Ajouter une reception" class="btn btn-default fa fa-plus" class="btn" ng-click="openStockDelivery(t)" data-ng-hide="t.id_location != '7'"></button>
-                        <button type="button" title="List reception" class="btn btn-default fa fa-list" class="btn" ng-click="openStockDeliveryList(t)" data-ng-hide="t.id_location != '7'"></button>
+                        <button id="btn-add-deliveryStock" data-ng-hide="" data-ng-disabled=""
+                                type="button" title="Ajouter une reception" class="btn btn-default fa fa-plus" class="btn" ng-click="openStockDelivery(t)" data-ng-hide="t.id_location != '7'"></button>
+
+                        <button id="btn-list-deliveryStock" data-ng-hide="" data-ng-disabled=""
+                                type="button" title="List reception" class="btn btn-default fa fa-list" class="btn" ng-click="openStockDeliveryList(t)" data-ng-hide="t.id_location != '7'"></button>
                     </td>
-                    <td><button class="btn" ng-class="{Active:'btn-success', Inactive:''}[t.status]" ng-click="changeMaterialStatus(t);">{{t.status}}</button></td>
+                    <td><button id="btn-status-stock" data-ng-hide="" data-ng-disabled=""
+                                class="btn" ng-class="{Active:'btn-success', Inactive:''}[t.status]" ng-click="changeMaterialStatus(t);">{{t.status}}</button></td>
                 </tr>
                 </tbody>
             </table>

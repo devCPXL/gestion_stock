@@ -51,6 +51,9 @@ app.controller('sallesCtrl', function ($scope, $route, $modal, $filter, Data) {
 
 app.controller('salleEditCtrl', function ($scope, $modalInstance, item, Data) {
 
+
+//TODO : get service from line to put it in select options
+
     //$scope.salle = {};
     $scope.salle = (angular.isDefined(item.id_salle))? angular.copy(item) : {service : 'Service Cuisine'};
     $scope.services = [ 'Service Cuisine',

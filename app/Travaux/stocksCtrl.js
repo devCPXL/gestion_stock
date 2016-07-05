@@ -1,4 +1,4 @@
-app.controller('stocksTravauxCtrl', function ($scope, $rootScope, $modal, $filter, Data, $location, $window, myService, jsonNumericCheck, filterFilter) {
+app.controller('stocksTravauxCtrl', function ($scope, $rootScope, $modal, $filter, Data, $location, $window, myService, jsonNumericCheck, filterFilter, setElementsScope, $parse) {
     $scope.stock = {};
     $scope.filterLocation = {};
     $scope.filterMaterial = {};
@@ -6,6 +6,7 @@ app.controller('stocksTravauxCtrl', function ($scope, $rootScope, $modal, $filte
     $scope.filterSupplier = {};
     $scope.materials = [];
 
+    setElementsScope.set($rootScope, $parse, $scope, $location, Data);
 
     //$scope.filteredTodos = []
     //    ,$scope.currentPage = 1
@@ -94,6 +95,8 @@ app.controller('stocksTravauxCtrl', function ($scope, $rootScope, $modal, $filte
             $scope.loadData();
         });
     };
+
+// TODO : change from lable 'ajouter outil'
 
     $scope.openAddMaterial = function (p,size) {
         var modalInstance = $modal.open({

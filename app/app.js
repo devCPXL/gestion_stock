@@ -117,90 +117,44 @@ app.config(['$routeProvider','$locationProvider',
 }]);
 
 app.run(['$location', '$rootScope','Data', function($location, $rootScope, Data) {
-	//console.log("app.run");
+    console.log("app.run");
     $rootScope.authenticated = true;
-    $rootScope.rva = true;
-    $rootScope.travaux = true;
+    $rootScope.idRvaService = ID_RVA_SERVICE;
+    $rootScope.idTravauxService = ID_TRAVAUX_SERVICE;
+    $rootScope.menu = null;
 
-    //$rootScope.$_GET = {};
-    //$rootScope.$_GET.agent_session = window.localStorage.getItem('agent_session');
-    //$rootScope.$_GET.session_langue = window.localStorage.getItem('session_langue');
-    //$rootScope.$_GET.session_username = window.localStorage.getItem('session_username');
-    //if($rootScope.$_GET.session_username){
-    //    Data.put('agent',$rootScope.$_GET).then(function(data){
-    //        if(data.status == 'success'){
-    //            $rootScope.authenticated = true;
-    //            $rootScope.agent = data.data;
-    //            $rootScope.agent_session = data.agent_session;
-    //            $rootScope.rva = $.inArray('INTRA_STOCK_RVA', $rootScope.agent_session.session_group) > -1;
-    //            $rootScope.travaux = $.inArray('INTRA_STOCK_TRAVAUX', $rootScope.agent_session.session_group) > -1;
-    //
-    //            //console.log($rootScope.agent_session);
-    //            //console.log("location.path = /Home");
-    //            //$location.path("/home");
-		//		//$(location).attr('href', 'http://stackoverflow.com');
-		//		//$location.path("/home");
-		//		//angular.element(document.getElementById('homeCtrl')).scope();
-    //
-		//		var host = $location.host();
-    //            var protocol = $location.protocol();
-		//		//window.location.replace(protocol +'://'+ host +'/gestion_stock/index.html');
-		//		//alert('utilisateure trouvee');
-    //
-    //        }
-    //        else
-    //            alert('utilisateure non trouvee');
-    //    });
-    //
-    //}
-    //else{
-    //    var host = $location.host();
-    //    var protocol = $location.protocol();
-    //    window.location.replace(protocol +'://'+ host +'/coquille_intranet/index4.php');
-    //}
+    console.log($rootScope.id_service);
+
+    Data.get('session').then(function (results) {
+        if(results['session'] != true)
+            window.location.replace(protocol +'://'+ host +'/intranet_v2');
+        else
+            $rootScope.idServiceUser = results['id_ser'];
+    });
 
     $rootScope.$on("$routeChangeStart", function (event, next, current) {
-    //    console.log("$routeChangeStart");
-    //
+        console.log("$routeChangeStart");
+
         var pathArray = $location.path().split("/");
         pathArray.shift();
         $rootScope.id_service = (pathArray[0] == 'RVA') ? ID_RVA_SERVICE : ((pathArray[0] == 'TRAVAUX') ? ID_TRAVAUX_SERVICE : '');
-    //
-    //    Data.get('session').then(function (results) {
-    //        //console.log(results);
-    //        if ((results.agent) && (results.agent_session)) {
-    //            $rootScope.authenticated = true;
-    //            $rootScope.agent = results.agent;
-    //            $rootScope.agent_session = results.agent_session;
-    //            //console.log($rootScope.agent_session);
-    //            //window.location.replace('index.html#/home');
-    //
-    //        } else {
-    //            window.localStorage.clear();
-    //            $rootScope.agent = {};
-    //            $rootScope.agent_session = {};
-    //            console.log($rootScope.agent_session);
-    //            //$location.path("/home");
-    //            var host = $location.host();
-    //            var protocol = $location.protocol();
-    //            window.location.replace(protocol +'://'+ host +'/coquille_intranet/index4.php');
-    //        }
-    //    });
-    //
-    //
-    //    if(next.$$route && $rootScope.agent_session){
-    //        var nextUrl = next.$$route.originalPath;
-    //        var nextUrlArray = nextUrl.split("/");
-    //        nextUrlArray.shift();
-    //        //if($rootScope.agent_session)
-    //        //    if(!($rootScope.agent_session.session_group.toString().indexOf(nextUrlArray[0]) > -1) || nextUrlArray[0] == 'home')
-    //        //        $location.path("/home");
-    //    }
+        console.log($rootScope.id_service);
+
+        if($rootScope.id_service != ''){
+
+            Data.get('menu/'+$rootScope.id_service).then(function (results) {
+                $rootScope.menu = results.data;
+            });
+            Data.put('elements',{link_url : $location.path()}).then(function (results) {
+                $rootScope.elements = results.data;
+            });
+        }
     });
 
-
     $rootScope.$on('$routeChangeSuccess', function (event, current, previous) {
-	//console.log("$routeChangeSuccess");
+        console.log("$routeChangeSuccess");
+
+
 
     });
 
@@ -213,6 +167,31 @@ app.controller('NavCtrl', function($rootScope, $scope, $location, Data, paginati
     paginationConfig.previousText = 'Précédent';
     paginationConfig.nextText = 'Suivant';
     paginationConfig.lastText = 'Dernier';
+    //$rootScope.btn_edit_article =  null;
+
+    //$scope.selectedIndex = 0;
+    //$scope.itemClicked = function($index, item){
+    //    $scope.selectedIndex = $index;
+    //    $rootScope.selectedItem = item;
+    //
+    //    Data.get('elements/'+$rootScope.selectedItem.id_url).then(function (results) {
+    //        $rootScope.elements = results.data;
+    //
+    //        $rootScope.elements.forEach(function(element, index, array){
+    //            console.log("a[" + index + "] = " + element);
+    //        });
+    //
+    //        for(var key in $rootScope.elements){
+    //            $rootScope.btn_edit_article = true;
+    //
+    //            console.log($rootScope.elements[key].id_text_element);
+    //            angular.element($rootScope.elements[key].id_text_element).addClass("ng-hide");
+    //            //console.log(document.getElementsByClassName($rootScope.elements[key].id_text_element));
+    //            //document.getElementsByClassName($rootScope.elements[key].id_text_element).className += "ng-hide";
+    //        }
+    //
+    //    });
+    //};
 
     $scope.isActive = function(route) {
         $scope.path = $location.path();
@@ -222,18 +201,19 @@ app.controller('NavCtrl', function($rootScope, $scope, $location, Data, paginati
         //console.log(s);
         return $location.path().includes(s);
     };
-    //$scope.logout = function () {
-    //    Data.get('logout').then(function (results) {
-		//	window.localStorage.clear();
-		//	$rootScope.agent = {};
-    //        $rootScope.agent_session = {};
-		//
-    //        var host = $location.host();
-    //        var protocol = $location.protocol();
-    //        window.location.replace(protocol +'://'+ host +'/coquille_intranet/index4.php');
-    //        //Data.toast(results);
-    //    });
-    //}
+    $scope.logout = function () {
+        Data.get('logout').then(function (results) {
+			window.localStorage.clear();
+			$rootScope.agent = {};
+            $rootScope.agent_session = {};
+
+            var host = $location.host();
+            var protocol = $location.protocol();
+            window.location.replace(protocol +'://'+ host +'/intranet_v2');
+            //Data.toast(results);
+        });
+    }
+
 });
 
 app.filter('unique', function() {

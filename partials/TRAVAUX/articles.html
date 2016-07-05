@@ -4,7 +4,8 @@
     }
 </style>
 <nav>
-    <button type="button" class="btn btn-info btn-sm" ng-click="openAddArticle(article);">
+    <button type="button" data-ng-disabled="btn_add_article_disable" data-ng-hide="btn_add_article_hide" id="btn-add-article"
+            class="btn btn-info btn-sm" ng-click="openAddArticle(article);" data-ng-disabled="">
         <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
         <span class="btn-txt">Ajouter Nouveau Article</span>
     </button>
@@ -66,7 +67,7 @@
                   <!--</td>-->
                   <td style="width:100px">
                       <div class="btn-group">
-                      <button type="button" class="btn btn-default fa fa-edit" ng-click="openAddArticle(c);"></button>
+                      <button type="button" data-ng-disabled="btn_edit_article_disable" data-ng-hide="btn_edit_article_hide" class="btn btn-default fa fa-edit btn-edit-article" ng-click="openAddArticle(c);"></button>
                       <!--<button type="button" class="btn btn-danger fa fa-trash-o" ng-click="deleteProduct(c);"></button>-->
                       </div>
                   </td>

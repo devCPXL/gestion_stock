@@ -1,6 +1,11 @@
-app.controller('articlesCtrl', function ($scope, $modal, $filter, $route, Data, jsonNumericCheck) {
+app.controller('articlesCtrl', function ($rootScope, $scope, $modal, $filter, $route, Data, jsonNumericCheck) {
+    console.log('controller articlesCtrl');
+
     $scope.article = {};
     $scope.familyFilter = [];
+
+
+
 
     $scope.loadData = function(){
 
@@ -59,7 +64,7 @@ app.controller('articlesCtrl', function ($scope, $modal, $filter, $route, Data, 
             }
           }
         });
-        modalInstance.result.then(function(selectedObject) {
+        modalInstance.result.then(function(selectedObject){
             if(selectedObject.save == "insert"){
                 selectedObject.family = $('#SelectFamily option:selected').text();
                 $scope.articles.push(selectedObject);

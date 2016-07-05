@@ -1,7 +1,11 @@
-app.controller('articlesTravauxCtrl', function ($rootScope, $scope, $modal, $filter, Data, filterFilter) {
+app.controller('articlesTravauxCtrl', function ($rootScope, $scope, $modal, $filter, Data, filterFilter, setElementsScope, $parse, $location) {
     $scope.article = {};
     $scope.familyFilter = [];
     $scope.articles = [];
+
+    setElementsScope.set($rootScope, $parse, $scope, $location, Data);
+
+    console.log($scope);
 
     $scope.loadData = function(){
 
@@ -29,18 +33,13 @@ app.controller('articlesTravauxCtrl', function ($rootScope, $scope, $modal, $fil
         $scope.currentPage = 1;
     }, true);
 
-
-
-
-
-
-
-
     $scope.changeArticleStatus = function(article){
         article.status = (article.status=="Active" ? "Inactive" : "Active");
         Data.put("articles/"+article.id_article,{status:article.status});
     };
 
+
+    // TODO : disable 'Ajouter Nouveau Article'
     $scope.openAddArticle = function (p,size) {
         var modalInstance = $modal.open({
           templateUrl: 'partials/TRAVAUX/articleEdit.html',

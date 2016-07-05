@@ -258,6 +258,7 @@ class dbHelper {
             session_start();
         }
         $result['session'] = true;
+        $result['id_ser'] = $_SESSION['Contrat'][0]->id_ser;
 
         return $result;
     }

@@ -1,5 +1,6 @@
 <nav>
-    <button type="button" class="btn btn-info btn-sm " ng-click="open(location);">
+    <button id="btn-add-location" data-ng-disabled="btn_add_location_disable" data-ng-hide="btn_add_location_hide"
+            type="button" class="btn btn-info btn-sm " ng-click="open(location);">
         <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
         <span class="btn-txt">Ajouter nouveau Chantier</span>
     </button>
@@ -42,7 +43,8 @@
 
                   <td style="width:100px">
                       <div class="btn-group">
-                      <button type="button" class="btn btn-default fa fa-edit" ng-click="open(c);"></button>
+                      <button id="btn-edit-location" data-ng-disabled="btn_edit_location_disable" data-ng-hide="btn_edit_location_hide"
+                              type="button" class="btn btn-default fa fa-edit" ng-click="open(c);"></button>
                       <!--<button type="button" class="btn btn-danger fa fa-trash-o" ng-click="deleteProduct(c);"></button>-->
                       </div>
                   </td>
