@@ -90,7 +90,7 @@ app.config(['$routeProvider','$locationProvider',
         })
         .when('/TRAVAUX/Tools', {
             title: 'Gestion Outils',
-            templateUrl: 'partials/TRAVAUX/Tools.html',
+            templateUrl: 'partials/TRAVAUX/tools.html',
             controller: 'toolsCtrl'
         })
         .when('/TRAVAUX/MouvementsStock/:id', {
