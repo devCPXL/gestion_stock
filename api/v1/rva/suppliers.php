@@ -20,8 +20,6 @@ $app->post('/suppliers', 'postSupplier');
 function postSupplier(){
     global $app;
     $data = json_decode($app->request()->getBody());
-    $dt_creation = 'dt_creation';
-    $data->$dt_creation = date("Y-m-d H:i");
     $mandatory = array();
     global $db;
     $rows = $db->insert("gestion_Suppliers", $data, $mandatory);
@@ -39,8 +37,6 @@ function putSuppliers($id){
     $data = json_decode($request->getBody());
     unset($data->save);
     unset($data->dt_creation);
-    $dt_update = 'dt_update';
-    $data->$dt_update = date("Y-m-d H:i");
     $condition = array('id_supplier'=>$id);
     $mandatory = array();
     global $db;

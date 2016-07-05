@@ -28,8 +28,6 @@ $app->put('/location/:id', 'putLocation');
 function putLocation($id){
     global $app;
     $data = json_decode($app->request()->getBody());
-
-    $data->dt_update = date("Y-m-d H:i:s");
     $condition = array('id_location'=>$id);
     $mandatory = array();
     global $db;
@@ -49,7 +47,6 @@ function postLocation()
     $data = json_decode($app->request()->getBody());
 
     $mandatory = array();
-    $data->dt_creation = date("Y-m-d H:i:s");
 
     global $db;
     $rows = $db->insert("gestion_location", $data, $mandatory);

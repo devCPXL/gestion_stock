@@ -79,7 +79,6 @@ function postArticles(){
     unset($data->type_stock);
 
     $mandatory = array();
-    $data->dt_creation = date("Y-m-d H:i:s");
     global $db;
     $rows = $db->insert("gestion_article", $data, $mandatory);
 
@@ -95,7 +94,6 @@ function postArticles(){
             $data2->id_location     = $value;
             $data2->type_stock      = "SUPPLIER";
             $data2->prix_current    = 0.0;
-            $data2->dt_creation     = date("Y-m-d H:i");
             $data2->status          = 'Active';
             $data2->stock_min       = 0;
             $data2->stock_alert     = 0;
@@ -113,7 +111,6 @@ function postArticles(){
             $data3->id_article          = $lastInsertId;
             $data3->id_location         = ID_MAGASIN_TRAVAUX; // id_location "Bâtiment  F"
             $data3->type_stock          = $type_stock; // type_stock "TOOL" OR "MATERIAL"
-            $data3->dt_creation         = date("Y-m-d H:i");
             $data3->status              = 'Active';
             $data3->stock_min           = 1;
             $data3->stock_alert         = 1;
@@ -139,9 +136,6 @@ function putArticles($id){
 
     $type_stock = (!empty($data->type_stock) ? $data->type_stock : "") ; // Fix Error Undefined property: stdClass::$stockMagasin
     unset($data->type_stock);
-
-    $dt_update = 'dt_update';
-    $data->$dt_update = date("Y-m-d H:i:s");
     unset($data->save);
     unset($data->family);
     $condition = array('id_article'=>$id);
@@ -164,7 +158,6 @@ function putArticles($id){
     $subRows = array();
     if($rows["status"]=="success" || $rows["message"]=="No row updated"){
         $rows["message"] = "Article information updated successfully.";
-        $rows["dt_update"] = date("d-m-Y H:i");
 
         foreach($id_suppliers as $value) {
             $mandatory = array();
@@ -172,7 +165,6 @@ function putArticles($id){
             $data2->id_article      = $id; // id_article
             $data2->id_location     = $value;
             $data2->type_stock      = "SUPPLIER";
-            $data2->dt_creation     = date("Y-m-d H:i");
             $data2->status          = 'Active';
             $data2->prix_current    = 0.0;
             $data2->stock_min       = 0;

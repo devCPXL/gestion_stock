@@ -71,7 +71,6 @@ function postToolMvt(){
         $data1->stock_min           = 1;
         $data1->stock_alert         = 1;
         $data1->quantite_current    = 0;
-        $data1->dt_creation         = date("Y-m-d H:i:s");
 
         $rows = $db->insert("gestion_stock", $data1, array());
         if($rows["status"]=="success") {
@@ -97,7 +96,6 @@ function postToolMvt(){
     $data_mvt_tool->from_id_stock       = $data->stockArticle->id_stock;
     $data_mvt_tool->to_id_stock         = $data->to_stockArticle->id_stock;
     $data_mvt_tool->quantite            = $data->quantite;
-    $data_mvt_tool->dt_creation         = date("Y-m-d H:i:s");
     $data_mvt_tool->further_information = (!empty($data->further_information) ? $data->further_information : '') ;
 
     $mandatory = array();

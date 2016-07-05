@@ -30,8 +30,6 @@ function putFamily($id){
     $data = json_decode($app->request()->getBody());
     unset($data->save);
     unset($data->dt_creation);
-    $dt_update = 'dt_update';
-    $data->$dt_update = date("Y-m-d H:i:s");
     $condition = array('id_family'=>$id);
     $mandatory = array();
     global $db;
@@ -39,7 +37,6 @@ function putFamily($id){
     if($rows["status"]=="success"){
         $rows['data'] = $data;
         $rows["message"] = "Family information updated successfully.";
-        $rows["dt_update"] = date("d-m-Y H:i:s");
     }
     echoResponse(200, $rows);
 };
@@ -48,8 +45,7 @@ $app->post('/family', 'postFamily');
 function postFamily(){
     global $app;
     $data = json_decode($app->request()->getBody());
-    $dt_creation = 'dt_creation';
-    $data->$dt_creation = date("Y-m-d H:i:s");
+
     $mandatory = array();
     global $db;
     $rows = $db->insert("gestion_family", $data, $mandatory);

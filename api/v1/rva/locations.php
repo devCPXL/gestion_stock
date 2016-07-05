@@ -77,9 +77,6 @@ function postSalles(){
 //    $sallesProvisioning = $data->sallesProvisioning;
 //    unset($data->sallesProvisioning);
 
-    $dt_creation = 'dt_creation';
-    $data->$dt_creation = date("Y-m-d H:i");
-
     $mandatory = array();
     global $db;
     $rows = $db->insert("gestion_salle", $data, $mandatory);
@@ -116,9 +113,6 @@ function putSalles($id){
     unset($data->description_batiment);
     unset($data->dt_creation);
     unset($data->save);
-
-    $dt_update = 'dt_update';
-    $data->$dt_update = date("Y-m-d H:i");
 
     $condition = array('id_salle'=>$id);
     $mandatory = array();

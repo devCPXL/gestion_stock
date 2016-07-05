@@ -21,8 +21,6 @@ $app->post('/batiments', 'postBatiments');
 function postBatiments(){
     global $app;
     $data = json_decode($app->request()->getBody());
-    $dt_creation = 'dt_creation';
-    $data->$dt_creation = date("Y-m-d H:i");
     $mandatory = array();
     global $db;
     $rows = $db->insert("gestion_batiment", $data, $mandatory);
@@ -39,15 +37,13 @@ function putBatiments($id){
     $data = json_decode($app->request()->getBody());
     unset($data->save);
     unset($data->dt_creation);
-    $dt_update = 'dt_update';
-    $data->$dt_update = date("Y-m-d H:i");
+
     $condition = array('id_batiment'=>$id);
     $mandatory = array();
     global $db;
     $rows = $db->update("gestion_batiment", $data, $condition, $mandatory);
     if($rows["status"]=="success"){
         $rows["message"] = "Batiment information updated successfully.";
-        $rows["dt_update"] = date("d-m-Y H:i");
     }
     echoResponse(200, $rows);
 };
