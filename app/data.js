@@ -90,3 +90,26 @@ app.factory('generateCodeFile', function(){
     }
     return {g:g};
 });
+
+app.factory('setElementsScope', function(){
+    function set($rootScope, $parse, $scope, $location, Data){
+
+        Data.put('elements',{link_url : $location.path()}).then(function (results) {
+            $rootScope.elements = results.data;
+            console.log($rootScope.elements);
+            if($rootScope.elements != "")
+                for(var key in $rootScope.elements){
+
+                    var model = $parse($rootScope.elements[key].hide_element);
+                    model.assign($scope, parseInt($rootScope.elements[key].hide_element_value, 10));
+
+                    var model1 = $parse($rootScope.elements[key].disable_element);
+                    model1.assign($scope, parseInt($rootScope.elements[key].disable_element_value, 10));
+                }
+        });
+
+
+        console.log($scope);
+    }
+    return {set:set};
+});
