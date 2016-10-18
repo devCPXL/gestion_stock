@@ -8,9 +8,11 @@
         <form name="toolMvt_form" class="form-horizontal" role="form" novalidate>
 
             <form-element label="CHANTIER/MAGASIN " mod="toolMvt">
-            <ui-select ng-model="toolMvt.SelectLocation" theme="bootstrap" reset-search-input="true" ng-change="changeLocation(toolMvt.SelectLocation.id_location)" required style="width: 319px;">
+            <ui-select ng-model="toolMvt.selected_location" theme="bootstrap" reset-search-input="true" ng-change="changeLocation(toolMvt.selected_location.id_location)" required style="width: 319px;">
                 <ui-select-match placeholder="Chercher chantier/magasin ...">{{$select.selected.description_f}}</ui-select-match>
-                <ui-select-choices repeat="l in locations | filter: $select.search" ui-disable-choice="l.id_location == toolMvt.SelectLocation_to.id_location">
+                <ui-select-choices repeat="l in locations | filter: $select.search"
+                                   value="{{$select.selected.id_location = 90}}"
+                                   ui-disable-choice="l.id_location == toolMvt.selected_location_to.id_location">
                     <div ng-bind-html="l.description_f | highlight: $select.search"></div>
                 </ui-select-choices>
             </ui-select>
@@ -18,7 +20,7 @@
 
             <form-element label="ARTICLE" mod="toolMvt">
                 <ui-select ng-model="toolMvt.stockArticle" theme="bootstrap" ng-disabled="disabled" ng-change="changeStockArticle()" style="width: 319px;">
-                    <ui-select-match placeholder="chercher un article..."> <small>{{$select.selected.quantite_current +' - '+$select.selected.nom_article}}</small></ui-select-match>
+                    <ui-select-match placeholder="chercher un article..."> <div>{{$select.selected.quantite_current +' - '+$select.selected.nom_article}}</div></ui-select-match>
                     <ui-select-choices repeat="article in stocksArticle | filter: $select.search" ui-disable-choice="article.quantite_current == 0">
                         <small ng-bind-html="article.quantite_current"></small>
                         <small ng-bind-html="article.nom_article | highlight: $select.search"></small>
@@ -35,18 +37,18 @@
             </form-element>
 
             <form-element label="DATE MOUVEMENT" mod="toolMvt">
-                <input type="date" name="date_mvt" ng-model="toolMvt.date_mvt" placeholder="dd-MM-yyyy" min="2013-01-01" max="2016-12-31" required focus/>
+                <input type="date" name="date_mvt" ng-model="toolMvt.date_mvt" placeholder="dd-MM-yyyy" min="2013-01-01" max="2017-12-31" required focus/>
                 <small ng-show="toolMvt_form.date_mvt.$dirty && toolMvt_form.date_mvt.$invalid" class="help-inline">Date Mouvement Requies</small>
             </form-element>
 
             <form-element label="A STOCK ARTICLE" mod="toolMvt">
-                <ui-select ng-model="toolMvt.SelectLocation_to" theme="bootstrap" reset-search-input="true" name="SelectLocation_to" required style="width: 319px;">
+                <ui-select ng-model="toolMvt.selected_location_to" theme="bootstrap" reset-search-input="true" name="selected_location_to" required style="width: 319px;">
                     <ui-select-match placeholder="Chercher chantier/magasin ...">{{$select.selected.description_f}}</ui-select-match>
-                    <ui-select-choices repeat="a in locations_to | filter: $select.search" ui-disable-choice="a.id_location == toolMvt.SelectLocation.id_location">
+                    <ui-select-choices repeat="a in locations_to | filter: $select.search" ui-disable-choice="a.id_location == toolMvt.selected_location.id_location">
                         <div ng-bind-html="a.description_f | highlight: $select.search"></div>
                     </ui-select-choices>
                 </ui-select>
-                <small class="errorMessage" ng-show="toolMvt_form.SelectLocation_to.$dirty && toolMvt_form.SelectLocation_to.$invalid"> STOCK Article Requies.</small>
+                <small class="errorMessage" ng-show="toolMvt_form.selected_location_to.$dirty && toolMvt_form.selected_location_to.$invalid"> STOCK Article Requies.</small>
             </form-element>
 
             <form-element label="PLUS D'INFORMATIONS" mod="toolMvt">

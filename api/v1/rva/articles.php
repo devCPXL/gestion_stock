@@ -78,6 +78,15 @@ function postArticles(){
     $type_stock = (!empty($data->type_stock) ? $data->type_stock : "") ; // Fix Error Undefined property: stdClass::$stockMagasin
     unset($data->type_stock);
 
+//    var_dump($data);
+//    exit();
+
+    switch ($data->id_service) {
+        case RVA_SERVICE: $id_location = ID_ECONOMAT; break;
+        case TRAVAUX_SERVICE: $id_location = ID_MAGASIN_TRAVAUX; break;
+        case INFORMATIQUE_SERVICE: $id_location = ID_MAGASIN_INFORMATIQUE; break;
+    }
+
     $mandatory = array();
     global $db;
     $rows = $db->insert("gestion_article", $data, $mandatory);
@@ -109,7 +118,7 @@ function postArticles(){
         if(!empty($type_stock)){
             $data3 = new stdClass();
             $data3->id_article          = $lastInsertId;
-            $data3->id_location         = ID_MAGASIN_TRAVAUX; // id_location "Bâtiment  F"
+            $data3->id_location         = $id_location; // id_location refer to switch case $data->id_service
             $data3->type_stock          = $type_stock; // type_stock "TOOL" OR "MATERIAL"
             $data3->status              = 'Active';
             $data3->stock_min           = 1;
@@ -141,43 +150,66 @@ function putArticles($id){
     $condition = array('id_article'=>$id);
     $mandatory = array();
 
-    $data1 = new stdClass();
+//    var_dump($data);
+//    exit();
 
-    $data1->nom             = $data->nom;
-    $data1->description_f   = $data->description_f;
-    $data1->code_barre      = $data->code_barre;
-    $data1->id_family       = $data->id_family;
-    $data1->mark            = $data->mark;
-    $data1->unite           = $data->unite;
-    $data1->price           = $data->price;
-    $data1->vat             = $data->vat;
-    $data1->order_article   = (!empty($data->order_article) ? $data->order_article : '');
+    $dataArticle = new stdClass();
+
+    $dataArticle->nom             = $data->nom;
+    $dataArticle->description_f   = $data->description_f;
+    $dataArticle->code_barre      = $data->code_barre;
+    $dataArticle->mark            = $data->mark;
+    $dataArticle->unite           = $data->unite;
+    $dataArticle->price           = (!empty($data->price) ? $data->price : 0);
+    $dataArticle->vat             = $data->vat;
+    $dataArticle->type_article    = (!empty($data->type_article) ? $data->type_article : '');
+    $dataArticle->id_family       = $data->id_family;
+    $dataArticle->order_article   = (!empty($data->order_article) ? $data->order_article : '');
 
     global $db;
-    $rows = $db->update("gestion_article", $data1, $condition, $mandatory);
+    $rows = $db->update("gestion_article", $dataArticle, $condition, $mandatory);
     $subRows = array();
     if($rows["status"]=="success" || $rows["message"]=="No row updated"){
         $rows["message"] = "Article information updated successfully.";
 
         foreach($id_suppliers as $value) {
             $mandatory = array();
-            $data2 = new stdClass();
-            $data2->id_article      = $id; // id_article
-            $data2->id_location     = $value;
-            $data2->type_stock      = "SUPPLIER";
-            $data2->status          = 'Active';
-            $data2->prix_current    = 0.0;
-            $data2->stock_min       = 0;
-            $data2->stock_alert     = 0;
-            $data2->quantite_current = 0;
-            $data2->id_service      = $data->id_service;
+            $dataSupplierStock = new stdClass();
+            $dataSupplierStock->id_article      = $id; // id_article
+            $dataSupplierStock->id_location     = $value;
+            $dataSupplierStock->type_stock      = "SUPPLIER";
+            $dataSupplierStock->status          = 'Active';
+            $dataSupplierStock->prix_current    = 0.0;
+            $dataSupplierStock->stock_min       = 0;
+            $dataSupplierStock->stock_alert     = 0;
+            $dataSupplierStock->quantite_current = 0;
+            $dataSupplierStock->id_service      = $data->id_service;
 
-            $rows2 = $db->insert("gestion_stock", $data2, $mandatory);
+            $rows2 = $db->insert("gestion_stock", $dataSupplierStock, $mandatory);
             if($rows2["status"]=="success")
                 $rows2["message"] = "Stock supplier added successfully.";
 
             array_push($subRows, $rows2);
         }
+
+        /** To create stock during Updating article */
+
+//        if(!empty($type_stock)){
+//            $data3 = new stdClass();
+//            $data3->id_article          = $id;
+//            $data3->id_location         = ID_MAGASIN_INFORMATIQUE;//ID_MAGASIN_TRAVAUX; // id_location "Bâtiment  F"
+//            $data3->type_stock          = $type_stock; // type_stock "TOOL" OR "MATERIAL"
+//            $data3->status              = 'Active';
+//            $data3->stock_min           = 1;
+//            $data3->stock_alert         = 1;
+//            $data3->quantite_current    = ($type_stock == 'TOOL') ? 1 : 0;
+//            $data3->id_service          = $data->id_service;
+//
+//            $rows3 = $db->insert("gestion_stock", $data3, $mandatory);
+//            if($rows3["status"]=="success")
+//                $rows3["message"] = "Stock ".$type_stock." added successfully.";
+//            array_push($rows, $rows3);
+//        }
 
     }
 

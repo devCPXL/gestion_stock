@@ -11,24 +11,24 @@ function getTools($id_service) {
     global $db;
     $rows = $db->selectComplex("
         SELECT ga.id_article, ga.nom, ga.code_barre, ga.description_f, ga.id_family, ga.mark, ga.vat, ga.unite, gf.code,
-        gf.description, gs.id_stock, gs.id_location, gs.id_article as gs_id_article, gs.quantite_current,
+        gf.description as name_family, gs.id_stock, gs.id_location, gs.id_article as gs_id_article, gs.quantite_current,
         gs.stock_alert, gs.stock_min, gs.type_stock, gs.status, gl.description_f as name_location
-        FROM gestion_article ga
-        LEFT JOIN gestion_stock gs
+        FROM gestion_stock gs
+        LEFT JOIN gestion_article ga
             ON ga.id_article = gs.id_article AND gs.type_stock = 'TOOL'
         LEFT JOIN gestion_family gf
             ON gf.id_family = ga.id_family
         LEFT JOIN gestion_location gl
             ON gl.id_location = gs.id_location
         WHERE ga.id_service = $id_service
-        AND ga.id_family IN(3)
-        ORDER BY ga.unite, ga.nom
+        -- AND ga.id_family IN(3)
+        -- ORDER BY ga.unite, ga.nom
     ");
     echoResponse(200, $rows);
 };
 
-$app->get('/stocksLocation/:stockType/:id_location','getStockslocation');
-function getStockslocation($stockType, $id_location) {
+$app->get('/stocksLocation/:id_service/:stockType/:id_location','getStockslocation');
+function getStockslocation($id_service, $stockType, $id_location) {
     global $db;
     $constant = 'constant';
     $rows = $db->selectComplex("
@@ -38,7 +38,7 @@ function getStockslocation($stockType, $id_location) {
         FROM gestion_stock gs
             LEFT JOIN gestion_article ga
                 ON ga.id_article = gs.id_article
-        WHERE ga.id_service = {$constant('TRAVAUX_SERVICE')}
+        WHERE ga.id_service = $id_service
             AND gs.id_location = $id_location
             AND gs.type_stock = '".$stockType."'
     ");
@@ -51,9 +51,18 @@ function postToolMvt(){
     global $app, $db;
     $data = json_decode($app->request()->getBody());
 
+    // check session intranet_v2_session
+//    if (!isset($_SESSION)) {
+//        session_name("intranet_v2_session");
+//        session_start();
+//
+//        var_dump($_SESSION);
+//    }
+
+
     // ===== Check if Stock Exist !!!
     $oneRow = $db->selectComplex("SELECT * FROM gestion_stock
-                                  WHERE id_location = ".$data->SelectLocation_to->id_location."
+                                  WHERE id_location = ".$data->selected_location_to->id_location."
                                   AND id_article = ".$data->stockArticle->gs_id_article."
                                   AND type_stock = '".$data->type_stock."'
                                   ");
@@ -65,7 +74,7 @@ function postToolMvt(){
 
         $data1->id_service          = TRAVAUX_SERVICE;
         $data1->id_article          = $data->stockArticle->gs_id_article;
-        $data1->id_location         = $data->SelectLocation_to->id_location;
+        $data1->id_location         = $data->selected_location_to->id_location;
         $data1->type_stock          = $data->type_stock;
         $data1->status              = 'Active';
         $data1->stock_min           = 1;
@@ -108,7 +117,7 @@ function postToolMvt(){
 
         if($data_mvt_tool->type_mvt == 'INTERNAL'){
 
-            $dataStockUpdate->dt_update         = date("Y-m-d H:i:s");
+//            $dataStockUpdate->dt_update         = date("Y-m-d H:i:s");
             $dataStockUpdate->quantite_current  = $data->stockArticle->quantite_current - $data_mvt_tool->quantite;
             $condition = array('id_stock'=>$data_mvt_tool->from_id_stock);
             $rows1 = $db->update("gestion_stock", $dataStockUpdate, $condition, $mandatory);

@@ -1,7 +1,7 @@
 /**
  * Created by lakroubassi.n on 13/07/2015.
  */
-app.controller('familyEditCtrl', function ($rootScope, $scope, $route, $modalInstance, item, Data) {
+app.controller('familyEditCtrl', function ($rootScope, $scope, $route, $modalInstance, item, Data, band) {
     $scope.family = {};
     //console.log(item);
     if(angular.isDefined(item)){
@@ -26,6 +26,7 @@ app.controller('familyEditCtrl', function ($rootScope, $scope, $route, $modalIns
 
     $scope.saveFamily = function (family) {
         console.log(family);
+        family.band = band;
         if(angular.isDefined(item)){
             Data.put('family/'+family.id_family, family).then(function (result) {
                 if(result.status != 'error'){

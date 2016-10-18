@@ -1,0 +1,8426 @@
+[
+  {
+    "description_f": "",
+    "nom": "IR2025I",
+    "code_barre": "LNF01797",
+    "price": "2000,00",
+    "vat": "21,00",
+    "mark": "Canon",
+    "id_family": 47
+  },
+  {
+    "description_f": "",
+    "nom": "Aficio 2018",
+    "code_barre": "J9146820809",
+    "price": "3000,00",
+    "vat": "21,00",
+    "mark": "Ricoh",
+    "id_family": 47
+  },
+  {
+    "description_f": "",
+    "nom": "IR2022i",
+    "code_barre": "21MXE08372",
+    "price": "2400,00",
+    "vat": "21,00",
+    "mark": "Canon",
+    "id_family": 47
+  },
+  {
+    "description_f": "CPASXL2063",
+    "nom": "C546 DTN",
+    "code_barre": "9450R49",
+    "price": "706,64",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL_13_00057",
+    "nom": "C748de",
+    "code_barre": "5026179421V8V",
+    "price": "1079,62",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL_13_00023",
+    "nom": "MS811dn",
+    "code_barre": "40632599017YL",
+    "price": "870,06",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL_13_00024",
+    "nom": "MS811dn",
+    "code_barre": "40632599017YR",
+    "price": "870,06",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "",
+    "nom": "Aficio 2510",
+    "code_barre": "M0974201784",
+    "price": "2000,00",
+    "vat": "21,00",
+    "mark": "Ricoh",
+    "id_family": 47
+  },
+  {
+    "description_f": "",
+    "nom": "Aficio 3025",
+    "code_barre": 8563705772,
+    "price": "2000,00",
+    "vat": "21,00",
+    "mark": "Ricoh",
+    "id_family": 47
+  },
+  {
+    "description_f": "CPASXL2024",
+    "nom": "T650DN",
+    "code_barre": "794KLHH",
+    "price": "1439,90",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL_1200051",
+    "nom": "Aficio MP2550",
+    "code_barre": 6593900880,
+    "price": "3000,00",
+    "vat": "21,00",
+    "mark": "Ricoh",
+    "id_family": 47
+  },
+  {
+    "description_f": "CPASXL1139",
+    "nom": "Laserjet P1505n",
+    "code_barre": "VNF3J20131",
+    "price": "238,37",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL_13_00020",
+    "nom": "C748de",
+    "code_barre": "5026269420DPR",
+    "price": "1079,62",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "/",
+    "nom": "T652DN",
+    "code_barre": "794F1Y8",
+    "price": "665,50",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "",
+    "nom": "Aficio 2015",
+    "code_barre": 9047220937,
+    "price": "3000,00",
+    "vat": "21,00",
+    "mark": "Ricoh",
+    "id_family": 47
+  },
+  {
+    "description_f": "",
+    "nom": "Aficio MP 2000",
+    "code_barre": "L7016760566",
+    "price": "2400,00",
+    "vat": "21,00",
+    "mark": "Ricoh",
+    "id_family": 47
+  },
+  {
+    "description_f": "CPASXL_13_00025",
+    "nom": "MS811dn",
+    "code_barre": "40632599017YV",
+    "price": "870,06",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "",
+    "nom": "Bizhub 211",
+    "code_barre": "SN02129871",
+    "price": "2400,00",
+    "vat": "21,00",
+    "mark": "Konica Minolta",
+    "id_family": 47
+  },
+  {
+    "description_f": "",
+    "nom": "Aficio MP2500SP",
+    "code_barre": 4481900905,
+    "price": "3000,00",
+    "vat": "21,00",
+    "mark": "Ricoh",
+    "id_family": 47
+  },
+  {
+    "description_f": "CPASXL_12_00054",
+    "nom": "Aficio MP2500sp",
+    "code_barre": 4491600719,
+    "price": "3000,00",
+    "vat": "21,00",
+    "mark": "Ricoh",
+    "id_family": 47
+  },
+  {
+    "description_f": "",
+    "nom": "BusinessInkjet 2800",
+    "code_barre": "TH7BA5Z043",
+    "price": "955,90",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 49
+  },
+  {
+    "description_f": "",
+    "nom": "Laserjet 2200dn",
+    "code_barre": "CNKSB32377",
+    "price": "302,50",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 48
+  },
+  {
+    "description_f": "",
+    "nom": "Laserjet 2200dn",
+    "code_barre": "CNKSB32633",
+    "price": "302,50",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 48
+  },
+  {
+    "description_f": "",
+    "nom": "Laserjet 2200dn",
+    "code_barre": "JPKGJ76232",
+    "price": "302,50",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 48
+  },
+  {
+    "description_f": "COMMUNE XL",
+    "nom": "Laserjet P3005n",
+    "code_barre": "CNF1P77412",
+    "price": "885,72",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 48
+  },
+  {
+    "description_f": "IXELLES",
+    "nom": "Laserjet P3005n",
+    "code_barre": "CNF1T41166",
+    "price": "302,50",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL-14-00142",
+    "nom": "MS811dn",
+    "code_barre": "406336990DK16",
+    "price": "870,06",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL179",
+    "nom": "710n",
+    "code_barre": "GS17HSGXA33652D",
+    "price": "197,51",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPAS IXELLES 989",
+    "nom": "Esprimo P5720",
+    "code_barre": "YK1M095655",
+    "price": "700,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "",
+    "nom": "Aficio MP6001",
+    "code_barre": 6902700221,
+    "price": "2000,00",
+    "vat": "21,00",
+    "mark": "Ricoh",
+    "id_family": 47
+  },
+  {
+    "description_f": "CPASXL321",
+    "nom": "Laserjet 1320n",
+    "code_barre": "CNBW4BQHHP",
+    "price": "435,43",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL1566",
+    "nom": "ProBook 5310m",
+    "code_barre": "CND0013GR6",
+    "price": "",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 51
+  },
+  {
+    "description_f": "CPASXL2045",
+    "nom": "C546 DTN",
+    "code_barre": "9455MP1",
+    "price": "508,20",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL-15-00048",
+    "nom": "DGS-105",
+    "code_barre": "QS3T1EC0024581",
+    "price": "50,00",
+    "vat": "21,00",
+    "mark": "D-link",
+    "id_family": 52
+  },
+  {
+    "description_f": "CPASXL2056",
+    "nom": "T652DN",
+    "code_barre": "794F254",
+    "price": "665,50",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "",
+    "nom": "Aficio MP2500sp",
+    "code_barre": 4491600647,
+    "price": "3000,00",
+    "vat": "21,00",
+    "mark": "Ricoh",
+    "id_family": 47
+  },
+  {
+    "description_f": "cpasxl-14-00139",
+    "nom": "C748de",
+    "code_barre": "5026109422ZY0",
+    "price": "1079,67",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL2025",
+    "nom": "T650DN",
+    "code_barre": "794KLH3",
+    "price": "1439,90",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "",
+    "nom": "Aficio MP2352SP",
+    "code_barre": "W481K900404",
+    "price": "4000,00",
+    "vat": "21,00",
+    "mark": "Ricoh",
+    "id_family": 47
+  },
+  {
+    "description_f": "",
+    "nom": "Officejet 8600",
+    "code_barre": "CN2BIB3J02",
+    "price": "600,00",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 47
+  },
+  {
+    "description_f": "",
+    "nom": "MS811dn",
+    "code_barre": "4063369909H3F",
+    "price": "870,06",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "",
+    "nom": "Bizhub 282",
+    "code_barre": "A11V021004722",
+    "price": "2400,00",
+    "vat": "21,00",
+    "mark": "Konica Minolta",
+    "id_family": 47
+  },
+  {
+    "description_f": "COMMUNE XL",
+    "nom": "Bizhub 282",
+    "code_barre": "A11V021010121",
+    "price": "2400,00",
+    "vat": "21,00",
+    "mark": "Konica Minolta",
+    "id_family": 47
+  },
+  {
+    "description_f": "",
+    "nom": "Bizhub 283",
+    "code_barre": "A1UF021002061",
+    "price": "2400,00",
+    "vat": "21,00",
+    "mark": "Konica Minolta",
+    "id_family": 47
+  },
+  {
+    "description_f": "CPASXL_12_00053",
+    "nom": "Bizhub 283",
+    "code_barre": "A1UF021002213",
+    "price": "2400,00",
+    "vat": "21,00",
+    "mark": "Konica Minolta",
+    "id_family": 47
+  },
+  {
+    "description_f": "CPASXL1012",
+    "nom": "Businessinkjet 2800",
+    "code_barre": "TH79M5Z09D",
+    "price": "955,90",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 49
+  },
+  {
+    "description_f": "CPASXL_13_00031",
+    "nom": "C925DE",
+    "code_barre": "50412032501UT",
+    "price": "2977,50",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL773",
+    "nom": "Scanjet 2400",
+    "code_barre": "CN5BTSR0HY",
+    "price": "200,00",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 53
+  },
+  {
+    "description_f": "CPASXL957",
+    "nom": "ColorLaserjet3600",
+    "code_barre": "CNXFF12319",
+    "price": "747,78",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL_12_00056",
+    "nom": "Bizhub 283",
+    "code_barre": "A1UF031002136",
+    "price": "2400,00",
+    "vat": "21,00",
+    "mark": "Konica Minolta",
+    "id_family": 47
+  },
+  {
+    "description_f": "CPAS IXELLES 2960",
+    "nom": "Businessinkjet 2800",
+    "code_barre": "TH79P5Z03N",
+    "price": "955,90",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 49
+  },
+  {
+    "description_f": "CPASXL_13_00032",
+    "nom": "C925DE",
+    "code_barre": "50412032501Z5",
+    "price": "2977,50",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL1654",
+    "nom": "A19-5",
+    "code_barre": "YV2L004168",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "",
+    "nom": "Bizhub 363",
+    "code_barre": "A1UE021104482",
+    "price": "3005,26",
+    "vat": "21,00",
+    "mark": "Konica Minolta",
+    "id_family": 47
+  },
+  {
+    "description_f": "",
+    "nom": "Bizhub 363",
+    "code_barre": "A1UE02113352",
+    "price": "2549,89",
+    "vat": "21,00",
+    "mark": "Konica Minolta",
+    "id_family": 47
+  },
+  {
+    "description_f": "",
+    "nom": "Bizhub 363",
+    "code_barre": "A1UE021104495",
+    "price": "3005,26",
+    "vat": "21,00",
+    "mark": "Konica Minolta",
+    "id_family": 47
+  },
+  {
+    "description_f": "",
+    "nom": "C546 DTN",
+    "code_barre": "94561F2",
+    "price": "706,64",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL_14_00010",
+    "nom": "C748de",
+    "code_barre": "5026479422MHT",
+    "price": "1079,67",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL653",
+    "nom": "Laserjet 1320n",
+    "code_barre": "CNHW5C7GCT",
+    "price": "435,43",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL_12_00052",
+    "nom": "Laserjet P1505n",
+    "code_barre": "VNF3FC20046",
+    "price": "238,37",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL-15-00055",
+    "nom": "Pro Xpress M4020ND",
+    "code_barre": "ZDGSBJAG00026N",
+    "price": "296,33",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 48
+  },
+  {
+    "description_f": "cpasxl-15-00077",
+    "nom": "ProXpress M4020ND",
+    "code_barre": "zdgsbjag5001sgr",
+    "price": "322,42",
+    "vat": "21,00",
+    "mark": "samsung",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL2068",
+    "nom": "T652DN",
+    "code_barre": "794F21B",
+    "price": "665,50",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL886",
+    "nom": "710n",
+    "code_barre": "MJ17HMGLC22650A",
+    "price": "197,51",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL_13_00026",
+    "nom": "MS811dn",
+    "code_barre": "40632599017YP",
+    "price": "870,06",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL-14-00111",
+    "nom": "Scenic P300",
+    "code_barre": "YBCL137203",
+    "price": "645,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL2023",
+    "nom": "T650DN",
+    "code_barre": "794KLGW",
+    "price": "1439,90",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL2018",
+    "nom": "T650DN",
+    "code_barre": "794KNHD",
+    "price": "1439,90",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL2064",
+    "nom": "T652DN",
+    "code_barre": "794F25W",
+    "price": "665,50",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "",
+    "nom": "Bizhub 364e",
+    "code_barre": 1817192090,
+    "price": "2400,00",
+    "vat": "21,00",
+    "mark": "Konica Minolta",
+    "id_family": 47
+  },
+  {
+    "description_f": "CPASXL2061",
+    "nom": "Elite 720",
+    "code_barre": "CZC1164M3N",
+    "price": "938,86",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL_14_00101",
+    "nom": "P1913",
+    "code_barre": "CN0H9GD2744452A8110M",
+    "price": "139,25",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_14_00086",
+    "nom": "Z90S7",
+    "code_barre": "819DMC01248",
+    "price": "779,17",
+    "vat": "21,00",
+    "mark": "DELL Wyse",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-14-00098",
+    "nom": "TL-SG1005D Ver : 5.0",
+    "code_barre": 2142208004773,
+    "price": "17,50",
+    "vat": "21,00",
+    "mark": "TP-Link",
+    "id_family": 52
+  },
+  {
+    "description_f": "CPASXL2000",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004720",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "/",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515AHYZL",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-16-00069",
+    "nom": "HP Elitedisplay E202",
+    "code_barre": "6CM5501790",
+    "price": "104,30",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 56
+  },
+  {
+    "description_f": "CPASXL-14-00115",
+    "nom": "P1913",
+    "code_barre": "CN0H9GD2744452A8108M",
+    "price": "139,25",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-16-00026",
+    "nom": "Wyse 3030",
+    "code_barre": "8DJVV72",
+    "price": "491,63",
+    "vat": "21,00",
+    "mark": "DELL",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-16-00026",
+    "nom": "Wyse 3030",
+    "code_barre": "8DJVV72",
+    "price": "491,63",
+    "vat": "21,00",
+    "mark": "DELL",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL493",
+    "nom": "1550v",
+    "code_barre": "1Y10248IB",
+    "price": "121,00",
+    "vat": "21,00",
+    "mark": "NEC",
+    "id_family": 57
+  },
+  {
+    "description_f": "CPASXL1048",
+    "nom": "T5540",
+    "code_barre": "CNV8390FY6",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL039",
+    "nom": "710V",
+    "code_barre": "GS17HMEXA06205N",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1113",
+    "nom": "T5540",
+    "code_barre": "CNV8390H5J",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1147",
+    "nom": "T5540",
+    "code_barre": "CNV8390H5Y",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL474",
+    "nom": "1550v",
+    "code_barre": "2XB0093TB",
+    "price": "121,00",
+    "vat": "21,00",
+    "mark": "NEC",
+    "id_family": 57
+  },
+  {
+    "description_f": "CPASXL1044",
+    "nom": "T5540",
+    "code_barre": "CNV8390H2X",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL990",
+    "nom": "710n",
+    "code_barre": "MJ17HMGLC22662Y",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL966",
+    "nom": "e90",
+    "code_barre": "NLC7512460",
+    "price": "410,63",
+    "vat": "21,00",
+    "mark": "Neoware",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-15-00046",
+    "nom": "Ellipse eco 1600 VA",
+    "code_barre": "G033F02012",
+    "price": "375,55",
+    "vat": "21,00",
+    "mark": "EATON",
+    "id_family": 58
+  },
+  {
+    "description_f": "CPASXL_14_00090",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004736",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "",
+    "nom": 59,
+    "code_barre": "ZCMGHSOF402421",
+    "price": "1020,64",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 59
+  },
+  {
+    "description_f": "CPASXL830",
+    "nom": "Esprimo P2510",
+    "code_barre": "YKBB152991",
+    "price": "315,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-15-00093",
+    "nom": "OPTIPLEX 3020 MT C1",
+    "code_barre": "2DN2H32",
+    "price": "580,15",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL_13_00003",
+    "nom": "REV A01",
+    "code_barre": "CN062WP27444515AJTLN",
+    "price": "139,25",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_13_00003",
+    "nom": "REV A01",
+    "code_barre": "CN062WP27444515AJTLN",
+    "price": "139,25",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_13_00050",
+    "nom": "FX170",
+    "code_barre": "CN0C27K5765301BH2B6A",
+    "price": "469,48",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-15-00021",
+    "nom": "MON TFT 19\" DELL P1913 LED",
+    "code_barre": "2Y8742614850YFL",
+    "price": "125,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-16-00079",
+    "nom": "HP Elitedisplay E202",
+    "code_barre": "6CM55017F9",
+    "price": "104,30",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 56
+  },
+  {
+    "description_f": "CPASXL-16-00092",
+    "nom": "HP EliteDesk 705 G2",
+    "code_barre": "CZC623B4TZ",
+    "price": "469,80",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 45
+  },
+  {
+    "description_f": "/",
+    "nom": "T5540",
+    "code_barre": "CNV8390H5T",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1121",
+    "nom": "",
+    "code_barre": "YENB655665",
+    "price": "121,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 57
+  },
+  {
+    "description_f": "CPASXL2020",
+    "nom": "MWS1190t",
+    "code_barre": "AU3A1048002995",
+    "price": "130,00",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-15-00011",
+    "nom": "Wyze 909740-72L Z90D7",
+    "code_barre": "81GDN900273",
+    "price": "779,17",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "",
+    "nom": "170S",
+    "code_barre": "BZ3A0721629265",
+    "price": "145,20",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL_14_00013",
+    "nom": "Optiplex 3010",
+    "code_barre": "FV9J302",
+    "price": "601,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-15-00033",
+    "nom": "OPTIPLEX 3020 MT C1",
+    "code_barre": "7HN3H32",
+    "price": "580,15",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-13-00010",
+    "nom": "P190S",
+    "code_barre": "CN62WP27444515AHYSL",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPAS IXELLES 955",
+    "nom": "Esprimo E7935",
+    "code_barre": "YK7V038812",
+    "price": "797,38",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL_12_00029",
+    "nom": "C748de",
+    "code_barre": 5026199420759,
+    "price": "1079,62",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL_12_00023",
+    "nom": "T654dn",
+    "code_barre": "79594YM",
+    "price": "735,86",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "",
+    "nom": "Bizhub 363",
+    "code_barre": "A1UE021104499",
+    "price": "2978,19",
+    "vat": "21,00",
+    "mark": "Konica Minolta",
+    "id_family": 47
+  },
+  {
+    "description_f": "CPASXL-15-00005",
+    "nom": "MON TFT 19\" DELL P1913 LED",
+    "code_barre": "2Y87426148510JL",
+    "price": "125,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-15-00062",
+    "nom": "Wyze 909740-72L Z90D7",
+    "code_barre": "81GDN900130",
+    "price": "779,17",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-13-00049",
+    "nom": "C748de",
+    "code_barre": "5026119421HFW",
+    "price": "1079,62",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL-16-00048",
+    "nom": "HP EliteDesk 705 G2",
+    "code_barre": "CZC6109L3F",
+    "price": "469,80",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-16-00053",
+    "nom": "HP Elitedisplay E202",
+    "code_barre": "6CM55017F6",
+    "price": "104,30",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 56
+  },
+  {
+    "description_f": "CPASXL2017",
+    "nom": "Esprimo P3721",
+    "code_barre": "YLAJ012670",
+    "price": "562,63",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL_13_00058",
+    "nom": "P1913",
+    "code_barre": "CN0H9GD2744452A8123M",
+    "price": "139,25",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-15-00059",
+    "nom": "Wyze 909740-72L Z90D7",
+    "code_barre": "81GDN900153",
+    "price": "779,17",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "",
+    "nom": "TFT 1980PSA",
+    "code_barre": "C2098JA003092",
+    "price": "130,00",
+    "vat": "21,00",
+    "mark": "AOC",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL404",
+    "nom": "710v",
+    "code_barre": "GS17HSGXA33746F",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL-15-00096",
+    "nom": "OPTIPLEX 3020 MT C1",
+    "code_barre": "FFN2H32",
+    "price": "580,15",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL789",
+    "nom": "710n",
+    "code_barre": "MJ17HVGY829343F",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1111",
+    "nom": "T5540",
+    "code_barre": "CNV8390H32",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1545",
+    "nom": "A19-5",
+    "code_barre": "YV2L004177",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_14_00102",
+    "nom": "Esprimo P2510",
+    "code_barre": "YKEB101780",
+    "price": "700,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL1657",
+    "nom": "A19-5",
+    "code_barre": "YV2L006085",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-15-00069",
+    "nom": "Wyze 909740-72L Z90D7",
+    "code_barre": "81GDN900062",
+    "price": "779,17",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "",
+    "nom": "Aficio 2018",
+    "code_barre": 9146820843,
+    "price": "2400,00",
+    "vat": "21,00",
+    "mark": "Ricoh",
+    "id_family": 47
+  },
+  {
+    "description_f": "CPASXL2012",
+    "nom": "MWS1190t",
+    "code_barre": "AU3A1048002557",
+    "price": "130,00",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-15-00007",
+    "nom": "OPTIPLEX 3020 MT C1",
+    "code_barre": "BBN1H32",
+    "price": "580,15",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL726",
+    "nom": "Scanjet 2400",
+    "code_barre": "CN5ANSR253",
+    "price": "200,00",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 53
+  },
+  {
+    "description_f": "CPASXL1640",
+    "nom": "A19-5",
+    "code_barre": "YV2L004165",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1116",
+    "nom": "T5540",
+    "code_barre": "CNV8390H05",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL693",
+    "nom": "710n",
+    "code_barre": "MJ17HVGY829386K",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1701",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004692",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1602",
+    "nom": "A19-5",
+    "code_barre": "YV2L004374",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1109",
+    "nom": "T5540",
+    "code_barre": "CNV8390H6B",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "",
+    "nom": "170B",
+    "code_barre": "AU2A0731026868",
+    "price": "145,20",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL-15-00003",
+    "nom": "OPTIPLEX 3020 MT C1",
+    "code_barre": "3GN2H32",
+    "price": "580,15",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL042",
+    "nom": "710V",
+    "code_barre": "GS17HSGXA34000W",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL-12-00093",
+    "nom": "Esprimo E3500",
+    "code_barre": "YK7V038808",
+    "price": "549,30",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL1643",
+    "nom": "A19-5",
+    "code_barre": "YV2L006064",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1117",
+    "nom": "T5540",
+    "code_barre": "CNV8390H2T",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL227",
+    "nom": "710V",
+    "code_barre": "GS17HSGXA34001U",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1029",
+    "nom": "T5540",
+    "code_barre": "CNV8390G3D",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1591",
+    "nom": "A19-5",
+    "code_barre": "YV2L006505",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_14_00088",
+    "nom": "Z90S7",
+    "code_barre": "S2Y13L229944",
+    "price": "705,91",
+    "vat": "21,00",
+    "mark": "DELL Wyse",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL718",
+    "nom": "710n",
+    "code_barre": "MJ17HMCY911032X",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1571",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004707",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "",
+    "nom": "DES-1024D",
+    "code_barre": "F30E383000176",
+    "price": "100,00",
+    "vat": "21,00",
+    "mark": "D-Link",
+    "id_family": 52
+  },
+  {
+    "description_f": "CPASXL1655",
+    "nom": "A19-5",
+    "code_barre": "YV2N006240",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_13_00051",
+    "nom": "FX170",
+    "code_barre": "CN0C27K5765301BH2E12",
+    "price": "469,48",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "/",
+    "nom": "17'",
+    "code_barre": "AU3A1048002996",
+    "price": "121,36",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1010",
+    "nom": "G4010",
+    "code_barre": "CN7AXA62R7",
+    "price": "172,00",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 53
+  },
+  {
+    "description_f": "CPASXL-00055",
+    "nom": "L2208w",
+    "code_barre": "CNK804MLD",
+    "price": "246,84",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 60
+  },
+  {
+    "description_f": "CPASXL-15-00039",
+    "nom": "OPTIPLEX 3020 MT C1",
+    "code_barre": "79N5H32",
+    "price": "580,15",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-11-00005",
+    "nom": "Pro9000II",
+    "code_barre": "NACT06719",
+    "price": "502,15",
+    "vat": "21,00",
+    "mark": "Canon",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL037",
+    "nom": "710n",
+    "code_barre": "GS17HSGXA33682V",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1045",
+    "nom": "T5540",
+    "code_barre": "CNV8390H6P",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-16-00070",
+    "nom": "HP Elitedisplay E202",
+    "code_barre": "6CM550178R",
+    "price": "104,30",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 56
+  },
+  {
+    "description_f": "CPASXL-15-00035",
+    "nom": "OPTIPLEX 3020 MT C1",
+    "code_barre": "69N1H32",
+    "price": "580,15",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-14-00114",
+    "nom": "P1913",
+    "code_barre": "CN0H9GD2744452A8130M",
+    "price": "139,25",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1650",
+    "nom": "A19-5",
+    "code_barre": "YV2L006511",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_14_00087",
+    "nom": "Z90S7",
+    "code_barre": "S2Y1DKB00610",
+    "price": "705,91",
+    "vat": "21,00",
+    "mark": "DELL Wyse",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL036",
+    "nom": "710V",
+    "code_barre": "GS17HSGXA33677P",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL-16-00025",
+    "nom": "Wyse 3030",
+    "code_barre": "HBVZV72",
+    "price": "491,63",
+    "vat": "21,00",
+    "mark": "DELL",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-16-00034",
+    "nom": "Wyse 3030",
+    "code_barre": "82BMV72",
+    "price": "491,63",
+    "vat": "21,00",
+    "mark": "DELL",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1714",
+    "nom": "A19-5",
+    "code_barre": "YV2L006079",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-16-00034",
+    "nom": "Wyse 3030",
+    "code_barre": "82BMV72",
+    "price": "491,63",
+    "vat": "21,00",
+    "mark": "DELL",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL978",
+    "nom": "ScenicView A17",
+    "code_barre": "YENB656419",
+    "price": "191,20",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1150",
+    "nom": "T5540",
+    "code_barre": "CNV8390H1L",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL779",
+    "nom": "710n",
+    "code_barre": "MJ17HVGY829371T",
+    "price": "197,51",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL877",
+    "nom": "Esprimo P2510",
+    "code_barre": "YKBB153058",
+    "price": "443,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "",
+    "nom": "710N",
+    "code_barre": "MJ17HMGLC22335P",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1720",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004711",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-16-00033",
+    "nom": "Wyse 3030",
+    "code_barre": "48DJW72",
+    "price": "491,63",
+    "vat": "21,00",
+    "mark": "DELL",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1542",
+    "nom": "A19-5",
+    "code_barre": "YV2L006136",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1131",
+    "nom": "T5540",
+    "code_barre": "CNV8390H00",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-14-00140",
+    "nom": "Wyze 909740-72L Z90D7",
+    "code_barre": "81GDN900276",
+    "price": "779,17",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515AJ4YL",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1593",
+    "nom": "A19-5",
+    "code_barre": "YV2L004288",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1007",
+    "nom": "Esprimo P2520",
+    "code_barre": "YKEB101768",
+    "price": "443,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "",
+    "nom": "EX1920W",
+    "code_barre": "CB19H9GB109527Y",
+    "price": "147,62",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-15-00095",
+    "nom": "OPTIPLEX 3020 MT C1",
+    "code_barre": "FCN4H32",
+    "price": "580,15",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPAS IXELLES 861",
+    "nom": "710n",
+    "code_barre": "MJ17HMGLC22606D",
+    "price": "197,51",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL-15-00101",
+    "nom": "Esprimo E7935",
+    "code_barre": "YKJW007604",
+    "price": "700,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL_14_00009",
+    "nom": "MS811dn",
+    "code_barre": "406336990DK18",
+    "price": "870,06",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL-12-00071",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515AHYFL",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-16-00010",
+    "nom": "HP ProDesk 600 G2",
+    "code_barre": "CZC60680LT",
+    "price": "1023,47",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-16-00019",
+    "nom": "HP Elitedisplay E240",
+    "code_barre": "CNK55211TM",
+    "price": "141,00",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 61
+  },
+  {
+    "description_f": "CPASXL-16-00010",
+    "nom": "HP ProDesk 600 G2",
+    "code_barre": "CZC60680LT",
+    "price": "1023,47",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-16-00019",
+    "nom": "HP Elitedisplay E240",
+    "code_barre": "CNK55211TM",
+    "price": "141,00",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 61
+  },
+  {
+    "description_f": "CPASXL-15-00019",
+    "nom": "OPTIPLEX 3020 MT C1",
+    "code_barre": "1BN0H32",
+    "price": "580,15",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "/",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515AHZLL",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-15-00018",
+    "nom": "OPTIPLEX 3020 MT C1",
+    "code_barre": "1CN3H32",
+    "price": "580,15",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-13-00013",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515AJJEL",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL780",
+    "nom": "710n",
+    "code_barre": "MJ17HVGY829379X",
+    "price": "197,51",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL-12-00094",
+    "nom": "Dc5700s",
+    "code_barre": "CZC7203815",
+    "price": "673,97",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL1702",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004741",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1231",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515AJOBL",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1624",
+    "nom": "A19-5",
+    "code_barre": "YV2L004527",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1722",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004719",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-16-00086",
+    "nom": "HP Elitedisplay E202",
+    "code_barre": "6CM5501789",
+    "price": "104,30",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 56
+  },
+  {
+    "description_f": "CPASXL-16-00086",
+    "nom": "HP Elitedisplay E202",
+    "code_barre": "6CM5501789",
+    "price": "104,30",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 56
+  },
+  {
+    "description_f": "CPASXL-16-00099",
+    "nom": "HP EliteDesk 705 G2",
+    "code_barre": "CZC623B4TT",
+    "price": "469,80",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 45
+  },
+  {
+    "description_f": "/",
+    "nom": "P1913",
+    "code_barre": "CN0H9GD2744452A8127M",
+    "price": "139,25",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL667",
+    "nom": "710n",
+    "code_barre": "MJ17HMCH910999F",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL_12_00007",
+    "nom": "FX170",
+    "code_barre": "CN0C27K5765301BH2BEF",
+    "price": "469,48",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "cpasxl-15-00078",
+    "nom": "ProXpress M4020ND",
+    "code_barre": "zdgsbjag5001smk",
+    "price": "322,42",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL1124",
+    "nom": "T5540",
+    "code_barre": "CNV8390H5M",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "",
+    "nom": "LATITUDE E5540",
+    "code_barre": "GRKNL32",
+    "price": "897,24",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 51
+  },
+  {
+    "description_f": "CPAS IXELLES 786",
+    "nom": "710n",
+    "code_barre": "MJ17HVGY829374Z",
+    "price": "197,51",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "Control Chaudière",
+    "nom": "Optiplex 780",
+    "code_barre": "GSZF05J",
+    "price": "625,57",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-15-00028",
+    "nom": "SL-4020ND",
+    "code_barre": "ZDGSBJCFA000V9V",
+    "price": "296,45",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL_13_00021",
+    "nom": "Optiplex 3010",
+    "code_barre": "HY52NW1",
+    "price": "596,87",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL_13_00022",
+    "nom": "P2412H (wide)",
+    "code_barre": "MDG742612BQ2JYU",
+    "price": "211,31",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 61
+  },
+  {
+    "description_f": "CPASXL980",
+    "nom": "ScenicView A17",
+    "code_barre": "YENB656450",
+    "price": "191,20",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1049",
+    "nom": "T5540",
+    "code_barre": "CNV8390FL9",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1160",
+    "nom": "Esprimo E7935",
+    "code_barre": "YKJW001691",
+    "price": "700,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL_12_00001",
+    "nom": "MWS1190t",
+    "code_barre": "AU3A1048002899",
+    "price": "130,00",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1169",
+    "nom": "919VA2",
+    "code_barre": "C2098JA003895",
+    "price": "130,00",
+    "vat": "21,00",
+    "mark": "AOC",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_11_00006",
+    "nom": "PRECISION M6600",
+    "code_barre": "2PMH5S1",
+    "price": "1847,67",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 51
+  },
+  {
+    "description_f": "CPASXL-15-00026",
+    "nom": "OPTIPLEX 3020 MT C1",
+    "code_barre": "FDN5H32",
+    "price": "580,15",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL_12_00008",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515AHZ0L",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL220",
+    "nom": "710V",
+    "code_barre": "GS17HSGXA33660K",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL-15-00060",
+    "nom": "Wyze 909740-72L Z90D7",
+    "code_barre": "81GDN900083",
+    "price": "779,17",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-16-00060",
+    "nom": "HP Elitedisplay E202",
+    "code_barre": "6CM550178B",
+    "price": "104,30",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 56
+  },
+  {
+    "description_f": "CPASXL-16-00088",
+    "nom": "HP Elitedisplay E202",
+    "code_barre": "6CM5501793",
+    "price": "104,30",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 56
+  },
+  {
+    "description_f": "CPASXL-16-00088",
+    "nom": "HP Elitedisplay E202",
+    "code_barre": "6CM5501793",
+    "price": "104,30",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 56
+  },
+  {
+    "description_f": "CPASXL-13-00053",
+    "nom": "Z90S7",
+    "code_barre": "S2Y1DKB00746",
+    "price": "705,91",
+    "vat": "21,00",
+    "mark": "DELL Wyse",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL268",
+    "nom": "710V",
+    "code_barre": "GS17HSGXA33740A",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1031",
+    "nom": "220SW",
+    "code_barre": "FE4A0842002129",
+    "price": "186,76",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 60
+  },
+  {
+    "description_f": "CPASXL-16-00101",
+    "nom": "HP EliteDesk 705 G2",
+    "code_barre": "CZC6109L3K",
+    "price": "469,80",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 45
+  },
+  {
+    "description_f": "",
+    "nom": "A19-5",
+    "code_barre": "YV2L006065",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_11_00010",
+    "nom": "PRECISION M6600",
+    "code_barre": "2PML4S1",
+    "price": "1847,67",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 51
+  },
+  {
+    "description_f": "CPASXL1555",
+    "nom": "A19-5",
+    "code_barre": "YV2L004998",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_11_00004",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004728",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1036",
+    "nom": "Esprimo E7935",
+    "code_barre": "YKJW001678",
+    "price": "700,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL2005",
+    "nom": "EX1920W",
+    "code_barre": "CB19H9GB109455M",
+    "price": "130,00",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_12_00012",
+    "nom": "Optiplex 790",
+    "code_barre": "9Z7K65J",
+    "price": "625,57",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515AHY2L",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "",
+    "nom": "Perfection 1640SU",
+    "code_barre": "CSBX018319",
+    "price": "189,00",
+    "vat": "21,00",
+    "mark": "Epson",
+    "id_family": 53
+  },
+  {
+    "description_f": "CPASXL288",
+    "nom": "710V",
+    "code_barre": "GS17HSGXA33724M",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL2052",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004724",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1149",
+    "nom": "T5540",
+    "code_barre": "CNV8390H6H",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1649",
+    "nom": "A19-5",
+    "code_barre": "YV2L004544",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1043",
+    "nom": "T5540",
+    "code_barre": "CNV8390H6N",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL286",
+    "nom": "710V",
+    "code_barre": "GS17HSGXA33645H",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL_14_00070",
+    "nom": "Z90S7",
+    "code_barre": "819DMC00511",
+    "price": "779,17",
+    "vat": "21,00",
+    "mark": "DELL Wyse",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-15-00031",
+    "nom": "MON TFT 19\" P1911 WIDE",
+    "code_barre": "GD2744454BMA1PU",
+    "price": "125,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_11_00009",
+    "nom": "PRECISION M6600",
+    "code_barre": "2PML5S1",
+    "price": "1847,67",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 51
+  },
+  {
+    "description_f": "CPASXL_14_00016",
+    "nom": "Optiplex 3010",
+    "code_barre": "CS9J302",
+    "price": "601,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL1014",
+    "nom": "ScenicView A17",
+    "code_barre": "YENB655659",
+    "price": "302,50",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL936",
+    "nom": "e90",
+    "code_barre": "NLC7495085",
+    "price": "410,63",
+    "vat": "21,00",
+    "mark": "Neoware",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL982",
+    "nom": "ScenicView A17",
+    "code_barre": "YENB655690",
+    "price": "191,20",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 50
+  },
+  {
+    "description_f": "",
+    "nom": "S24C450B",
+    "code_barre": "ZX1CHTND300404M",
+    "price": "302,50",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 61
+  },
+  {
+    "description_f": "IXELLES",
+    "nom": "Laserjet P3005n",
+    "code_barre": "CNF1N77672",
+    "price": "302,50",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL_14_00011",
+    "nom": "Optiplex 3010",
+    "code_barre": "1S9J302",
+    "price": "601,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL1510",
+    "nom": "Esprimo E7935",
+    "code_barre": "YKJW001680",
+    "price": "700,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL2010",
+    "nom": "MWS1190t",
+    "code_barre": "AU3A1048002905",
+    "price": "130,00",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL790",
+    "nom": "710n",
+    "code_barre": "MJ17H9NY857794B",
+    "price": "302,50",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL_14_00012",
+    "nom": "Optiplex 3010",
+    "code_barre": "2W9J302",
+    "price": "601,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL756",
+    "nom": "710n",
+    "code_barre": "MJ17H9NY857701P",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "cpasxl-14-00140",
+    "nom": "Esprimo E3500",
+    "code_barre": "YK7V038820",
+    "price": "549,30",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL919",
+    "nom": "710N",
+    "code_barre": "MJ17HMGLC22316H",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1514",
+    "nom": "T5540",
+    "code_barre": "CNV8390H6C",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL209",
+    "nom": "710V",
+    "code_barre": "GS17HSGXA33732E",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL-16-00040",
+    "nom": "Wyse 3030",
+    "code_barre": "BFC4W72",
+    "price": "491,63",
+    "vat": "21,00",
+    "mark": "DELL",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-16-00040",
+    "nom": "Wyse 3030",
+    "code_barre": "BFC4W72",
+    "price": "491,63",
+    "vat": "21,00",
+    "mark": "DELL",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-16-00044",
+    "nom": "HP EliteDesk 705 G2",
+    "code_barre": "CZC6109L3B",
+    "price": "469,80",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL906",
+    "nom": "Esprimo P2510",
+    "code_barre": "YKBB152997",
+    "price": "315,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-12-00081",
+    "nom": "L2208w",
+    "code_barre": "CNK8040MLF",
+    "price": "246,84",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 60
+  },
+  {
+    "description_f": "CPASXL2003",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004694",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-15-00085",
+    "nom": "MON TFT 19\" DELL P1913 LED",
+    "code_barre": "2Y8742614850YHL",
+    "price": "125,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1653",
+    "nom": "A19-5",
+    "code_barre": "YV2L006501",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1579",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004698",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL121",
+    "nom": "710V",
+    "code_barre": "GS17HSGXA33735H",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL-13-00047",
+    "nom": "FX170",
+    "code_barre": "2NF59Q1",
+    "price": "469,48",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1585",
+    "nom": "A19-5",
+    "code_barre": "YV2L004883",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1164",
+    "nom": "T5540",
+    "code_barre": "CNV8390H2G",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL691",
+    "nom": "710N",
+    "code_barre": "MJ17H9NY857911W",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL_14_00085",
+    "nom": "Z90S7",
+    "code_barre": "819DMC00603",
+    "price": "779,17",
+    "vat": "21,00",
+    "mark": "DELL Wyse",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-16-00018",
+    "nom": "HP ProDesk 600 G2",
+    "code_barre": "CZC60680LS",
+    "price": "1023,47",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-16-00016",
+    "nom": "HP Elitedisplay E240",
+    "code_barre": "CNK55211T8",
+    "price": "141,00",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 61
+  },
+  {
+    "description_f": "",
+    "nom": "710N",
+    "code_barre": "MJ17HMGLC22611L",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL738",
+    "nom": "e90",
+    "code_barre": "NLC7495083",
+    "price": "410,63",
+    "vat": "21,00",
+    "mark": "Neoware",
+    "id_family": 55
+  },
+  {
+    "description_f": "",
+    "nom": "190S1",
+    "code_barre": "AU3A1048002981",
+    "price": "121,36",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1015",
+    "nom": "Esprimo E7935",
+    "code_barre": "YKJW001683",
+    "price": "797,38",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-13-00033",
+    "nom": "Optiplex 790",
+    "code_barre": "DZ7K65J",
+    "price": "625,57",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-13-00034",
+    "nom": "P190S",
+    "code_barre": "CN62WP27444515AHU4L",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-12-0007",
+    "nom": "BIG NETWORK 2",
+    "code_barre": "510158B953A",
+    "price": "841,55",
+    "vat": "21,00",
+    "mark": "Lacie",
+    "id_family": 62
+  },
+  {
+    "description_f": "CPASXL-12-00072",
+    "nom": "BIG NETWORK 2",
+    "code_barre": "EMPT1206110070U",
+    "price": "841,55",
+    "vat": "21,00",
+    "mark": "Lacie",
+    "id_family": 62
+  },
+  {
+    "description_f": "CPASXL-13-00062",
+    "nom": "DS212",
+    "code_barre": "CBKON01824",
+    "price": "499,97",
+    "vat": "21,00",
+    "mark": "Synology",
+    "id_family": 62
+  },
+  {
+    "description_f": "CPASXL-13-00061",
+    "nom": "DS212",
+    "code_barre": "CBKON11658",
+    "price": "499,97",
+    "vat": "21,00",
+    "mark": "Synology",
+    "id_family": 62
+  },
+  {
+    "description_f": "CPASXL-13-00063",
+    "nom": "DS212",
+    "code_barre": "CBKON14943",
+    "price": "499,86",
+    "vat": "21,00",
+    "mark": "Synology",
+    "id_family": 62
+  },
+  {
+    "description_f": "CPASXL-14-00118",
+    "nom": "DS412+",
+    "code_barre": "E1LIN00028",
+    "price": "1283,33",
+    "vat": "21,00",
+    "mark": "Synology",
+    "id_family": 62
+  },
+  {
+    "description_f": "CPASXL-14-00116",
+    "nom": "DS412+",
+    "code_barre": "E1LIN00193",
+    "price": "1283,33",
+    "vat": "21,00",
+    "mark": "Synology",
+    "id_family": 62
+  },
+  {
+    "description_f": "CPASXL-14-00117",
+    "nom": "DS414",
+    "code_barre": "1380LUN002084",
+    "price": "485,50",
+    "vat": "21,00",
+    "mark": "Synology",
+    "id_family": 62
+  },
+  {
+    "description_f": "",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515AHYKL",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-15-00075",
+    "nom": "Wyze 909740-72L Z90D7",
+    "code_barre": "81GDN900281",
+    "price": "779,17",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-16-00059",
+    "nom": "SL-M4020ND",
+    "code_barre": "ZDGSBJAGB0004ZX",
+    "price": "322,42",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL1616",
+    "nom": "A19-5",
+    "code_barre": "YV2L004490",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1200",
+    "nom": "T5540",
+    "code_barre": "CNV8390H3D",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL890",
+    "nom": "710n",
+    "code_barre": "MJ17HMGLC22379V",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL_14_00026",
+    "nom": "Optiplex 3010",
+    "code_barre": "423J302",
+    "price": "601,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL038",
+    "nom": "710v",
+    "code_barre": "GS17HSGXA33737M",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL832",
+    "nom": "Esprimo P2510",
+    "code_barre": "YKBB153004",
+    "price": "443,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-15-00097",
+    "nom": "OPTIPLEX 3020 MT C1",
+    "code_barre": "4JN2H32",
+    "price": "580,15",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-16-00102",
+    "nom": "HP EliteDesk 705 G2",
+    "code_barre": "CZC623B4V1",
+    "price": "469,80",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 45
+  },
+  {
+    "description_f": "/",
+    "nom": "P1913",
+    "code_barre": "CN0H9GD2744452A8115M",
+    "price": "139,25",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "cpasxl-15-00076",
+    "nom": "ProXpress M4020ND",
+    "code_barre": "zdgsbjag5001trt",
+    "price": "322,42",
+    "vat": "21,00",
+    "mark": "samsung",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL1588",
+    "nom": "A19-5",
+    "code_barre": "YV2L006089",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1112",
+    "nom": "T5540",
+    "code_barre": "CNV8390H6G",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "",
+    "nom": "170S",
+    "code_barre": "BZ3A0721629657",
+    "price": "145,20",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL2059",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004721",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL_14_00110",
+    "nom": "P1913",
+    "code_barre": "CN0H9GD2744452A8132M",
+    "price": "139,25",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1638",
+    "nom": "A19-5",
+    "code_barre": "YV2L004391",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_14_00076",
+    "nom": "FX170",
+    "code_barre": "CN0C27K5765301BH2CD7",
+    "price": "469,48",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1568",
+    "nom": "A19-5",
+    "code_barre": "YV2L004272",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-16-00030",
+    "nom": "Wyse 3030",
+    "code_barre": "BYTTV72",
+    "price": "491,63",
+    "vat": "21,00",
+    "mark": "DELL",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-16-00030",
+    "nom": "Wyse 3030",
+    "code_barre": "BYTTV72",
+    "price": "491,63",
+    "vat": "21,00",
+    "mark": "DELL",
+    "id_family": 55
+  },
+  {
+    "description_f": "",
+    "nom": "710n",
+    "code_barre": "MJ17HMGLC22184M",
+    "price": "197,51",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1729",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004712",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "/",
+    "nom": "710n",
+    "code_barre": "MJ17HMCY911052K",
+    "price": "197,51",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL863",
+    "nom": "710n",
+    "code_barre": "MJ17HMGLC22183J",
+    "price": "197,51",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL902",
+    "nom": "710n",
+    "code_barre": "MJ17HMGLC22381P",
+    "price": "197,51",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL862",
+    "nom": "710n",
+    "code_barre": "MJ17HMGLC22512Z",
+    "price": "197,51",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL864",
+    "nom": "710n",
+    "code_barre": "MJ17HMGLCZ2314F",
+    "price": "197,51",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL526",
+    "nom": "710v",
+    "code_barre": "GS17HSGXA33716B",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPAS-IXELLES878",
+    "nom": "Esprimo P2510",
+    "code_barre": "YKBB152972",
+    "price": "700,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-13-00066",
+    "nom": "EX1920W",
+    "code_barre": "CB19H9GB109431V",
+    "price": "147,62",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 54
+  },
+  {
+    "description_f": "",
+    "nom": "PRECISION M6600",
+    "code_barre": "",
+    "price": "1847,67",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 51
+  },
+  {
+    "description_f": "CPASXL-15-00024",
+    "nom": "V-line 193V5LSB2/10 LED 18,5",
+    "code_barre": "UK0A14300330484",
+    "price": "105,50",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPAS IXELLES 805",
+    "nom": "710n",
+    "code_barre": "MJ17HVGY829350A",
+    "price": "197,51",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPAS IXELLES 927",
+    "nom": "710n",
+    "code_barre": "MJ17MGLC22336D",
+    "price": "197,51",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL-14-00120",
+    "nom": "MASTER VIEWER CS-1758",
+    "code_barre": "A19C8129BEM0142",
+    "price": "190,08",
+    "vat": "21,00",
+    "mark": "ATEN",
+    "id_family": 63
+  },
+  {
+    "description_f": "CPASXL-14-00119",
+    "nom": "MASTER VIEWER CS-1758",
+    "code_barre": "A1A6N150BFU0121",
+    "price": "190,08",
+    "vat": "21,00",
+    "mark": "ATEN",
+    "id_family": 63
+  },
+  {
+    "description_f": "CPASXL-14-00121",
+    "nom": "Power Connect 2824",
+    "code_barre": "65L8VS1",
+    "price": "263,86",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 52
+  },
+  {
+    "description_f": "CPASXL-14-00122",
+    "nom": "Power Connect 2824",
+    "code_barre": "75L8VS1",
+    "price": "263,86",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 52
+  },
+  {
+    "description_f": "CPASXL1137",
+    "nom": "Laserjet P1505n",
+    "code_barre": "VNF3J20139",
+    "price": "238,37",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPAS IXELLES 962",
+    "nom": "710n",
+    "code_barre": "MJ17HMGLC22382D",
+    "price": "197,51",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPAS IXELLES 939",
+    "nom": "e90",
+    "code_barre": "NLC7512317",
+    "price": "410,63",
+    "vat": "21,00",
+    "mark": "Neoware",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPAS IXELLES 672",
+    "nom": "710n",
+    "code_barre": "MJ17HMCY910984N",
+    "price": "197,51",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPAS IXELLES 945",
+    "nom": "e90",
+    "code_barre": "NLC7512429",
+    "price": "410,63",
+    "vat": "21,00",
+    "mark": "Neoware",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPAS IXELLES 673",
+    "nom": "710n",
+    "code_barre": "MJ17HMCY911062L",
+    "price": "197,51",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1134",
+    "nom": "T5540",
+    "code_barre": "CNV8390GZZ",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL913",
+    "nom": "710N",
+    "code_barre": "MJ17HMGLC22111J",
+    "price": "197,51",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1146",
+    "nom": "e90",
+    "code_barre": "3CN82003K9",
+    "price": "410,63",
+    "vat": "21,00",
+    "mark": "Neoware",
+    "id_family": 55
+  },
+  {
+    "description_f": "",
+    "nom": "AC750 wireless Dual Band Router",
+    "code_barre": "2710EU43400034",
+    "price": "43,08",
+    "vat": "21,00",
+    "mark": "netis",
+    "id_family": 64
+  },
+  {
+    "description_f": "",
+    "nom": "AC750 wireless Dual Band Router",
+    "code_barre": "2710EU43400035",
+    "price": "43,08",
+    "vat": "21,00",
+    "mark": "netis",
+    "id_family": 64
+  },
+  {
+    "description_f": "",
+    "nom": "AC750 wireless Dual Band Router",
+    "code_barre": "2710EU43400036",
+    "price": "43,08",
+    "vat": "21,00",
+    "mark": "netis",
+    "id_family": 64
+  },
+  {
+    "description_f": "",
+    "nom": "AC750 wireless Dual Band Router",
+    "code_barre": "2710EU43400040",
+    "price": "43,08",
+    "vat": "21,00",
+    "mark": "netis",
+    "id_family": 64
+  },
+  {
+    "description_f": "",
+    "nom": "AC750 wireless Dual Band Router",
+    "code_barre": "2710EU51102756",
+    "price": "43,08",
+    "vat": "21,00",
+    "mark": "netis",
+    "id_family": 64
+  },
+  {
+    "description_f": "",
+    "nom": "AC750 wireless Dual Band Router",
+    "code_barre": "2710EU51102760",
+    "price": "43,08",
+    "vat": "21,00",
+    "mark": "netis",
+    "id_family": 64
+  },
+  {
+    "description_f": "",
+    "nom": "AC750 wireless Dual Band Router",
+    "code_barre": "",
+    "price": "43,08",
+    "vat": "21,00",
+    "mark": "netis",
+    "id_family": 64
+  },
+  {
+    "description_f": "CPASXL-12-00096",
+    "nom": "C546 DTN",
+    "code_barre": "9460N6N",
+    "price": "706,64",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL1639",
+    "nom": "A19-5",
+    "code_barre": "YV2L006236",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_14_00077",
+    "nom": "FX170",
+    "code_barre": "CN0C27K5765301BH2DD2",
+    "price": "469,48",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-16-00046",
+    "nom": "HP EliteDesk 705 G2",
+    "code_barre": "CZC6109L3D",
+    "price": "469,80",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL1590",
+    "nom": "A19-5",
+    "code_barre": "YV2L005271",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1574",
+    "nom": "T5540",
+    "code_barre": "CNV8390H61",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL2080",
+    "nom": "190S1",
+    "code_barre": "AU3A1048002919",
+    "price": "121,36",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-12-00080",
+    "nom": "190S1",
+    "code_barre": "AU3A1048002976",
+    "price": "121,36",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-12-00079",
+    "nom": "Esprimo P3721",
+    "code_barre": "YLAJ012681",
+    "price": "562,65",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL899",
+    "nom": "710n",
+    "code_barre": "MJ17HNGLC22383X",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1129",
+    "nom": "T5540",
+    "code_barre": "CNV8390FZM",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL2074",
+    "nom": "190S1",
+    "code_barre": "AU3A1048003627",
+    "price": "121,36",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL2027",
+    "nom": "Esprimo P3721",
+    "code_barre": "YNAJ012667",
+    "price": "562,65",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL2073",
+    "nom": "190S1",
+    "code_barre": "AU3A1048002903",
+    "price": "121,36",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL2035",
+    "nom": "Esprimo P3721",
+    "code_barre": "YNAJ012674",
+    "price": "562,65",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL2075",
+    "nom": "190S1",
+    "code_barre": "AU3A1048002988",
+    "price": "121,36",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL2026",
+    "nom": "Esprimo P3721",
+    "code_barre": "YNAJ012680",
+    "price": "562,65",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL2067",
+    "nom": "190S1",
+    "code_barre": "AU3A1048003629",
+    "price": "121,36",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL2028",
+    "nom": "Esprimo P3721",
+    "code_barre": "YNAJ012664",
+    "price": "562,65",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL2066",
+    "nom": "190S1",
+    "code_barre": "AU3A1048002974",
+    "price": "121,36",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL2029",
+    "nom": "Esprimo P3721",
+    "code_barre": "YNAJ012671",
+    "price": "562,65",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL2065",
+    "nom": "190S1",
+    "code_barre": "AU3A1048002986",
+    "price": "121,36",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL2030",
+    "nom": "Esprimo P3721",
+    "code_barre": "YNAJ012676",
+    "price": "562,65",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL2069",
+    "nom": "190S1",
+    "code_barre": "AU3A1048002929",
+    "price": "121,36",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL2031",
+    "nom": "Esprimo P3721",
+    "code_barre": "YNAJ012673",
+    "price": "562,65",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL2078",
+    "nom": "190S1",
+    "code_barre": "AU3A1048002927",
+    "price": "121,36",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "",
+    "nom": "Esprimo P3721",
+    "code_barre": "YNAJ012668",
+    "price": "562,65",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL2077",
+    "nom": "190S1",
+    "code_barre": "AU3A1048002897",
+    "price": "121,36",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "",
+    "nom": "Esprimo P3721",
+    "code_barre": "YNAJ012679",
+    "price": "562,65",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL2076",
+    "nom": "190S1",
+    "code_barre": "AU3A1048003661",
+    "price": "121,36",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL2034",
+    "nom": "Esprimo P3721",
+    "code_barre": "YNAJ012683",
+    "price": "562,65",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL1144",
+    "nom": "Esprimo E7935",
+    "code_barre": "YKJW001681",
+    "price": "700,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-15-000102",
+    "nom": "MON TFT 19\" DELL P1913 LED",
+    "code_barre": "2Y87426148510VL",
+    "price": "125,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL198",
+    "nom": "710V",
+    "code_barre": "GS17HSGXA33869A",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL_14_00083",
+    "nom": "Z90S7",
+    "code_barre": "819DMC00569",
+    "price": "779,17",
+    "vat": "21,00",
+    "mark": "DELL Wyse",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-13-00027",
+    "nom": "MS811dn",
+    "code_barre": "40632599017ZW",
+    "price": "870,06",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL1544",
+    "nom": "A19-5",
+    "code_barre": "YV2L004525",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL834",
+    "nom": "Deskjet 6940",
+    "code_barre": "MY6CD9R3BV",
+    "price": "124,63",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 49
+  },
+  {
+    "description_f": "CPASXL_14_00024",
+    "nom": "Optiplex 3010",
+    "code_barre": "643J302",
+    "price": "601,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL_14_00027",
+    "nom": "Optiplex 3010",
+    "code_barre": "C23J302",
+    "price": "601,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL_12_00027",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515AHTXN",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_14_00006",
+    "nom": "MS811dn",
+    "code_barre": "406336990DK0Z",
+    "price": "870,06",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL_14_00028",
+    "nom": "Optiplex 3010",
+    "code_barre": "433J302",
+    "price": "601,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "",
+    "nom": "P1913",
+    "code_barre": "CN0H9GD2744452A8122M",
+    "price": "139,25",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1730",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004739",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515AHZFL",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_14_00005",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515AHZ5L",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-15-00040",
+    "nom": "Wyze 909740-72L Z90D7",
+    "code_barre": "81GDN900184",
+    "price": "779,17",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "",
+    "nom": "EX531p (4:3)",
+    "code_barre": "",
+    "price": "635,25",
+    "vat": "21,00",
+    "mark": "Optoma",
+    "id_family": 65
+  },
+  {
+    "description_f": "",
+    "nom": "IR2230",
+    "code_barre": "KJD10774",
+    "price": "2400,00",
+    "vat": "21,00",
+    "mark": "Canon",
+    "id_family": 47
+  },
+  {
+    "description_f": "CPASXL207",
+    "nom": "710V",
+    "code_barre": "GS17HSGXA33718Z",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1123",
+    "nom": "T5540",
+    "code_barre": "CNV8390H63",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL_12_00019",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004713",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-15-00084",
+    "nom": "MON TFT 19\" DELL P1913 LED",
+    "code_barre": "2Y874261485111L",
+    "price": "125,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-14-00143",
+    "nom": "Esprimo P3721",
+    "code_barre": "YLAJ012666",
+    "price": "562,65",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL1583",
+    "nom": "A19-5",
+    "code_barre": "YV2L006359",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-12-00095",
+    "nom": "Dc5700s",
+    "code_barre": "CZC7203PVR",
+    "price": "673,97",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL1155",
+    "nom": "Laserjet P1505n",
+    "code_barre": "VNF3J20101",
+    "price": "238,37",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL889",
+    "nom": "710n",
+    "code_barre": "MJ17HMGLC22182H",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL_14_00021",
+    "nom": "Optiplex 3010",
+    "code_barre": "4V9J302",
+    "price": "601,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL816",
+    "nom": "710N",
+    "code_barre": "MJ17HMCY911049R",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL-15-00013",
+    "nom": "Wyze 909740-72L Z90D7",
+    "code_barre": "81GDN900172",
+    "price": "779,17",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "",
+    "nom": "170S",
+    "code_barre": "BZ3A0721629451",
+    "price": "145,20",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL-12-00090",
+    "nom": "Dc5700s",
+    "code_barre": "CZC72037PY",
+    "price": "673,97",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL830",
+    "nom": "Esprimo P2510",
+    "code_barre": "YKBB152991",
+    "price": "315,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "",
+    "nom": "P1913",
+    "code_barre": "CN0H9GD2744452A8120M",
+    "price": "139,25",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "",
+    "nom": "Bizhub 363",
+    "code_barre": "A1UE021104458",
+    "price": "2978,19",
+    "vat": "21,00",
+    "mark": "Konica Minolta",
+    "id_family": 47
+  },
+  {
+    "description_f": "CPASXL-16-00075",
+    "nom": "HP Elitedisplay E202",
+    "code_barre": "6CM550178H",
+    "price": "104,30",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 56
+  },
+  {
+    "description_f": "CPASXL-16-00091",
+    "nom": "HP EliteDesk 705 G2",
+    "code_barre": "CZC623B4TY",
+    "price": "469,80",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL1713",
+    "nom": "Futro S550-2-EID",
+    "code_barre": "YL8N004746",
+    "price": "372,63",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL_14_00103",
+    "nom": "P1913",
+    "code_barre": "CN0H9GD2744452A8129M",
+    "price": "139,25",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1716",
+    "nom": "Futro S550-2-EID",
+    "code_barre": "YL8N004749",
+    "price": "372,63",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL_14_00109",
+    "nom": "P1913",
+    "code_barre": "CN0H9GD2744452A8126M",
+    "price": "139,25",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1714",
+    "nom": "Futro S550-2-EID",
+    "code_barre": "YL8N004740",
+    "price": "372,63",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL_14_00105",
+    "nom": "P1913",
+    "code_barre": "CN0H9GD2744452A8121M",
+    "price": "139,25",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1710",
+    "nom": "Futro S550-2-EID",
+    "code_barre": "YL8N004748",
+    "price": "372,63",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL_14_00104",
+    "nom": "REV A01",
+    "code_barre": "CN0H9GD2744452AB132N",
+    "price": "139,25",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1541",
+    "nom": "Futro S550-2-EID",
+    "code_barre": "YL8N004744",
+    "price": "372,63",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL_14_00107",
+    "nom": "P1913",
+    "code_barre": "CN0H9GD2744452A8133M",
+    "price": "139,25",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1717",
+    "nom": "Futro S550-2-EID",
+    "code_barre": "YL8N004747",
+    "price": "372,63",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL_1400108",
+    "nom": "P1913",
+    "code_barre": "CN0H9GD2744452A8124M",
+    "price": "139,25",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-16-00011",
+    "nom": "HP Elitedisplay E240",
+    "code_barre": "CNK55211TJ",
+    "price": "141,00",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 61
+  },
+  {
+    "description_f": "CPASXL-16-00017",
+    "nom": "HP ProDesk 600 G2",
+    "code_barre": "CZC60680LV",
+    "price": "1023,47",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-15-00083",
+    "nom": "MON TFT 19\" DELL P1913 LED",
+    "code_barre": "2Y874261485114L",
+    "price": "125,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-16-00017",
+    "nom": "HP ProDesk 600 G2",
+    "code_barre": "CZC60680LV",
+    "price": "1023,47",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-16-00011",
+    "nom": "HP Elitedisplay E240",
+    "code_barre": "CNK55211TJ",
+    "price": "141,00",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 61
+  },
+  {
+    "description_f": "CPASXL-16-00014",
+    "nom": "HP Elitedisplay E240",
+    "code_barre": "CNK55211T6",
+    "price": "141,00",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 61
+  },
+  {
+    "description_f": "CPASXL-16-00012",
+    "nom": "HP ProDesk 600 G2",
+    "code_barre": "CZC60680LW",
+    "price": "1023,47",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL2053",
+    "nom": "190S1",
+    "code_barre": "AU3A1048002932",
+    "price": "121,36",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL2015",
+    "nom": "Esprimo P3721",
+    "code_barre": "YLAJ012672",
+    "price": "562,65",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL087",
+    "nom": "710V",
+    "code_barre": "GS17HSGXA33748H",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL-15-00070",
+    "nom": "Wyze 909740-72L Z90D7",
+    "code_barre": "81GDN900121",
+    "price": "779,17",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-16-00036",
+    "nom": "Wyse 3030",
+    "code_barre": "3NMFV72",
+    "price": "491,63",
+    "vat": "21,00",
+    "mark": "DELL",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-16-00074",
+    "nom": "HP Elitedisplay E202",
+    "code_barre": "6CM5501740",
+    "price": "104,30",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 56
+  },
+  {
+    "description_f": "CPASXL1573",
+    "nom": "A19-5",
+    "code_barre": "YV2L004614",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-16-00100",
+    "nom": "HP EliteDesk 705 G2",
+    "code_barre": "CZC623B4V2",
+    "price": "469,80",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 45
+  },
+  {
+    "description_f": "",
+    "nom": "170S",
+    "code_barre": "BZ3A0721629655",
+    "price": "145,20",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL_14_00020",
+    "nom": "Optiplex 3010",
+    "code_barre": "143J302",
+    "price": "601,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL1656",
+    "nom": "A19-5",
+    "code_barre": "YV2L004178",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-12-00087",
+    "nom": "Dc5700s",
+    "code_barre": "CZC72037M1",
+    "price": "673,97",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 45
+  },
+  {
+    "description_f": "",
+    "nom": "170S",
+    "code_barre": "BZ3A0721629474",
+    "price": "302,50",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL-15-00048",
+    "nom": "OPTIPLEX 3020 MT C1",
+    "code_barre": "3BN2H32",
+    "price": "580,15",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "",
+    "nom": "190S1",
+    "code_barre": "AU3A1048002925",
+    "price": "121,36",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1167",
+    "nom": "Esprimo E7935",
+    "code_barre": "YKJW001674",
+    "price": "797,38",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL326",
+    "nom": "710V",
+    "code_barre": "GS17HSGXA33727L",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL_14_00089",
+    "nom": "Z90S7",
+    "code_barre": "S2Y13L229944",
+    "price": "705,91",
+    "vat": "21,00",
+    "mark": "DELL Wyse",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-16-00057",
+    "nom": "HP EliteDesk 705 G2",
+    "code_barre": "CZC6109L3L",
+    "price": "469,80",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-16-00072",
+    "nom": "HP Elitedisplay E202",
+    "code_barre": "6CM5501786",
+    "price": "104,30",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 56
+  },
+  {
+    "description_f": "CPASXL665",
+    "nom": "710n",
+    "code_barre": "MJ17H9NY858328W",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL_12_00093",
+    "nom": "Esprimo E3500",
+    "code_barre": "YK7V038808",
+    "price": "549,30",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL1607",
+    "nom": "A19-5",
+    "code_barre": "YV2L006087",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1575",
+    "nom": "T5540",
+    "code_barre": "CNV8390HH3",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL2041",
+    "nom": "190S1",
+    "code_barre": "AU3A1048003626",
+    "price": "121,36",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1033",
+    "nom": "T5540",
+    "code_barre": "CNV8390H5P",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1554",
+    "nom": "A19-5",
+    "code_barre": "YV2L004175",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004705",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "",
+    "nom": "Deskjet 1000",
+    "code_barre": "",
+    "price": "44,95",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 49
+  },
+  {
+    "description_f": "",
+    "nom": "MWS1190t",
+    "code_barre": "AU3A1048002921",
+    "price": "130,00",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-15-00052",
+    "nom": "OPTIPLEX 3020 MT C1",
+    "code_barre": "BDN0H32",
+    "price": "580,15",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL1154",
+    "nom": "Esprimo E7935",
+    "code_barre": "YKJW007607",
+    "price": "700,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL_14_00007",
+    "nom": "MS811dn",
+    "code_barre": "406336990DK0W",
+    "price": "870,06",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "",
+    "nom": "MWS1190t",
+    "code_barre": "AU3A1048003673",
+    "price": "130,00",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL871",
+    "nom": "Deskjet 6940",
+    "code_barre": "MY6CE9R0CZ",
+    "price": "124,63",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 49
+  },
+  {
+    "description_f": "CPASXL824",
+    "nom": "Esprimo P2510",
+    "code_barre": "YKBB152981",
+    "price": "700,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL_13_00016",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515AHZ7L",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-15-00034",
+    "nom": "OPTIPLEX 3020 MT C1",
+    "code_barre": "99N0H32",
+    "price": "580,15",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "",
+    "nom": "170S",
+    "code_barre": "BZ3A0717540409",
+    "price": "145,20",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL_14_00017",
+    "nom": "Optiplex 3010",
+    "code_barre": "HS9J302",
+    "price": "601,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "",
+    "nom": "170S",
+    "code_barre": "BZ3A0721626102",
+    "price": "145,20",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL_14_00018",
+    "nom": "Optiplex 3010",
+    "code_barre": "BT9J302",
+    "price": "601,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "",
+    "nom": "170S",
+    "code_barre": "BZ3A0721629470",
+    "price": "145,20",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL_14_00019",
+    "nom": "Optiplex 3010",
+    "code_barre": "7V9J302",
+    "price": "601,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-15-00022",
+    "nom": "Disk Station DS114",
+    "code_barre": "1490LRN941801",
+    "price": "254,00",
+    "vat": "21,00",
+    "mark": "Synology",
+    "id_family": 62
+  },
+  {
+    "description_f": "CPASXL-16-00001",
+    "nom": "MON TFT 19\" DELL P1913 LED",
+    "code_barre": "2Y87426148510RL",
+    "price": "125,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1114",
+    "nom": "T5540",
+    "code_barre": "CNV8390H29",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "",
+    "nom": "MWS1190t",
+    "code_barre": "AU3A1048002907",
+    "price": "130,00",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1205",
+    "nom": "T5540",
+    "code_barre": "CNV8390H5Z",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL664",
+    "nom": "710n",
+    "code_barre": "MJ17HVGY829385B",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL822",
+    "nom": "Laserjet 1320n",
+    "code_barre": "CNHW5C7GQQ",
+    "price": "435,43",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL662",
+    "nom": "Scenic P320",
+    "code_barre": "YBNN184556",
+    "price": "700,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL1625",
+    "nom": "A19-5",
+    "code_barre": "YV2L004376",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_13_00001",
+    "nom": "FX170",
+    "code_barre": "CN0C27K5765301BH2C14",
+    "price": "469,48",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-15-00023",
+    "nom": "Disk Station DS114",
+    "code_barre": "1420LRN002522",
+    "price": "254,00",
+    "vat": "21,00",
+    "mark": "Synology",
+    "id_family": 62
+  },
+  {
+    "description_f": "CPASXL-15-00027",
+    "nom": "My Passport AIR",
+    "code_barre": "WX41A73NB9323",
+    "price": "152,13",
+    "vat": "21,00",
+    "mark": "Western Digital",
+    "id_family": 62
+  },
+  {
+    "description_f": "CPASXL-15-00025",
+    "nom": "Mac Book Air 13\" + Matériel Externe",
+    "code_barre": "C02NDPSRG086",
+    "price": "1414,97",
+    "vat": "21,00",
+    "mark": "Appel",
+    "id_family": 51
+  },
+  {
+    "description_f": "CPASXL-15-00043",
+    "nom": "Officejet Pro 8100",
+    "code_barre": "CN4C4HV2MG",
+    "price": "212,89",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 49
+  },
+  {
+    "description_f": "CPASXL649",
+    "nom": "710V",
+    "code_barre": "GS17H9NXB06631N",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL-15-00014",
+    "nom": "Wyze 909740-72L Z90D7",
+    "code_barre": "81GDN900171",
+    "price": "779,17",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1601",
+    "nom": "A19-5",
+    "code_barre": "YV2L004176",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1110",
+    "nom": "T5540",
+    "code_barre": "CNV8390HB2",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL222",
+    "nom": "710V",
+    "code_barre": "GS17HSGXA33728T",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL749",
+    "nom": "Scenic P320",
+    "code_barre": "YBNN184550",
+    "price": "700,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-16-00071",
+    "nom": "SL-M4020ND",
+    "code_barre": "ZDGSBJAGB00051V",
+    "price": "322,42",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL1589",
+    "nom": "A19-5",
+    "code_barre": "YV2L006088",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "cpasxl-15-00029",
+    "nom": "Wyze 909740-72L Z90D7",
+    "code_barre": "81GDN900184",
+    "price": "779,17",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL184",
+    "nom": "710V",
+    "code_barre": "GS17HSGXA33715T",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1567",
+    "nom": "T5540",
+    "code_barre": "CNV8390H41",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1611",
+    "nom": "A19-5",
+    "code_barre": "YV2L006235",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1050",
+    "nom": "T5540",
+    "code_barre": "CNV8390G08",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL683",
+    "nom": "710n",
+    "code_barre": "MJ17HVGY829391H",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL2001",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004703",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1604",
+    "nom": "A19-5",
+    "code_barre": "YV2L004180",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1644",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004715",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-12-00076",
+    "nom": "Laserbase MF3240",
+    "code_barre": "XBA03237",
+    "price": "744,00",
+    "vat": "21,00",
+    "mark": "Canon",
+    "id_family": 48
+  },
+  {
+    "description_f": "",
+    "nom": "Optiplex 790",
+    "code_barre": "JZ7K65J",
+    "price": "625,57",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL_13_00005",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515AHYRL",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL2011",
+    "nom": "MWS1190t",
+    "code_barre": "AU3A1048003623",
+    "price": "130,00",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-15-00001",
+    "nom": "OPTIPLEX 3020 MT C1",
+    "code_barre": "GHN2H32",
+    "price": "580,15",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-16-00076",
+    "nom": "HP Elitedisplay E202",
+    "code_barre": "6CM550178L",
+    "price": "104,30",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 56
+  },
+  {
+    "description_f": "CPASXL-11-00012",
+    "nom": "Optiplex 790",
+    "code_barre": 39134314279,
+    "price": "625,57",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL1609",
+    "nom": "A19-5",
+    "code_barre": "YV2L006247",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_12_00013",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004718",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-16-00077",
+    "nom": "HP Elitedisplay E202",
+    "code_barre": "6CM55017F4",
+    "price": "104,30",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 56
+  },
+  {
+    "description_f": "CPASXL-12-00007",
+    "nom": "Optiplex 790",
+    "code_barre": 28250402599,
+    "price": "625,57",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-16-00056",
+    "nom": "HP EliteDesk 705 G2",
+    "code_barre": "CZC6109L3J",
+    "price": "469,80",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-16-00055",
+    "nom": "HP Elitedisplay E202",
+    "code_barre": "6CM5501785",
+    "price": "104,30",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 56
+  },
+  {
+    "description_f": "CPASXL-16-00047",
+    "nom": "HP EliteDesk 705 G2",
+    "code_barre": "CZC6109L3C",
+    "price": "469,80",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL100",
+    "nom": "710n",
+    "code_barre": "GS17HSGXA33733F",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL987",
+    "nom": "Esprimo P2510",
+    "code_barre": "YKBB152988",
+    "price": "700,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL660",
+    "nom": "Laserjet 1320n",
+    "code_barre": "CNHW5C7GRD",
+    "price": "435,43",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL1711",
+    "nom": "Futro S550-2-EID",
+    "code_barre": "YL8N004745",
+    "price": "372,63",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL_14_00094",
+    "nom": "P1913",
+    "code_barre": "CN0H9GD2744452A8107M",
+    "price": "139,25",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1612",
+    "nom": "A19-5",
+    "code_barre": "YV2L006237",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-15-00047",
+    "nom": "DGS-105",
+    "code_barre": "QS3T1EC002458",
+    "price": "50,00",
+    "vat": "21,00",
+    "mark": "D-link",
+    "id_family": 52
+  },
+  {
+    "description_f": "CPASXL-15-00099",
+    "nom": "OPTIPLEX 3020 MT C1",
+    "code_barre": "7CN0H32",
+    "price": "580,15",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-00054",
+    "nom": "MS811dn",
+    "code_barre": "4063369909H3C",
+    "price": "870,06",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL829",
+    "nom": "Esprimo P2510",
+    "code_barre": "YKBB152989",
+    "price": "700,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL693",
+    "nom": "710N",
+    "code_barre": "MJ17HVGY829386K",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1021",
+    "nom": "Esprimo E7935",
+    "code_barre": "YKJW007608",
+    "price": "700,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL967",
+    "nom": "710n",
+    "code_barre": "MJ17HMGLC22181R",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1126",
+    "nom": "T5540",
+    "code_barre": "CNV8390FZC",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1581",
+    "nom": "A19-5",
+    "code_barre": "YV2L004373",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-15-00015",
+    "nom": "OPTIPLEX 3020 MT C1",
+    "code_barre": "HFN3H32",
+    "price": "580,15",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL870",
+    "nom": "Esprimo P2510",
+    "code_barre": "YKBB153005",
+    "price": "700,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL1018",
+    "nom": "Laserjet P1505n",
+    "code_barre": "VNF3J20091",
+    "price": "238,37",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL1013",
+    "nom": "ScenicView A17",
+    "code_barre": "YENB655967",
+    "price": "191,20",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL_12_00017",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004704",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL979",
+    "nom": "ScenicView A17",
+    "code_barre": "YENB656423",
+    "price": "191,20",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1621",
+    "nom": "A19-5",
+    "code_barre": "YV2L004877",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1540",
+    "nom": "T5540",
+    "code_barre": "CNV8390FVW",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL2060",
+    "nom": "190S1",
+    "code_barre": "AU3A1048002898",
+    "price": "121,36",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL2057",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004722",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1592",
+    "nom": "A19-5",
+    "code_barre": "YV2L004280",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1105",
+    "nom": "T5540",
+    "code_barre": "CNV8390DN3",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "",
+    "nom": "ScenicView A17",
+    "code_barre": "YENB655638",
+    "price": "191,20",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1046",
+    "nom": "T5540",
+    "code_barre": "CNV8390H65",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL910",
+    "nom": "710n",
+    "code_barre": "MJ17HMGLC22317J",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL_14_00023",
+    "nom": "Optiplex 3010",
+    "code_barre": "713J302",
+    "price": "601,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL467",
+    "nom": "710V",
+    "code_barre": "GS17HSGXA33729B",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL_13_00056",
+    "nom": "Z90S7",
+    "code_barre": "S2Y1DL200022",
+    "price": "705,91",
+    "vat": "21,00",
+    "mark": "DELL Wyse",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1578",
+    "nom": "A19-5",
+    "code_barre": "YV2L006500",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-15-00094",
+    "nom": "OPTIPLEX 3020 MT C1",
+    "code_barre": "4JN3H32",
+    "price": "580,15",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-15-00091",
+    "nom": "P1913",
+    "code_barre": "2Y8742614850YLL",
+    "price": "139,25",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-15-00090",
+    "nom": "P1913",
+    "code_barre": "2Y87426148510CL",
+    "price": "139,25",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1619",
+    "nom": "A19-5",
+    "code_barre": "YV2L005616",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1115",
+    "nom": "T5540",
+    "code_barre": "CNV8390D5D",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-16-00035",
+    "nom": "Wyse 3030",
+    "code_barre": "4T1DV72",
+    "price": "491,63",
+    "vat": "21,00",
+    "mark": "DELL",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL875",
+    "nom": "Esprimo P2510",
+    "code_barre": "YKBB152973",
+    "price": "700,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-15-00057",
+    "nom": "Pro Xpress M4020ND",
+    "code_barre": "ZDGSBJCFC000JGH",
+    "price": "296,33",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL-15-00045",
+    "nom": "Wyze 909740-72L Z90D7",
+    "code_barre": "81GDN900058",
+    "price": "779,17",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL2006",
+    "nom": "EX1920W",
+    "code_barre": "CB19H9GB109422K",
+    "price": "130,00",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-15-00092",
+    "nom": "OPTIPLEX 3020 MT C1",
+    "code_barre": "H8N0H32",
+    "price": "580,15",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "",
+    "nom": "HP 90W",
+    "code_barre": "5CG553ZK25",
+    "price": "89,25",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 66
+  },
+  {
+    "description_f": "CPASXL-16-00015",
+    "nom": "HP Pro Book 650 G1",
+    "code_barre": "5CG6071728",
+    "price": "908,81",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 51
+  },
+  {
+    "description_f": "CPASXL_13_00018",
+    "nom": "Optiplex 3010",
+    "code_barre": "3Y52NW1",
+    "price": "596,87",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL_13_00019",
+    "nom": "P2412H (wide)",
+    "code_barre": "MDG742612BQ30EU",
+    "price": "211,31",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 61
+  },
+  {
+    "description_f": "",
+    "nom": "170S",
+    "code_barre": "BZ3A0721629544",
+    "price": "302,50",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL_14_00015",
+    "nom": "Optiplex 3010",
+    "code_barre": "4T9J302",
+    "price": "601,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "/",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515AHZDL",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-12-00006",
+    "nom": "Pro9000II",
+    "code_barre": "NACT08481",
+    "price": "502,15",
+    "vat": "21,00",
+    "mark": "Canon",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL-16-00068",
+    "nom": "SL-M4020ND",
+    "code_barre": "ZDGSBJAGB0004XH",
+    "price": "322,42",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL692",
+    "nom": "710N",
+    "code_barre": "MJ17HVGY829345H",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1567",
+    "nom": "A19-5",
+    "code_barre": "YV2L006510",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-15-00004",
+    "nom": "OPTIPLEX 3020 MT C1",
+    "code_barre": "DGN4H32",
+    "price": "580,15",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL1549",
+    "nom": "A19-5",
+    "code_barre": "YV2L004995",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-16-00008",
+    "nom": "MON TFT 19\" DELL P1913 LED",
+    "code_barre": "2Y87426148510KL",
+    "price": "125,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1501",
+    "nom": "T5540",
+    "code_barre": "CNV8390GMY",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "",
+    "nom": "MWS1190t",
+    "code_barre": "AU3A1048002915",
+    "price": "130,00",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_14_00025",
+    "nom": "Optiplex 3010",
+    "code_barre": "B43J302",
+    "price": "601,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL1552",
+    "nom": "A19-5",
+    "code_barre": "YV2L004279",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1724",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004733",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1726",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004731",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1022",
+    "nom": "220SW",
+    "code_barre": "FE4A0842002131",
+    "price": "186,76",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 60
+  },
+  {
+    "description_f": "CPASXL-16-00083",
+    "nom": "HP Elitedisplay E202",
+    "code_barre": "6CM550178S",
+    "price": "104,30",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 56
+  },
+  {
+    "description_f": "CPASXL-16-00032",
+    "nom": "Wyse 3030",
+    "code_barre": "5BONV72",
+    "price": "491,63",
+    "vat": "21,00",
+    "mark": "DELL",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL273",
+    "nom": "710v",
+    "code_barre": "GS17HSGXA33681W",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL-14-00137",
+    "nom": "Compaq DC 5700",
+    "code_barre": "CZC72037M4",
+    "price": "673,97",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL1023",
+    "nom": "Laserjet P1505n",
+    "code_barre": "CB413A",
+    "price": "238,37",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL-16-00041",
+    "nom": "Wyse 3030",
+    "code_barre": "9LMJW72",
+    "price": "491,63",
+    "vat": "21,00",
+    "mark": "DELL",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-16-00087",
+    "nom": "HP Elitedisplay E202",
+    "code_barre": "6CM55017DH",
+    "price": "104,30",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 56
+  },
+  {
+    "description_f": "CPASXL-15-00082",
+    "nom": "MON TFT 19\" DELL P1913 LED",
+    "code_barre": "2Y874261485110L",
+    "price": "125,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515AHZEL",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL681",
+    "nom": "710N",
+    "code_barre": "MJ17H9NY857650R",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1557",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004725",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1594",
+    "nom": "A19-5",
+    "code_barre": "YV2L004271",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1702",
+    "nom": "Futro S550-2-EID",
+    "code_barre": "YL8N004741",
+    "price": "372,63",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-16-00036",
+    "nom": "Wyse 3030",
+    "code_barre": "3NMFV72",
+    "price": "491,63",
+    "vat": "21,00",
+    "mark": "DELL",
+    "id_family": 55
+  },
+  {
+    "description_f": "",
+    "nom": "PROSAFE 8 Ports VPN-Firewall",
+    "code_barre": "40G253BD001ED",
+    "price": "170,61",
+    "vat": "21,00",
+    "mark": "NETGEAR",
+    "id_family": 64
+  },
+  {
+    "description_f": "CPASXL654",
+    "nom": "710n",
+    "code_barre": "MJ17HVGY829332H",
+    "price": "197,51",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL2037",
+    "nom": "Esprimo P3721",
+    "code_barre": "YNAJ012665",
+    "price": "562,65",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL2038",
+    "nom": "Esprimo P3721",
+    "code_barre": "YNAJ012677",
+    "price": "562,65",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-16-00004",
+    "nom": "MON TFT 19\" DELL P1913 LED",
+    "code_barre": "2Y8742614850Y7L",
+    "price": "125,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-16-00005",
+    "nom": "MON TFT 19\" DELL P1913 LED",
+    "code_barre": "2Y8742614850YAL",
+    "price": "125,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-16-00003",
+    "nom": "MON TFT 19\" DELL P1913 LED",
+    "code_barre": "2Y8742614850YKL",
+    "price": "125,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-16-00002",
+    "nom": "MON TFT 19\" DELL P1913 LED",
+    "code_barre": "2Y874261485113L",
+    "price": "125,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1613",
+    "nom": "A19-5",
+    "code_barre": "YV2L004299",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1595",
+    "nom": "A19-5",
+    "code_barre": "YV2L007547",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_13_00050",
+    "nom": "FX170",
+    "code_barre": "CN0C27K5765301BH2B6A",
+    "price": "469,48",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1122",
+    "nom": "T5540",
+    "code_barre": "CNV8390G30",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL981",
+    "nom": "ScenicView A17",
+    "code_barre": "YENB655958",
+    "price": "191,20",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1039",
+    "nom": "T5540",
+    "code_barre": "CNV8390DN7",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-13-00014",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515AJ7KL",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-15-00065",
+    "nom": "Wyze 909740-72L Z90D7",
+    "code_barre": "81GDN300070",
+    "price": "779,17",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1651",
+    "nom": "A19-5",
+    "code_barre": "YV2L004277",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-15-00056",
+    "nom": "Pro Xpress M4020ND",
+    "code_barre": "ZDGSBJAG10002CL",
+    "price": "296,33",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL1576",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004699",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515AJJUL",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL858",
+    "nom": "Esprimo P2510",
+    "code_barre": "YKBB152979",
+    "price": "700,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "",
+    "nom": "HNS7170T",
+    "code_barre": "BZ3A0721629793",
+    "price": "145,20",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL883",
+    "nom": "710n",
+    "code_barre": "MJ17HMGLC22646J",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1551",
+    "nom": "A19-5",
+    "code_barre": "YV2L004287",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1726",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004731",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "",
+    "nom": "Bizhub 363",
+    "code_barre": "A1UE021104481",
+    "price": "2978,19",
+    "vat": "21,00",
+    "mark": "Konica Minolta",
+    "id_family": 47
+  },
+  {
+    "description_f": "CPASXL1587",
+    "nom": "A19-5",
+    "code_barre": "YV2L004375",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1566",
+    "nom": "T5540",
+    "code_barre": "CNV8390H27",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1543",
+    "nom": "A19-5",
+    "code_barre": "YV2L005805",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL961",
+    "nom": "Laserjet 2015n",
+    "code_barre": "CNBW81R924",
+    "price": "384,18",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL_13_00036",
+    "nom": "Esprimo P3721",
+    "code_barre": "YLAJ02678",
+    "price": "562,65",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL724",
+    "nom": "710n",
+    "code_barre": "MJ17HVGY829381W",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL_14_00022",
+    "nom": "Optiplex 3010",
+    "code_barre": "C33J302",
+    "price": "601,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-16-00058",
+    "nom": "HP EliteDesk 705 G2",
+    "code_barre": "CZC6109L3M",
+    "price": "469,80",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-15-00017",
+    "nom": "OPTIPLEX 3020 MT C1",
+    "code_barre": "8GN2H32",
+    "price": "580,15",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-15-00024",
+    "nom": "V-line 193V5LSB2/10 LED 18,5",
+    "code_barre": "UK0A14300330484",
+    "price": "105,50",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_13_00028",
+    "nom": "FX170",
+    "code_barre": "CN0C27K5765301BH2B62",
+    "price": "469,48",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL_13_00029",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515AHU2L",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1622",
+    "nom": "A19-5",
+    "code_barre": "YV2L006074",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-16-00022",
+    "nom": "Wyse 3030",
+    "code_barre": "AFPCV72",
+    "price": "491,63",
+    "vat": "21,00",
+    "mark": "DELL",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPAS IXELLES 961",
+    "nom": "710n",
+    "code_barre": "MJ17HMGLC22382D",
+    "price": "197,51",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL022",
+    "nom": "Scenic P300",
+    "code_barre": "YBCL137202",
+    "price": "526,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPAS IXELLES 922",
+    "nom": "710n",
+    "code_barre": "MJ17HMGLC22315R",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL-14-00112",
+    "nom": "Scenic P300",
+    "code_barre": "YBCL137212",
+    "price": "526,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL_12_00035",
+    "nom": "Optiplex 3010",
+    "code_barre": "FGKBG5J",
+    "price": "601,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL1603",
+    "nom": "A19-5",
+    "code_barre": "YV2L006069",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-16-00031",
+    "nom": "Wyse 3030",
+    "code_barre": "BF66W72",
+    "price": "491,63",
+    "vat": "21,00",
+    "mark": "DELL",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-16-00031",
+    "nom": "Wyse 3030",
+    "code_barre": "BF66W72",
+    "price": "491,63",
+    "vat": "21,00",
+    "mark": "DELL",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL669",
+    "nom": "710n",
+    "code_barre": "MJ17HMCY911028V",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL674",
+    "nom": "Scenic P320",
+    "code_barre": "YBNN184555",
+    "price": "700,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "",
+    "nom": "HP 90W",
+    "code_barre": "5CG553ZG2R",
+    "price": "89,25",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 66
+  },
+  {
+    "description_f": "CPASXL-16-00021",
+    "nom": "HP Pro Book 645 G1",
+    "code_barre": "5CG60702X4",
+    "price": "628,06",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 51
+  },
+  {
+    "description_f": "CPASXL-15-00087",
+    "nom": "MON TFT 19\" DELL P1913 LED",
+    "code_barre": "2Y8742614850YEL",
+    "price": "125,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1163",
+    "nom": "T5540",
+    "code_barre": "CNV8390GSN",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1605",
+    "nom": "A19-5",
+    "code_barre": "YV2L004159",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_13_00045",
+    "nom": "FX170",
+    "code_barre": "CN0C27K5765301BH2C87",
+    "price": "469,48",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1705",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004723",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "",
+    "nom": "P1913",
+    "code_barre": "CN0H9GD2744452A8137M",
+    "price": "139,25",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL2042",
+    "nom": "190S1",
+    "code_barre": "AU3A1048002992",
+    "price": "121,36",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1148",
+    "nom": "T5540",
+    "code_barre": "CNV8390H5L",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "",
+    "nom": "Laserjet P1505n",
+    "code_barre": "VNF3J20092",
+    "price": "238,37",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL-15-00032",
+    "nom": "MON TFT 19\" DELL P1913 LED",
+    "code_barre": "2Y87426148510ML",
+    "price": "125,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_11_00008",
+    "nom": "PRECISION M6600",
+    "code_barre": "2PMJ4S1",
+    "price": "1847,67",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 51
+  },
+  {
+    "description_f": "CPASXL-16-00039",
+    "nom": "Wyse 3030",
+    "code_barre": "FXILV72",
+    "price": "491,63",
+    "vat": "21,00",
+    "mark": "DELL",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL_13_00009",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515AHYXN",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-16-00039",
+    "nom": "Wyse 3030",
+    "code_barre": "FXILV72",
+    "price": "491,63",
+    "vat": "21,00",
+    "mark": "DELL",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL499",
+    "nom": "710n",
+    "code_barre": "GS17HSGXA33999R",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1505",
+    "nom": "T5540",
+    "code_barre": "CNV8390GY8",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "",
+    "nom": "IR2020i",
+    "code_barre": "SRC01974",
+    "price": "2400,00",
+    "vat": "21,00",
+    "mark": "Canon",
+    "id_family": 47
+  },
+  {
+    "description_f": "CPASXL861",
+    "nom": "710n",
+    "code_barre": "MJ17HMGLC22606D",
+    "price": "197,51",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1608",
+    "nom": "A19-5",
+    "code_barre": "YV2L0065617",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-15-00068",
+    "nom": "Wyze 909740-72L Z90D7",
+    "code_barre": "81GDN900085",
+    "price": "779,17",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-15-00049",
+    "nom": "LATITUDE E5540",
+    "code_barre": "GRKNL32",
+    "price": "897,24",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 51
+  },
+  {
+    "description_f": "",
+    "nom": "AS7551G",
+    "code_barre": "P324G32MNKK",
+    "price": "598,95",
+    "vat": "21,00",
+    "mark": "ACER",
+    "id_family": 51
+  },
+  {
+    "description_f": "CPASXL1703",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004693",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-15-00058",
+    "nom": "MON TFT 19\" DELL P1913 LED",
+    "code_barre": "2Y87426148510PL",
+    "price": "125,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1506",
+    "nom": "943sn",
+    "code_barre": "MY19HMDS812799J",
+    "price": "130,00",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1500",
+    "nom": "T5540",
+    "code_barre": "CN8390FH0",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1642",
+    "nom": "A19-5",
+    "code_barre": "YV2L006076",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1569",
+    "nom": "T5540",
+    "code_barre": "CNV8390( Arraché)",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-15-00080",
+    "nom": "MON TFT 19\" DELL P1913 LED",
+    "code_barre": "2Y87426148510DL",
+    "price": "125,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-16-00084",
+    "nom": "HP Elitedisplay E202",
+    "code_barre": "6CM550178F",
+    "price": "104,30",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 56
+  },
+  {
+    "description_f": "CPASXL-16-00033",
+    "nom": "Wyse 3030",
+    "code_barre": "FZ9KV72",
+    "price": "491,63",
+    "vat": "21,00",
+    "mark": "DELL",
+    "id_family": 55
+  },
+  {
+    "description_f": "",
+    "nom": "MON TFT 19\" DELL P1913 LED",
+    "code_barre": "2Y8742614850Y7L",
+    "price": "125,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-15-00041",
+    "nom": "Wyze 909740-72L Z90D7",
+    "code_barre": "81GDN600306",
+    "price": "779,17",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "",
+    "nom": "170S",
+    "code_barre": "BZ3A0721629249",
+    "price": "145,20",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL_14_00014",
+    "nom": "Optiplex 3010",
+    "code_barre": "7W9J302",
+    "price": "601,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL2022",
+    "nom": "MWS1190t",
+    "code_barre": "AU3A1048002909",
+    "price": "130,00",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1516",
+    "nom": "Esprimo P5730",
+    "code_barre": "YKLV003020",
+    "price": "573,49",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL1597",
+    "nom": "A19-5",
+    "code_barre": "YV2L006067",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_14_00078",
+    "nom": "Z90S7",
+    "code_barre": "819DMC00787",
+    "price": "779,17",
+    "vat": "21,00",
+    "mark": "DELL Wyse",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-13-00035",
+    "nom": "P190S",
+    "code_barre": "CN62WP27444515AJV7L",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1163",
+    "nom": "Laserjet P1505n",
+    "code_barre": "VNF3J20097",
+    "price": "238,37",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL1170",
+    "nom": "220SW",
+    "code_barre": "FE4A0842002127",
+    "price": "130,00",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-13-00069",
+    "nom": "Esprimo P3721",
+    "code_barre": "YLAJ012682",
+    "price": "562,65",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL 1035",
+    "nom": "Esprimo P5720",
+    "code_barre": "yk1m095657",
+    "price": "521,51",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL668",
+    "nom": "710n",
+    "code_barre": "MJ17HVGY829377P",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL-13-00065",
+    "nom": "FX170",
+    "code_barre": "7RG59Q1",
+    "price": "469,48",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1508",
+    "nom": "Esprimo E7935",
+    "code_barre": "YKJW001673",
+    "price": "797,38",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-12-00075",
+    "nom": "Esprimo P2510",
+    "code_barre": "YKBB153001",
+    "price": "443,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL1144",
+    "nom": "Esprimo E7935",
+    "code_barre": "YKJW001681",
+    "price": "797,38",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "",
+    "nom": "Dc5700s",
+    "code_barre": "CZC72037MT",
+    "price": "673,97",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-12-00091",
+    "nom": "Dc5700s",
+    "code_barre": "CZC7203817",
+    "price": "673,97",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 45
+  },
+  {
+    "description_f": "",
+    "nom": "710N",
+    "code_barre": "MJ17HMGLC22618P",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL768",
+    "nom": "710N",
+    "code_barre": "MJ17HVGY829349V",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL249",
+    "nom": "710V",
+    "code_barre": "GS17HSGXA3371OJ",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1553",
+    "nom": "A19-5",
+    "code_barre": "YV2L004185",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1531",
+    "nom": "A19-5",
+    "code_barre": "YV2L004526",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL897",
+    "nom": "Esprimo P2510",
+    "code_barre": "YKBB152976",
+    "price": "700,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL1026",
+    "nom": "Esprimo E7935",
+    "code_barre": "YKJW007623",
+    "price": "797,38",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPAS IXELLES 918",
+    "nom": "Esprimo P2510",
+    "code_barre": "YKBB153002",
+    "price": "700,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL911",
+    "nom": "Esprimo P2510",
+    "code_barre": "YKBB152998",
+    "price": "700,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-13-00067",
+    "nom": "EX1920W",
+    "code_barre": "CB19H9GB109439P",
+    "price": "147,62",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1559",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004695",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL_11_00011",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004696",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1645",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004709",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1615",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004717",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL2058",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004730",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-12-00019",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004734",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-15-00079",
+    "nom": "OPTIPLEX 3020 MT C1",
+    "code_barre": "3HN3H32",
+    "price": "580,15",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-15-00099",
+    "nom": "MON TFT 19\" DELL P1913 LED",
+    "code_barre": "2Y874261485114L",
+    "price": "125,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-15-00097",
+    "nom": "OPTIPLEX 3020 MT C1",
+    "code_barre": "CBN6H32",
+    "price": "580,15",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL1156",
+    "nom": "T5540",
+    "code_barre": "CNV8390H35",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-15-00071",
+    "nom": "Wyze 909740-72L Z90D7",
+    "code_barre": "81GDN900192",
+    "price": "779,17",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1120",
+    "nom": "Esprimo E7935",
+    "code_barre": "YKJW001690",
+    "price": "700,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-14-000135",
+    "nom": "P1913",
+    "code_barre": "CN0H9GD2744452A9310M",
+    "price": "139,25",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_13_00003",
+    "nom": "Laserjet 100 color MFP M175NW",
+    "code_barre": "CNC9DB60DZ",
+    "price": "400,00",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 47
+  },
+  {
+    "description_f": "CPASXL1120",
+    "nom": "Esprimo E7935",
+    "code_barre": "YKJW001690",
+    "price": "700,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-12-00033",
+    "nom": "CLX-6220FX",
+    "code_barre": "Z32BBJHC5000LTT",
+    "price": "959,24",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 47
+  },
+  {
+    "description_f": "",
+    "nom": "Power Connect 6224",
+    "code_barre": "8RS90Z1",
+    "price": "1296,67",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 52
+  },
+  {
+    "description_f": "",
+    "nom": "Power Connect 6224",
+    "code_barre": "GQS90Z1",
+    "price": "1296,67",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 52
+  },
+  {
+    "description_f": "CPASXL_13_00004",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515AHTTL",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-15-00074",
+    "nom": "Wyze 909740-72L Z90D7",
+    "code_barre": "81GDN900216",
+    "price": "779,17",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1133",
+    "nom": "T5540",
+    "code_barre": "CNV8390HG4",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1606",
+    "nom": "A19-5",
+    "code_barre": "YV2L006075",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-16-00037",
+    "nom": "Wyse 3030",
+    "code_barre": "284QV72",
+    "price": "491,63",
+    "vat": "21,00",
+    "mark": "DELL",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL964",
+    "nom": "ScenicView A17",
+    "code_barre": "YELB655966",
+    "price": "191,20",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL-16-00037",
+    "nom": "Wyse 3030",
+    "code_barre": "284QV72",
+    "price": "491,63",
+    "vat": "21,00",
+    "mark": "DELL",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1617",
+    "nom": "A19-5",
+    "code_barre": "YV2L005003",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1108",
+    "nom": "T5540",
+    "code_barre": "CNV8390G44",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1570",
+    "nom": "A19-5",
+    "code_barre": "YV2L004281",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-16-00103",
+    "nom": "HP EliteDesk 705 G2",
+    "code_barre": "CZC623B4TS",
+    "price": "469,80",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL695",
+    "nom": "710n",
+    "code_barre": "MJ17HMCY911031D",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004737",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL275",
+    "nom": "710V",
+    "code_barre": "GS17HSGXA33731N",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL2055",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004701",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "",
+    "nom": "Deskjet 6940",
+    "code_barre": "MY6CD9R1WB",
+    "price": "124,63",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 49
+  },
+  {
+    "description_f": "CPASXL1511",
+    "nom": "Esprimo Mobile V655",
+    "code_barre": "Z17M100600110210",
+    "price": "724,84",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 51
+  },
+  {
+    "description_f": "CPASXL798",
+    "nom": "Scanjet 2400",
+    "code_barre": "CN617SR016",
+    "price": "189,00",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 53
+  },
+  {
+    "description_f": "CPAS IXELLES 685",
+    "nom": "710n",
+    "code_barre": "MJ17H9NY857902B",
+    "price": "302,50",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPAS IXELLES 947",
+    "nom": "e90",
+    "code_barre": "NLC7495109",
+    "price": "410,63",
+    "vat": "21,00",
+    "mark": "Neoware",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1532",
+    "nom": "MX7600",
+    "code_barre": "ABFN00491",
+    "price": "265,00",
+    "vat": "21,00",
+    "mark": "Canon",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL-12-00004",
+    "nom": "PRECISION M6600",
+    "code_barre": "2PMK5S1",
+    "price": "1847,67",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 51
+  },
+  {
+    "description_f": "CPASXL884",
+    "nom": "710n",
+    "code_barre": "MJ17HMGLC22185W",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1167",
+    "nom": "Esprimo E7935",
+    "code_barre": "YKJW001674",
+    "price": "797,38",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-15-00012",
+    "nom": "OPTIPLEX 3020 MT C1",
+    "code_barre": "6DN5H32",
+    "price": "580,15",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL1232",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515AHZ9L",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_11_00002",
+    "nom": "190S1",
+    "code_barre": "AU3A1048003674",
+    "price": "121,36",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1016",
+    "nom": "Esprimo E7935",
+    "code_barre": "YKJW007601",
+    "price": "700,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL1172",
+    "nom": "Laserjet P3005n",
+    "code_barre": "CNK1R73216",
+    "price": "885,72",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 48
+  },
+  {
+    "description_f": "/",
+    "nom": "C748de",
+    "code_barre": "5026269420DP0",
+    "price": "1079,62",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL_14_00099",
+    "nom": "TL-SG1005D Ver : 5.0",
+    "code_barre": 2142208004777,
+    "price": "17,50",
+    "vat": "21,00",
+    "mark": "TP-Link",
+    "id_family": 52
+  },
+  {
+    "description_f": "CPASXL1547",
+    "nom": "A19-5",
+    "code_barre": "YV2L004278",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-16-00089",
+    "nom": "HP EliteDesk 705 G2",
+    "code_barre": "CZC623B4TV",
+    "price": "469,80",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL1626",
+    "nom": "A19-5",
+    "code_barre": "YV2L006084",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_14_00080",
+    "nom": "Zx0",
+    "code_barre": "819DMC00599",
+    "price": "779,01",
+    "vat": "21,00",
+    "mark": "Wyse",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1715",
+    "nom": "Futro S550-2-EID",
+    "code_barre": "YL8N004743",
+    "price": "372,63",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL_14_00091",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515AHZYL",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL839",
+    "nom": "Deskjet 6940",
+    "code_barre": "MY6CE9R0D5",
+    "price": "124,63",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 49
+  },
+  {
+    "description_f": "CPASXL-15-00100",
+    "nom": "OPTIPLEX 3020 MT C1",
+    "code_barre": "BFN5H32",
+    "price": "580,15",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515AJ4ZL",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1610",
+    "nom": "A19-5",
+    "code_barre": "YV2L005806",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1530",
+    "nom": "T5540",
+    "code_barre": "CNV8390H5R",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1024",
+    "nom": "ColorLaserjet3600",
+    "code_barre": "CNXFF12255",
+    "price": "747,78",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL-12-00009",
+    "nom": "Optiplex 790",
+    "code_barre": "FZ7K6SJ",
+    "price": "625,57",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-13-00030",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515A37NL",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1546",
+    "nom": "A19-5",
+    "code_barre": "YV2L005000",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_12_00016",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004716",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL_11_00003",
+    "nom": "T652DN",
+    "code_barre": "794F21Z",
+    "price": "665,50",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "cpasxl-14-00138",
+    "nom": "C748de",
+    "code_barre": "5026109422ZXV",
+    "price": "1079,67",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL-14-00125",
+    "nom": "W300",
+    "code_barre": "Q8WR351AAAAAC0284",
+    "price": "505,78",
+    "vat": "21,00",
+    "mark": "Optoma",
+    "id_family": 65
+  },
+  {
+    "description_f": "",
+    "nom": "WPS3 WIRELESS ADAPTER",
+    "code_barre": "",
+    "price": "127,05",
+    "vat": "21,00",
+    "mark": "Optoma",
+    "id_family": 67
+  },
+  {
+    "description_f": "CPASXL2019",
+    "nom": "Esprimo P3721",
+    "code_barre": "YLAJ012669",
+    "price": "562,65",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL070",
+    "nom": "710V",
+    "code_barre": "GS17HSGXA33673K",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "cpasxl_14_00090",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004736",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-16-00082",
+    "nom": "HP Elitedisplay E202",
+    "code_barre": "6CM5501794",
+    "price": "104,30",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 56
+  },
+  {
+    "description_f": "",
+    "nom": "DOCKING STATION M6700",
+    "code_barre": "",
+    "price": "100,43",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 66
+  },
+  {
+    "description_f": "CPAS IXELLES 986",
+    "nom": "L2208w",
+    "code_barre": "CNK8040NMV",
+    "price": "246,84",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 60
+  },
+  {
+    "description_f": "CPASXL-13-00058",
+    "nom": "PRECISION M6700",
+    "code_barre": "75LXNX1",
+    "price": "2265,30",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 51
+  },
+  {
+    "description_f": "",
+    "nom": "710V",
+    "code_barre": "GS17HSGXA34008A",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "",
+    "nom": "Dc5700s",
+    "code_barre": "CZC71943GH",
+    "price": "673,97",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL694",
+    "nom": "710N",
+    "code_barre": "MJ17HVGY829370L",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL_14_00079",
+    "nom": "Z90S7",
+    "code_barre": "819DMC00262",
+    "price": "779,17",
+    "vat": "21,00",
+    "mark": "DELL Wyse",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL348",
+    "nom": "Laserjet 1320n",
+    "code_barre": "CNBW48VGS1",
+    "price": "435,43",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 48
+  },
+  {
+    "description_f": "/",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515AHYUL",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_11_00007",
+    "nom": "PRECISION M6600",
+    "code_barre": "2PMJ5S1",
+    "price": "1847,67",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 51
+  },
+  {
+    "description_f": "CPASXL823",
+    "nom": "710n",
+    "code_barre": "MJ17HMCY911008Y",
+    "price": "197,51",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1580",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004732",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL865",
+    "nom": "710n",
+    "code_barre": "MJ17HMGLC22613B",
+    "price": "197,51",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL252",
+    "nom": "710v",
+    "code_barre": "GS17HSGXA33595B",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1002",
+    "nom": "e90",
+    "code_barre": "3CN82003W3",
+    "price": "410,63",
+    "vat": "21,00",
+    "mark": "Neoware",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-15-00040",
+    "nom": "Wyze 909740-72L Z90D7",
+    "code_barre": "81GDN900184",
+    "price": "779,17",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL757",
+    "nom": "710n",
+    "code_barre": "MJ17HMCY911029L",
+    "price": "197,51",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL2044",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004727",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-16-00080",
+    "nom": "HP Elitedisplay E202",
+    "code_barre": "6CM55017F2",
+    "price": "104,30",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 56
+  },
+  {
+    "description_f": "CPASXL_14_00106",
+    "nom": "P1913",
+    "code_barre": "CN0H9GD2744452A8109M",
+    "price": "139,25",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_14_00084",
+    "nom": "Z90S7",
+    "code_barre": "819DMC00318",
+    "price": "779,17",
+    "vat": "21,00",
+    "mark": "DELL Wyse",
+    "id_family": 55
+  },
+  {
+    "description_f": "",
+    "nom": "190S1",
+    "code_barre": "AU3A1048002978",
+    "price": "121,36",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_15_00050",
+    "nom": "P1913",
+    "code_barre": "CN02W2Y874261485104L",
+    "price": "139,25",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-16-00090",
+    "nom": "HP EliteDesk 705 G2",
+    "code_barre": "CZC623B4TX",
+    "price": "469,80",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-13-00064",
+    "nom": "DGS-1008D",
+    "code_barre": "F37V89B00551",
+    "price": "69,85",
+    "vat": "21,00",
+    "mark": "D-link",
+    "id_family": 52
+  },
+  {
+    "description_f": "CPASXL1641",
+    "nom": "170B",
+    "code_barre": "AU2A0731026637",
+    "price": "145,20",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL-14-00124",
+    "nom": "MASTER VIEWER CS-1716a",
+    "code_barre": "A1A7D065DA60129",
+    "price": "309,92",
+    "vat": "21,00",
+    "mark": "ATEN",
+    "id_family": 63
+  },
+  {
+    "description_f": "CPASXL-14-00123",
+    "nom": "SF-100D-08",
+    "code_barre": "PSZ16450HE9",
+    "price": "42,35",
+    "vat": "21,00",
+    "mark": "Cisco",
+    "id_family": 52
+  },
+  {
+    "description_f": "CPASXL1586",
+    "nom": "A19-5",
+    "code_barre": "YV2L007371",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004729",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1107",
+    "nom": "Laserjet P1505n",
+    "code_barre": "VNF3J20135",
+    "price": "238,37",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL-15-00038",
+    "nom": "MON TFT 19\" DELL P1913 LED",
+    "code_barre": "2Y8742614850Y9L",
+    "price": "125,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-15-00063",
+    "nom": "MS811DN",
+    "code_barre": "406347990N0XZ",
+    "price": "870,06",
+    "vat": "21,00",
+    "mark": "Lexmark",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL1507",
+    "nom": "919Va2",
+    "code_barre": "C2098JA003408",
+    "price": "132,00",
+    "vat": "21,00",
+    "mark": "AOC",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-15-00061",
+    "nom": "Wyze 909740-72L Z90D7",
+    "code_barre": "81GDN900296",
+    "price": "779,17",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL248",
+    "nom": "190S1",
+    "code_barre": "AU3A1048002907",
+    "price": "121,36",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-15-00040",
+    "nom": "Wyze 909740-72L Z90D7",
+    "code_barre": "81GDN900190",
+    "price": "779,17",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1558",
+    "nom": "Esprimo P5730",
+    "code_barre": "YKLV004223",
+    "price": "573,49",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-15-00036",
+    "nom": "MON TFT 19\" P1911 WIDE",
+    "code_barre": "GD2744454BMA1LU",
+    "price": "125,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-15-00037",
+    "nom": "MON TFT 19\" P1911 WIDE",
+    "code_barre": "GD2744454BMA1NU",
+    "price": "125,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL191",
+    "nom": "710V",
+    "code_barre": "GS17HSGXA33741P",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1572",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004690",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPAS IXELLES 984",
+    "nom": "L2208w",
+    "code_barre": "CNK8040MLC",
+    "price": "246,84",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 60
+  },
+  {
+    "description_f": "CPASXL-16-00045",
+    "nom": "HP EliteDesk 705 G2",
+    "code_barre": "CZC6109L3G",
+    "price": "469,80",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-15-00067",
+    "nom": "Wyze 909740-72L Z90D7",
+    "code_barre": "81GDN900261",
+    "price": "779,17",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL763",
+    "nom": "Océ 5250",
+    "code_barre": "",
+    "price": "7865,00",
+    "vat": "21,00",
+    "mark": "OCE",
+    "id_family": 68
+  },
+  {
+    "description_f": "CPASXL-16-00085",
+    "nom": "HP Elitedisplay E202",
+    "code_barre": "6CM55017F7",
+    "price": "104,30",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 56
+  },
+  {
+    "description_f": "CPASXL_14_00096",
+    "nom": "P1913",
+    "code_barre": "CN0H9GD2744452A8125M",
+    "price": "139,25",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-16-00042",
+    "nom": "Wyse 3030",
+    "code_barre": "JGV7W72",
+    "price": "491,63",
+    "vat": "21,00",
+    "mark": "DELL",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1027",
+    "nom": "Esprimo E7935",
+    "code_barre": "YKJW001687",
+    "price": "797,38",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL_12_00015",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004191",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515AHZCL",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1548",
+    "nom": "A19-5",
+    "code_barre": "YV2L004169",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_13_00002",
+    "nom": "FX170",
+    "code_barre": "CN0C27K5765301BH2CAB",
+    "price": "469,48",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1158",
+    "nom": "Laserjet P1505n",
+    "code_barre": "VNF3J20136",
+    "price": "238,37",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL328",
+    "nom": "710V",
+    "code_barre": "GS17HSGXA33713V",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL-15-00030",
+    "nom": "Optiplex 3020",
+    "code_barre": "58N0A32",
+    "price": "580,15",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL1648",
+    "nom": "A19-5",
+    "code_barre": "YV2L005409",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-15-00054",
+    "nom": "Wyze 909740-72L Z90D7",
+    "code_barre": "81GDN900265",
+    "price": "779,17",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1712",
+    "nom": "Futro S550-2-EID",
+    "code_barre": "YL8N004742",
+    "price": "372,63",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL_14_00092",
+    "nom": "P1913",
+    "code_barre": "CN0H9GD2744452A8111M",
+    "price": "139,25",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL103",
+    "nom": "710v",
+    "code_barre": "GS17HSGXA33693M",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL-12-00006",
+    "nom": "Optiplex 790",
+    "code_barre": 26073620263,
+    "price": "625,57",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL1028",
+    "nom": "Esprimo E7935",
+    "code_barre": "YKJW007613",
+    "price": "700,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL2021",
+    "nom": "MWS1190t",
+    "code_barre": "AU3A1048002994",
+    "price": "130,00",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_14_00093",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515AHYBL",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-15-00008",
+    "nom": "Wyze 909740-72L Z90D7",
+    "code_barre": "81GDN900226",
+    "price": "779,17",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1595",
+    "nom": "A19-5",
+    "code_barre": "YV2L006078",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_14_00082",
+    "nom": "Z90S7",
+    "code_barre": "819DMC01267",
+    "price": "779,17",
+    "vat": "21,00",
+    "mark": "DELL Wyse",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL836",
+    "nom": "710n",
+    "code_barre": "MJ17HMGLC22651P",
+    "price": "197,51",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL-15-00098",
+    "nom": "OPTIPLEX 3020 MT C1",
+    "code_barre": "DDN4H32",
+    "price": "580,15",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL1646",
+    "nom": "A19-5",
+    "code_barre": "YV2L004613",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "",
+    "nom": "Esprimo P5720",
+    "code_barre": "YK1M095654",
+    "price": "521,51",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL_14_00100",
+    "nom": "710v",
+    "code_barre": "GS17HSGXA33734R",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL-15-00002",
+    "nom": "OPTIPLEX 3020 MT C1",
+    "code_barre": "99N5H32",
+    "price": "580,15",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL873",
+    "nom": "Esprimo P2510",
+    "code_barre": "YKBB153064",
+    "price": "443,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "",
+    "nom": "P1913",
+    "code_barre": "CN0H9GD2744452A8114M",
+    "price": "139,25",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1598",
+    "nom": "A19-5",
+    "code_barre": "YV2L004999",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1100",
+    "nom": "T5540",
+    "code_barre": "CNV8390DFN",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-16-00020",
+    "nom": "HP Elitedisplay E240",
+    "code_barre": "CNK55211BX",
+    "price": "141,00",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 61
+  },
+  {
+    "description_f": "CPASXL-16-00009",
+    "nom": "HP ProDesk 600 G2",
+    "code_barre": "CZC60680LX",
+    "price": "1023,47",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL1503",
+    "nom": "220SW",
+    "code_barre": "FE4A0842002133",
+    "price": "186,76",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 60
+  },
+  {
+    "description_f": "CPASXL2048",
+    "nom": "5big Thunderbolt  Series",
+    "code_barre": "13421104221561GMA",
+    "price": "200,00",
+    "vat": "21,00",
+    "mark": "Lacie",
+    "id_family": 69
+  },
+  {
+    "description_f": "CPASXL-16-00020",
+    "nom": "HP Elitedisplay E240",
+    "code_barre": "CNK55211BX",
+    "price": "141,00",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 61
+  },
+  {
+    "description_f": "CPASXL-16-00010",
+    "nom": "HP ProDesk 600 G2",
+    "code_barre": "CZC60680LX",
+    "price": "1023,47",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-14-00140",
+    "nom": "OPTIPLEX 3020 MT C1",
+    "code_barre": "H7N0H32",
+    "price": "580,15",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "/",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515AHZZL",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1034",
+    "nom": "220SW",
+    "code_barre": "FE4A0842002130",
+    "price": "186,76",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 60
+  },
+  {
+    "description_f": "CPASXL-13-00068",
+    "nom": "Optiplex 790",
+    "code_barre": "108K65J",
+    "price": "625,57",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-16-00081",
+    "nom": "P1913",
+    "code_barre": "CN02W2Y8742614850y8l",
+    "price": "139,25",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1652",
+    "nom": "A19-5",
+    "code_barre": "YV2L006086",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1137",
+    "nom": "T5540",
+    "code_barre": "CNV8390G09",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL041",
+    "nom": "710V",
+    "code_barre": "GS17HSGXA33744N",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1142",
+    "nom": "Esprimo 7935",
+    "code_barre": "YKJW001689",
+    "price": "700,00",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "",
+    "nom": "DOCKING STATION M6700",
+    "code_barre": "",
+    "price": "100,43",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 66
+  },
+  {
+    "description_f": "CPASXL-13-00060",
+    "nom": "L2208w",
+    "code_barre": "CNK8040NMY",
+    "price": "246,84",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 60
+  },
+  {
+    "description_f": "CPASXL-13-00059",
+    "nom": "PRECISION M6700",
+    "code_barre": "95KXNX1",
+    "price": "2265,30",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 51
+  },
+  {
+    "description_f": "CPASXL1637",
+    "nom": "A19-5",
+    "code_barre": "YV2L006241",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1135",
+    "nom": "T5540",
+    "code_barre": "CNV8390H5Q",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL1620",
+    "nom": "A19-5",
+    "code_barre": "YV2L004878",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1119",
+    "nom": "T5540",
+    "code_barre": "CNV8390H6F",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-15-00081",
+    "nom": "Latitude e5550",
+    "code_barre": "2FTGV32",
+    "price": "897,24",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 51
+  },
+  {
+    "description_f": "CPASXL_13_00008",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515AHZAL",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL224",
+    "nom": "710n",
+    "code_barre": "GS17HSGXA33637L",
+    "price": "197,51",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL963",
+    "nom": "Esprimo E3500",
+    "code_barre": "YK7V038798",
+    "price": "549,30",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL7476",
+    "nom": "Laserjet 2200dn",
+    "code_barre": "JPKGJBS4207",
+    "price": "302,50",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL_13_00011",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515AHZBL",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_14_00081",
+    "nom": "Z90S7",
+    "code_barre": "819DMC00266",
+    "price": "779,17",
+    "vat": "21,00",
+    "mark": "DELL Wyse",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-15-00064",
+    "nom": "MON TFT 19\" DELL P1913 LED",
+    "code_barre": "2Y874261485109L",
+    "price": "125,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL194",
+    "nom": "710V",
+    "code_barre": "GS17HSGXA33712W",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL1700",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004700",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-12-00077",
+    "nom": "190S1",
+    "code_barre": "AU3A1048002982",
+    "price": "121,36",
+    "vat": "21,00",
+    "mark": "Philips",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_12_00002",
+    "nom": "Optiplex 790",
+    "code_barre": "GZ7K65J",
+    "price": "625,57",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-12-00078",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515AJVU2",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1721",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004735",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-15-00020",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515AHZEL",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_12_00010",
+    "nom": "Futro S550-2",
+    "code_barre": "YL8N004713",
+    "price": "356,90",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL_13_00012",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515AHY1L",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1584",
+    "nom": "A19-5",
+    "code_barre": "YV2L006509",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL_12_00009",
+    "nom": "FX170",
+    "code_barre": "CN0C27K5765301BH2CDE",
+    "price": "469,48",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL2040",
+    "nom": "Esprimo P3721",
+    "code_barre": "YLAJ012675",
+    "price": "562,63",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL909",
+    "nom": "710n",
+    "code_barre": "MJ17HMGLC22380A",
+    "price": "198,44",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 50
+  },
+  {
+    "description_f": "CPASXL459",
+    "nom": "e90",
+    "code_barre": "XK092041064",
+    "price": "410,63",
+    "vat": "21,00",
+    "mark": "Neoware",
+    "id_family": 55
+  },
+  {
+    "description_f": "",
+    "nom": "P190S",
+    "code_barre": "CN062WP27444515AHZ8L",
+    "price": "133,51",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL-15-00009",
+    "nom": "Wyze 909740-72L Z90D7",
+    "code_barre": "81GDN900206",
+    "price": "779,17",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-16-00073",
+    "nom": "HP Elitedisplay E202",
+    "code_barre": "6CM55017DK",
+    "price": "104,30",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 56
+  },
+  {
+    "description_f": "CPASXL1582",
+    "nom": "A19-5",
+    "code_barre": "YV2L006068",
+    "price": "141,07",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 54
+  },
+  {
+    "description_f": "",
+    "nom": "Laserjet 2015n",
+    "code_barre": "CNBW71R87D",
+    "price": "384,18",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL1502",
+    "nom": "T5540",
+    "code_barre": "CNV8390FHL",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "CPASXL-15-00016",
+    "nom": "OPTIPLEX 3020 MT C1",
+    "code_barre": "HCN0H32",
+    "price": "580,15",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-15-00086",
+    "nom": "MON TFT 19\" DELL P1913 LED",
+    "code_barre": "2Y87426148510WL",
+    "price": "125,71",
+    "vat": "21,00",
+    "mark": "Dell",
+    "id_family": 54
+  },
+  {
+    "description_f": "CPASXL1202",
+    "nom": "T5540",
+    "code_barre": "CNV8390FXY",
+    "price": "317,02",
+    "vat": "21,00",
+    "mark": "HP",
+    "id_family": 55
+  },
+  {
+    "description_f": "",
+    "nom": "SL-M4020ND",
+    "code_barre": "ZDGSBJAGB00054T",
+    "price": "322,42",
+    "vat": "21,00",
+    "mark": "Samsung",
+    "id_family": 48
+  },
+  {
+    "description_f": "CPASXL1159",
+    "nom": "Esprimo E7935",
+    "code_barre": "YKJW007609",
+    "price": "797,38",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL1517",
+    "nom": "Esprimo E7935",
+    "code_barre": "YKJW001684",
+    "price": "797,38",
+    "vat": "21,00",
+    "mark": "Fujitsu",
+    "id_family": 45
+  },
+  {
+    "description_f": "CPASXL-16-00007",
+    "nom": "Bizhub c368",
+    "code_barre": "A7PU021008387",
+    "price": "2137,72",
+    "vat": "21,00",
+    "mark": "Konica Minolta",
+    "id_family": 47
+  }
+]

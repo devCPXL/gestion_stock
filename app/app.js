@@ -7,6 +7,13 @@ var app = angular.module('myApp', ['ngRoute', 'ui.bootstrap', 'ngAnimate', 'toas
 
 const ID_RVA_SERVICE = 15;
 const ID_TRAVAUX_SERVICE = 19;
+const ID_IT_SERVICE = 17;
+
+const ID_ECONOMAT = 4;
+const ID_MAGASIN_TRAVAUX = 7;
+const ID_MAGASIN_IT = 90;
+
+const ID_FAMILY_CARTRIDGE = 46;
 
 app.config(['$routeProvider','$locationProvider',
     function($routeProvider, $locationProvider) {
@@ -110,6 +117,36 @@ app.config(['$routeProvider','$locationProvider',
             title: 'import Json File',
             templateUrl: 'partials/RVA/importJsonFile.php'
         })
+        .when('/IT/Articles', {
+            title: 'Liste Informatique Articles',
+            templateUrl: 'partials/TRAVAUX/articles.html',
+            controller: 'articlesTravauxCtrl'
+        })
+        .when('/IT/Suppliers', {
+            title: 'Liste Travaux Suppliers',
+            templateUrl: 'partials/RVA/suppliers.html',
+            controller: 'suppliersCtrl'
+        })
+        .when('/IT/Locaux', {
+            title: 'Liste local',
+            templateUrl: 'partials/TRAVAUX/locations.html',
+            controller: 'locationsCtrl'
+        })
+        .when('/IT/Stocks', {
+            title: 'Liste Stock',
+            templateUrl: 'partials/TRAVAUX/stocks.html',
+            controller: 'stocksTravauxCtrl'
+        })
+        .when('/IT/StockMaterial', {
+            title: 'Liste StockMaterial',
+            templateUrl: 'partials/TRAVAUX/tools.html',
+            controller: 'toolsCtrl'
+        })
+        .when('/IT/StockCartridge', {
+            title: 'Liste demande cartouche',
+            templateUrl: 'partials/IT/stockCartridge.html',
+            controller: 'stockCartridgeCtrl'
+        })
         .otherwise({
             redirectTo: '/home'
         });
@@ -121,34 +158,62 @@ app.run(['$location', '$rootScope','Data', function($location, $rootScope, Data)
     $rootScope.authenticated = true;
     $rootScope.idRvaService = ID_RVA_SERVICE;
     $rootScope.idTravauxService = ID_TRAVAUX_SERVICE;
+    $rootScope.idItService = ID_IT_SERVICE;
     $rootScope.menu = null;
 
     console.log($rootScope.id_service);
 
     Data.get('session').then(function (results) {
-        if(results['session'] != true)
-            window.location.replace(protocol +'://'+ host +'/intranet_v2');
-        else
+        if(results['session'] == false)
+            window.location.replace($location.protocol() +'://'+ $location.host() +'/intranet_v2');
+        else{
             $rootScope.idServiceUser = results['id_ser'];
+            $rootScope.id_agent = results['id_agent'];
+        }
+
+        console.log($rootScope.idServiceUser);
     });
+
+
 
     $rootScope.$on("$routeChangeStart", function (event, next, current) {
         console.log("$routeChangeStart");
 
         var pathArray = $location.path().split("/");
         pathArray.shift();
-        $rootScope.id_service = (pathArray[0] == 'RVA') ? ID_RVA_SERVICE : ((pathArray[0] == 'TRAVAUX') ? ID_TRAVAUX_SERVICE : '');
+
+        //$rootScope.id_service = (pathArray[0] == 'RVA') ? ID_RVA_SERVICE : ((pathArray[0] == 'TRAVAUX') ? ID_TRAVAUX_SERVICE : '');
+
+        switch (pathArray[0]) {
+            case 'RVA':
+                $rootScope.id_service = ID_RVA_SERVICE;
+                $rootScope.id_MainStock = ID_ECONOMAT;
+                break;
+            case 'TRAVAUX':
+                $rootScope.id_service = ID_TRAVAUX_SERVICE;
+                $rootScope.id_MainStock = ID_MAGASIN_TRAVAUX;
+                break;
+            case 'IT':
+                $rootScope.id_service = ID_IT_SERVICE;
+                $rootScope.id_MainStock = ID_MAGASIN_IT;
+                break;
+        }
         console.log($rootScope.id_service);
 
-        if($rootScope.id_service != ''){
-
-            Data.get('menu/'+$rootScope.id_service).then(function (results) {
-                $rootScope.menu = results.data;
-            });
-            Data.put('elements',{link_url : $location.path()}).then(function (results) {
-                $rootScope.elements = results.data;
-            });
-        }
+        Data.get('session').then(function (results) {
+            if(results['session'] == false)
+                window.location.replace($location.protocol() +'://'+ $location.host() +'/intranet_v2');
+            else{
+                Data.get('menu/'+$rootScope.id_service).then(function (results) {
+                    $rootScope.menu = results.data;
+                });
+                Data.put('elements',{link_url : $location.path()}).then(function (results) {
+                    $rootScope.elements = results.data;
+                });
+                $rootScope.idServiceUser = results['id_ser'];
+                $rootScope.id_agent = results['id_agent'];
+            }
+        });
     });
 
     $rootScope.$on('$routeChangeSuccess', function (event, current, previous) {
@@ -279,12 +344,21 @@ app.filter('num', function() {
 //    }
 //});
 
-app.filter('startFrom', function () {
-    return function (input, start) {
-        if (input) {
-            start = +start;
-            return input.slice(start);
-        }
-        return [];
-    };
+// error  input.slice is not a function fixed by new filter function "startFrom"
+//app.filter('startFrom', function () {
+//    return function (input, start) {
+//        if (input) {
+//            start = +start;
+//            return input.slice(start);
+//        }
+//        return [];
+//    };
+//});
+
+app.filter('startFrom', function() {
+    return function(input, start) {
+        if (!input || !input.length) { return; }
+        start = +start; //parse to int
+        return input.slice(start);
+    }
 });

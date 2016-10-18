@@ -5,8 +5,6 @@ app.controller('articlesTravauxCtrl', function ($rootScope, $scope, $modal, $fil
 
     setElementsScope.set($rootScope, $parse, $scope, $location, Data);
 
-    console.log($scope);
-
     $scope.loadData = function(){
 
         Data.get('familys/'+$rootScope.id_service).then(function(data){
@@ -50,7 +48,7 @@ app.controller('articlesTravauxCtrl', function ($rootScope, $scope, $modal, $fil
               return p;
             },
             type_stock: function () {
-              return "";
+              return "MATERIAL";
             }
           }
         });
@@ -93,11 +91,9 @@ app.controller('articlesTravauxCtrl', function ($rootScope, $scope, $modal, $fil
         {text:"MARQUE",predicate:"Marque",sortable:true},
         {text:"REFERENCE",predicate:"REFERENCE",sortable:true},
         {text:"TYPE",predicate:"Type",sortable:true},
-        //{text:"QUANTITE",predicate:"quantite",reverse:true,sortable:true,dataType:"number"},
         {text:"PRIX_HT",predicate:"PRIX HT",sortable:true},
         {text:"TVA",predicate:"vat",sortable:true},
         {text:"FAMILLE",predicate:"FAMILLE",sortable:true},
-        //{text:"STATUS",predicate:"status",sortable:true},
         {text:"ACTION",predicate:"",sortable:false}
     ];
 
@@ -117,7 +113,7 @@ app.controller('articleTravauxEditCtrl', function ($rootScope, $scope, $route, $
 
     $scope.loadData = function () {
 
-        Data.get('familys'+type_stock+'/'+$rootScope.id_service).then(function(data){
+        Data.get('familys/'+type_stock+'/'+$rootScope.id_service).then(function(data){
             $scope.familys = data.data;
             if(!item.id_article > 0)
                 $scope.article.id_family = $scope.familys[0].id_family;
@@ -126,6 +122,11 @@ app.controller('articleTravauxEditCtrl', function ($rootScope, $scope, $route, $
         Data.get('suppliers/'+$rootScope.id_service).then(function(data){
             $scope.suppliers = data.data;
         });
+
+        Data.get('printers').then(function(data){
+            $scope.printers = data.data;
+        });
+
     };
 
     $scope.loadData();
@@ -153,18 +154,28 @@ app.controller('articleTravauxEditCtrl', function ($rootScope, $scope, $route, $
 
     $scope.$on('ngRepeatFinished', function(ngRepeatFinishedEvent){
 
-        $('#SelectFamily, #SelectSupplier').selectpicker();
-
+        $('#SelectFamily, #SelectSupplier, #SelectPrinters').selectpicker();
 
         if(item.id_article > 0){
             $("#SelectFamily").selectpicker('val', item.id_family);
             $("#SelectSupplier").selectpicker('val', id_suppliers);
-            $scope.article.id_suppliers.forEach(function(entry) {
-                $('#SelectSupplier option[value='+entry+']').prop('disabled', true);
+
+            // Fix Error : Cannot read property 'forEach' of undefined
+            if (item.id_suppliers != undefined)
+                $scope.article.id_suppliers.forEach(function(entry) {
+                    $('#SelectSupplier option[value='+entry+']').prop('disabled', true);
+                });
+        }
+        // const ID_FAMILY_CARTRIDGE : 46
+        if(item.id_family == ID_FAMILY_CARTRIDGE && article.type_article != undefined){
+            $scope.article.type_article = JSON.parse("[" + $scope.article.type_article + "]");
+            for(var i=0; i<$scope.article.type_article.length;i++) $scope.article.type_article[i] = $scope.article.type_article[i].toString();
+            $scope.article.type_article.forEach(function(entry) {
+                $('#SelectPrinters option[value='+entry+']').prop('disabled', false);
             });
         }
 
-        $('#SelectFamily, #SelectSupplier').selectpicker('refresh');
+        $('#SelectFamily, #SelectSupplier, #SelectPrinters').selectpicker('refresh');
     });
 
     var original = item;
@@ -172,9 +183,13 @@ app.controller('articleTravauxEditCtrl', function ($rootScope, $scope, $route, $
         return angular.equals(original, $scope.article);
     };
     $scope.saveArticle = function (article) {
-        console.log(article);
         article.family = $('#SelectFamily option:selected').text();
+
+        if(article.type_article != undefined)
+            article.type_article = article.type_article.toString();
+
         article.uid = $scope.uid;
+        console.log(article);
         if(article.id_article > 0){
 
             console.log("before : " + article.id_suppliers);
@@ -226,13 +241,16 @@ app.controller('articleTravauxEditCtrl', function ($rootScope, $scope, $route, $
                 },
                 id_service: function(){
                     return $rootScope.id_service;
+                },
+                band: function(){
+                    return type_stock;
                 }
             }
         });
         modalInstance.result.then(function(selectedObject) {
             $scope.familys = {};
             //-- Reload scope familys
-            Data.get('familys/'+$rootScope.id_service).then(function(data){
+            Data.get('familys/'+ type_stock +'/'+$rootScope.id_service).then(function(data){
                 $scope.familys = data.data;
             });
 
@@ -247,4 +265,6 @@ app.controller('articleTravauxEditCtrl', function ($rootScope, $scope, $route, $
             }
         });
     };
+
+
 });

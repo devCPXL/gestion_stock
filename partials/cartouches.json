@@ -1,0 +1,461 @@
+[
+ {
+   "description_f": "DEVELOPER UNIT LEXMARK C540 MA",
+   "nom": "TONLE540MADEV ",
+   "code_barre": "C540X33G            ",
+   "price": "35,50",
+   "vat": "21,00",
+   "mark": "LEXMARK  ",
+   "id_family": 46
+ },
+ {
+   "description_f": "DRUM SAMSUNG SL-M2675 ",
+   "nom": "TONSAM2675DR",
+   "code_barre": "MLT-R116/SEE",
+   "price": "35,00",
+   "vat": "21,00",
+   "mark": "SAMSUNG",
+   "id_family": 46
+ },
+ {
+   "description_f": "FUSER LEXMARK C54*",
+   "nom": "TONLE544FU",
+   "code_barre": "40X7563",
+   "price": "172,35",
+   "vat": "21,00",
+   "mark": "LEXMARK  ",
+   "id_family": 46
+ },
+ {
+   "description_f": "FUSER UNIT T650",
+   "nom": "TONLE650FU",
+   "code_barre": "40X1871",
+   "price": "196,65",
+   "vat": "21,00",
+   "mark": "LEXMARK  ",
+   "id_family": 46
+ },
+ {
+   "description_f": "IMAGING KIT LEXMARK C540 BL&C",
+   "nom": "TONLE540BLCIM",
+   "code_barre": "C540X74G",
+   "price": "265,23",
+   "vat": "21,00",
+   "mark": "LEXMARK",
+   "id_family": 46
+ },
+ {
+   "description_f": "IMAGING KIT LEXMARK C925 BL   ",
+   "nom": "TONLE925BLIMA ",
+   "code_barre": "C925X72G            ",
+   "price": "65,51",
+   "vat": "21,00",
+   "mark": "LEXMARK  ",
+   "id_family": 46
+ },
+ {
+   "description_f": "IMAGING KIT LEXMARK C925 CY   ",
+   "nom": "TONLE925CYIMA ",
+   "code_barre": "C925X73G            ",
+   "price": "65,51",
+   "vat": "21,00",
+   "mark": "LEXMARK  ",
+   "id_family": 46
+ },
+ {
+   "description_f": "IMAGING KIT LEXMARK C925 MA   ",
+   "nom": "TONLE925MAIMA ",
+   "code_barre": "C925X74G            ",
+   "price": "65,51",
+   "vat": "21,00",
+   "mark": "LEXMARK  ",
+   "id_family": 46
+ },
+ {
+   "description_f": "IMAGING KIT LEXMARK C925 YE   ",
+   "nom": "TONLE925YEIMA ",
+   "code_barre": "C925X75G            ",
+   "price": "65,51",
+   "vat": "21,00",
+   "mark": "LEXMARK  ",
+   "id_family": 46
+ },
+ {
+   "description_f": "IMAGING KIT MS811 RET 100K    ",
+   "nom": "TONLE811IMA   ",
+   "code_barre": "52D0Z00             ",
+   "price": "29,89",
+   "vat": "21,00",
+   "mark": "LEXMARK  ",
+   "id_family": 46
+ },
+ {
+   "description_f": "INK CART CANON IP4200 PHOTO BL",
+   "nom": "INKCAN4200BLP ",
+   "code_barre": "PGI-5BK             ",
+   "price": "14,50",
+   "vat": "21,00",
+   "mark": "CANON    ",
+   "id_family": 46
+ },
+ {
+   "description_f": "INK CART CANON IP4200 YE",
+   "nom": "INKCAN4200YE",
+   "code_barre": "CLI-8Y",
+   "price": "13,92",
+   "vat": "21,00",
+   "mark": "CANON",
+   "id_family": 46
+ },
+ {
+   "description_f": "INK CART CANON PIXMA MX7600 BL",
+   "nom": "INKCAN7600BL  ",
+   "code_barre": "PGI-7BK             ",
+   "price": "8,88",
+   "vat": "21,00",
+   "mark": "CANON    ",
+   "id_family": 46
+ },
+ {
+   "description_f": "KIT DE MAINTENANCE T650",
+   "nom": "TONLE650FUMAIN",
+   "code_barre": "40X4765",
+   "price": "103,50",
+   "vat": "21,00",
+   "mark": "LEXMARK  ",
+   "id_family": 46
+ },
+ {
+   "description_f": "PHOTOCOND LEXMARK C734 (4)    ",
+   "nom": "TONLE734PHO4 ",
+   "code_barre": "C734X24G            ",
+   "price": "76,60",
+   "vat": "21,00",
+   "mark": "LEXMARK  ",
+   "id_family": 46
+ },
+ {
+   "description_f": "REPLACES 0E352H11E LEX E350",
+   "nom": "RETA0E352H11E",
+   "code_barre": "K12355",
+   "price": "87,12",
+   "vat": "21,00",
+   "mark": "ARMOR1",
+   "id_family": 46
+ },
+ {
+   "description_f": "REPLACES C8767E BL HP DJ 5740 ",
+   "nom": "REIAC8767E    ",
+   "code_barre": "K20119              ",
+   "price": "19,36",
+   "vat": "21,00",
+   "mark": "ARMOR1   ",
+   "id_family": 46
+ },
+ {
+   "description_f": "REPLACES C9363E COL HP DJ 5740",
+   "nom": "REIAC9363E    ",
+   "code_barre": "K20120              ",
+   "price": "20,55",
+   "vat": "21,00",
+   "mark": "ARMOR1   ",
+   "id_family": 46
+ },
+ {
+   "description_f": "REPLACES CB436A HP LJP1505 BL ",
+   "nom": "RETACB436A    ",
+   "code_barre": "K12389              ",
+   "price": "45,38",
+   "vat": "21,00",
+   "mark": "ARMOR1   ",
+   "id_family": 46
+ },
+ {
+   "description_f": "REPLACES Q5949X HP BL LJ 1320",
+   "nom": "RETAQ5949X",
+   "code_barre": "K12141",
+   "price": "67,00",
+   "vat": "21,00",
+   "mark": "ARMOR1",
+   "id_family": 46
+ },
+ {
+   "description_f": "REPLACES Q7553X HP LJP2015 BL ",
+   "nom": "RETAQ7553X    ",
+   "code_barre": "K12335              ",
+   "price": "72,00",
+   "vat": "21,00",
+   "mark": "ARMOR1   ",
+   "id_family": 46
+ },
+ {
+   "description_f": "TONER LEXMARK C544 CY RETURN  ",
+   "nom": "TONLE544CYP   ",
+   "code_barre": "C544X1CG            ",
+   "price": "109,50",
+   "vat": "21,00",
+   "mark": "LEXMARK  ",
+   "id_family": 46
+ },
+ {
+   "description_f": "TONER LEXMARK C544 MA RETURN  ",
+   "nom": "TONLE544MAP   ",
+   "code_barre": "C544X1MG            ",
+   "price": "109,50",
+   "vat": "21,00",
+   "mark": "LEXMARK  ",
+   "id_family": 46
+ },
+ {
+   "description_f": "TONER LEXMARK C544 YE RETURN  ",
+   "nom": "TONLE544YEP   ",
+   "code_barre": "C544X1YG            ",
+   "price": "109,50",
+   "vat": "21,00",
+   "mark": "LEXMARK  ",
+   "id_family": 46
+ },
+ {
+   "description_f": "TONER LEXMARK C546 BL RETURN  ",
+   "nom": "TONLE546BLP   ",
+   "code_barre": "C546U1KG            ",
+   "price": "97,80",
+   "vat": "21,00",
+   "mark": "LEXMARK  ",
+   "id_family": 46
+ },
+ {
+   "description_f": "TONER LEXMARK C748 BL HCAP COR",
+   "nom": "TONLE748BLCR+ ",
+   "code_barre": "C746H3KG            ",
+   "price": "56,12",
+   "vat": "21,00",
+   "mark": "LEXMARK  ",
+   "id_family": 46
+ },
+ {
+   "description_f": "TONER LEXMARK C748 CY HCAP COR",
+   "nom": "TONLE748CYCR+ ",
+   "code_barre": "C748H3CG            ",
+   "price": "98,95",
+   "vat": "21,00",
+   "mark": "LEXMARK  ",
+   "id_family": 46
+ },
+ {
+   "description_f": "TONER LEXMARK C748 MA HCAP COR",
+   "nom": "TONLE748MACR+ ",
+   "code_barre": "C748H3MG            ",
+   "price": "98,95",
+   "vat": "21,00",
+   "mark": "LEXMARK  ",
+   "id_family": 46
+ },
+ {
+   "description_f": "TONER LEXMARK C748 YE HCAP COR",
+   "nom": "TONLE748YECR+ ",
+   "code_barre": "C748H3YG            ",
+   "price": "98,95",
+   "vat": "21,00",
+   "mark": "LEXMARK  ",
+   "id_family": 46
+ },
+ {
+   "description_f": "TONER LEXMARK C925 BL         ",
+   "nom": "TONLE925BL    ",
+   "code_barre": "C925H2KG            ",
+   "price": "70,53",
+   "vat": "21,00",
+   "mark": "LEXMARK  ",
+   "id_family": 46
+ },
+ {
+   "description_f": "TONER LEXMARK C925 CY         ",
+   "nom": "TONLE925CY    ",
+   "code_barre": "C925H2CG            ",
+   "price": "96,85",
+   "vat": "21,00",
+   "mark": "LEXMARK  ",
+   "id_family": 46
+ },
+ {
+   "description_f": "TONER LEXMARK C925 MA         ",
+   "nom": "TONLE925MA    ",
+   "code_barre": "C925H2MG            ",
+   "price": "96,85",
+   "vat": "21,00",
+   "mark": "LEXMARK  ",
+   "id_family": 46
+ },
+ {
+   "description_f": "TONER LEXMARK C925 YE         ",
+   "nom": "TONLE925YE    ",
+   "code_barre": "C925H2YG            ",
+   "price": "96,85",
+   "vat": "21,00",
+   "mark": "LEXMARK  ",
+   "id_family": 46
+ },
+ {
+   "description_f": "TONER LEXMARK MS811 BL COR    ",
+   "nom": "TONLE811CR    ",
+   "code_barre": "52D2X0E             ",
+   "price": "172,87",
+   "vat": "21,00",
+   "mark": "LEXMARK  ",
+   "id_family": 46
+ },
+ {
+   "description_f": "TONER LEXMARK MS811 BL RET EHC",
+   "nom": "TONLE811P++   ",
+   "code_barre": "52D2X00             ",
+   "price": "383,75",
+   "vat": "21,00",
+   "mark": "LEXMARK  ",
+   "id_family": 46
+ },
+ {
+   "description_f": "TONER LEXMARK T650 BL HCAP COR",
+   "nom": "TONLE650CR+   ",
+   "code_barre": "T650H31E            ",
+   "price": "156,89",
+   "vat": "21,00",
+   "mark": "LEXMARK  ",
+   "id_family": 46
+ },
+ {
+   "description_f": "TONER MINOLTA DI 152/183 (2)",
+   "nom": "TONMI1522",
+   "code_barre": "8937784",
+   "price": "55,00",
+   "vat": "21,00",
+   "mark": "MINOLTA",
+   "id_family": 46
+ },
+ {
+   "description_f": "TONER SAMSUNG CLP-620 BL      ",
+   "nom": "TONSAM620BL   ",
+   "code_barre": "CLT-K5082S/ELS      ",
+   "price": "56,60",
+   "vat": "21,00",
+   "mark": "SAMSUNG  ",
+   "id_family": 46
+ },
+ {
+   "description_f": "TONER SAMSUNG CLP-620 BL HC",
+   "nom": "TONSAM620BL+",
+   "code_barre": "CLT-K5082L/ELS",
+   "price": "87,44",
+   "vat": "21,00",
+   "mark": "SAMSUNG",
+   "id_family": 46
+ },
+ {
+   "description_f": "TONER SAMSUNG CLP-620 CY      ",
+   "nom": "TONSAM620CY   ",
+   "code_barre": "CLT-C5082S/ELS      ",
+   "price": "56,60",
+   "vat": "21,00",
+   "mark": "SAMSUNG  ",
+   "id_family": 46
+ },
+ {
+   "description_f": "TONER SAMSUNG CLP-620 CY HC",
+   "nom": "TONSAM620CY+",
+   "code_barre": "CLT-C5082L/ELS",
+   "price": "80,80",
+   "vat": "21,00",
+   "mark": "SAMSUNG",
+   "id_family": 46
+ },
+ {
+   "description_f": "TONER SAMSUNG CLP-620 MA      ",
+   "nom": "TONSAM620MA   ",
+   "code_barre": "CLT-M5082S/ELS      ",
+   "price": "56,60",
+   "vat": "21,00",
+   "mark": "SAMSUNG  ",
+   "id_family": 46
+ },
+ {
+   "description_f": "TONER SAMSUNG CLP-620 MA HC",
+   "nom": "TONSAM620MA+",
+   "code_barre": "CLT-M5082L/ELS",
+   "price": "80,80",
+   "vat": "21,00",
+   "mark": "SAMSUNG",
+   "id_family": 46
+ },
+ {
+   "description_f": "TONER SAMSUNG CLP-620 YE      ",
+   "nom": "TONSAM620YE   ",
+   "code_barre": "CLT-Y5082S/ELS      ",
+   "price": "56,60",
+   "vat": "21,00",
+   "mark": "SAMSUNG  ",
+   "id_family": 46
+ },
+ {
+   "description_f": "TONER SAMSUNG CLP-620 YE HC",
+   "nom": "TONSAM620YE+",
+   "code_barre": "CLT-Y5082L/ELS",
+   "price": "80,80",
+   "vat": "21,00",
+   "mark": "SAMSUNG",
+   "id_family": 46
+ },
+ {
+   "description_f": "TONER SAMSUNG M2675FN BL HC",
+   "nom": "TONSAM2675+",
+   "code_barre": "MLT-D116L/ELS",
+   "price": "47,20",
+   "vat": "21,00",
+   "mark": "SAMSUNG",
+   "id_family": 46
+ },
+ {
+   "description_f": "WASTE TONER LEXMARK C540      ",
+   "nom": "TONLE540WASTE ",
+   "code_barre": "C540X75G            ",
+   "price": "8,63",
+   "vat": "21,00",
+   "mark": "LEXMARK  ",
+   "id_family": 46
+ },
+ {
+   "description_f": "WASTE TONER LEXMARK C748     ",
+   "nom": "TONLE734WASTE",
+   "code_barre": "C734X77G",
+   "price": "5,68",
+   "vat": "21,00",
+   "mark": "LEXMARK  ",
+   "id_family": 46
+ },
+ {
+   "description_f": "PHOTOCOND LEXMARK C734",
+   "nom": "TONLE734PHO4",
+   "code_barre": "C734X24G",
+   "price": "76,68",
+   "vat": "21,00",
+   "mark": "LEXMARK  ",
+   "id_family": 46
+ },
+ {
+   "description_f": "TRANSFER BELT C7XX",
+   "nom": "TONLE734TMMAIN",
+   "code_barre": "40X6401",
+   "price": "160,00",
+   "vat": "21,00",
+   "mark": "LEXMARK  ",
+   "id_family": 46
+ },
+ {
+   "description_f": "TONER SAMSUNG for SL-M4020ND",
+   "nom": "",
+   "code_barre": "MLT-D203U",
+   "price": "63,00",
+   "vat": "21,00",
+   "mark": "SAMSUNG",
+   "id_family": 46
+ }
+]

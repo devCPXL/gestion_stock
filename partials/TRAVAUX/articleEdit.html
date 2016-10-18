@@ -53,10 +53,17 @@
 
             <form-element label="TVA" mod="article">
                 <div class="input-group">
-                    <input type="text" name="vat" class="form-control" placeholder="0.0" ng-model="article.vat" only-numbers required/>
+                    <input type="text" name="vat" class="form-control" placeholder="0.0" ng-model="article.vat" only-numbers />
                     <span class="input-group-addon">%</span>
                 </div>
                 <small class="errorMessage" ng-show="article_form.vat.$dirty && article_form.vat.$invalid"> TVA Requie.</small>
+            </form-element>
+
+            <form-element label="IMPRIMANTES" mod="article" ng-show="article.id_family == 46"  multiple>
+                <select id="SelectPrinters" name="printers" ng-disabled="article.id_family != 46" class="SelectPrinters form-control selectOption" ng-model="article.type_article" multiple >
+                    <option ng-repeat=" p in printers " value="{{ p.id_article }}" on-finish-render="ngRepeatFinished" > {{ p.nom +' '+ p.mark +' '+ p.code_barre}} </option>
+                </select>
+                <small class="errorMessage" ng-show="article_form.printers.$dirty && article_form.printers.$invalid"> Imprimantes Requie.</small>
             </form-element>
 
             <form-element label="FAMILLE" mod="article">

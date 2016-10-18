@@ -17,7 +17,7 @@ app.controller('stocksTravauxCtrl', function ($scope, $rootScope, $modal, $filte
 
     $scope.loadData = function(){
         //*** Get All Materials ***//
-        Data.get('stocksMaterials/gs.id_location').then(function(data){
+        Data.get('stocksMaterials/'+ $rootScope.id_service +'/gs.id_location').then(function(data){
             //$scope.materials = data.data;
             //$scope.filteredTodos = data.data;
             $scope.items = data.data;
@@ -64,14 +64,16 @@ app.controller('stocksTravauxCtrl', function ($scope, $rootScope, $modal, $filte
         Data.put("stocks/"+stock.id_stock,{availability:stock.availability});
     };
 
-    $scope.openAddMvt = function (p, size) {
+    $scope.openAddMvt = function (p,size) {
         var modalInstance = $modal.open({
           templateUrl: 'partials/TRAVAUX/stockAddMvtTool.html',
           controller: 'addMvtCtrl',
           size: size,
           resolve: {
-            type_stock: function () {
-              return p;
+            params: function () {
+              return {
+                  type_stock : p
+              };
             }
           }
         });
@@ -269,7 +271,7 @@ app.controller('stocksTravauxCtrl', function ($scope, $rootScope, $modal, $filte
         var time = hh+':'+mn;
 
         var columns = [
-            {title:"MAGASIN / CHANTIER",dataKey:"name_location"},
+            {title:"STOCK",dataKey:"name_location"},
             {title:"MODELE",dataKey:"nom"},
             {title:"DESCRIPTION",dataKey:"description_f"},
             {title:"REFERENCE",dataKey:"code_barre"},
@@ -349,7 +351,7 @@ app.controller('stocksTravauxCtrl', function ($scope, $rootScope, $modal, $filte
     };
 
     $scope.columns = [
-        {text:"MAGASIN/CHANTIER",predicate:"MAGASIN/CHANTIER"},
+        {text:"STOCK",predicate:"MAGASIN/CHANTIER"},
         {text:"MODELE",predicate:"MODELE"},
         {text:"DESCRIPTION",predicate:"DESCRIPTION"},
         {text:"REFERENCE",predicate:"REFERENCE"},
@@ -360,76 +362,13 @@ app.controller('stocksTravauxCtrl', function ($scope, $rootScope, $modal, $filte
         {text:"FAMILLE",predicate:"FAMILLE"},
         {text:"SUPL.",predicate:"SUPL."},
         {text:"ACTION",predicate:"ACTION"},
-        {text:"RECEPTION",predicate:"RECEPTION"},
+        //{text:"RECEPTION",predicate:"RECEPTION"},
         {text:"STATUS",predicate:"STATUS"}
     ];
 
 });
 
-app.controller('addMvtCtrl', function ($scope, $route, $modal, $filter, $modalInstance, type_stock, Data, toaster) {
-    $scope.title = 'Ajouter mouvement';
-    $scope.buttonText = 'Ajouter';
-    $scope.qteMax = 0;
 
-    $scope.toolMvt = {
-        date_mvt : $filter("date")(Date.now(), 'yyyy-MM-dd')
-    };
-
-
-    $scope.cancel = function () {
-        $modalInstance.dismiss('Close');
-    };
-
-    $scope.loadData = function () {
-        Data.get('locations').then(function(data){
-            $scope.locations = data.data;
-            //$scope.toolMvt.id_location = $scope.locations[0].id_location;
-        });
-    };
-    $scope.loadData();
-
-    $scope.changeLocation = function(id_location){
-        $scope.locations_to = $scope.locations;
-
-        Data.get('stocksLocation/'+type_stock+'/'+id_location).then(function(data){
-            $scope.stocksArticle = data.data;
-            if(data.data.length > 0){
-                $scope.toolMvt.stockArticle = {}
-            }else{
-                $scope.stocksArticle = [];
-            }
-        });
-        //console.log($scope.toolMvt);
-    };
-    $scope.changeStockArticle = function(){
-        $scope.toolMvt.quantite = 1;
-    };
-
-    $scope.qteMax = $scope.toolMvt.quantite;
-
-    $scope.$on('ngRepeatFinished', function(ngRepeatFinishedEvent){
-    });
-
-    $scope.savetoolMvt = function(toolMvt){
-        //toolMvt.stockArticle = JSON.parse(toolMvt.stockArticle);
-        toolMvt.type_mvt = 'INTERNAL';
-        toolMvt.type_stock = type_stock;
-        console.log(toolMvt);
-
-        Data.post('ToolMvt',toolMvt).then(function(result){
-            if(result.status != 'error'){
-                console.log(result)
-                $modalInstance.close();
-                toaster.pop('success', "succés", '<ul><li>Ajout effectué avec succés</li></ul>', 5000, 'trustedHtml');
-
-            }else{
-                console.log(result);
-                $modalInstance.close();
-                toaster.pop('error', "Erreur", '<ul><li>Erreur pendant l \'Ajout du mouvement</li></ul>', null, 'trustedHtml');
-            }
-        });
-    };
-});
 
 
 app.controller('stockTravauxAddCtrl', function ($scope, $route, $modal, $modalInstance, item, Data, toaster) {
@@ -499,7 +438,7 @@ app.controller('stockTravauxAddCtrl', function ($scope, $route, $modal, $modalIn
 
 app.controller('stockDeliveryCtrl', function ($scope, $route, $modal, $modalInstance, $filter, item, Data, toaster) {
     var DateNow = $filter("date")(Date.now(), 'yyyy-MM-dd');
-    $scope.title = 'Reception au Stock Economat';
+    $scope.title = 'Reception au Stock';
     $scope.subTitle = item.nom_article;
     $scope.buttonText = 'Ajouter Reception';
 
@@ -559,7 +498,7 @@ app.controller('stockDeliveryCtrl', function ($scope, $route, $modal, $modalInst
 });
 
 
-app.controller('assessmentLocationCtrl', function ($scope, $route, $modal, $modalInstance, $filter, item, Data) {
+app.controller('assessmentLocationCtrl', function ($rootScope, $scope, $route, $modal, $modalInstance, $filter, item, Data) {
 
     $scope.title = 'GENERER BILAN CHANTIER';
     $scope.buttonText = 'Générer & Télécharger';
@@ -569,9 +508,8 @@ app.controller('assessmentLocationCtrl', function ($scope, $route, $modal, $moda
         $modalInstance.dismiss('Close');
     };
 
-    Data.get('locations').then(function(data){
+    Data.get('locations/' + $rootScope.id_service).then(function(data){
         $scope.locations = data.data;
-        console.log($scope.locations);
     });
 
 
@@ -604,16 +542,16 @@ app.controller('assessmentLocationCtrl', function ($scope, $route, $modal, $moda
             {title:"TOTAL",dataKey:"total"}
         ];
 
-        Data.get('stocksMaterials/'+$scope.assessmentLocation.location.id_location).then(function(data){
+        Data.get('stocksMaterials/'+ $rootScope.id_service +'/'+ $scope.assessmentLocation.location.id_location).then(function(data){
             $scope.stocksMaterials = data.data;
-            console.log($scope.stocksMaterials);
+            //console.log($scope.stocksMaterials);
 
             $scope.TotalTTC = 0;
             $scope.TotalHT = 0;
 
             for (var key in $scope.stocksMaterials) {
                 var data = {};
-                console.log($scope.stocksMaterials[key]);
+                //console.log($scope.stocksMaterials[key]);
 
                 $scope.stocksMaterials[key].price = $scope.stocksMaterials[key].price == null ? 0 : $scope.stocksMaterials[key].price;
                 $scope.stocksMaterials[key].amount = (parseFloat($scope.stocksMaterials[key].price) * parseInt($scope.stocksMaterials[key].quantite_current)).toFixed(2);
@@ -674,13 +612,19 @@ app.controller('assessmentLocationCtrl', function ($scope, $route, $modal, $moda
 
                 },
                 afterPageContent: function (data) {
-                    $scope.TotalTTC.toFixed(2)
-
-                    doc.text(" Total HT : "+$scope.TotalHT.toFixed(2)+' €', 600, 500);
-                    doc.text(" Total TTC : "+$scope.TotalTTC.toFixed(2)+' €', 700, 500);
+                    doc.setFontSize(9);
+                    doc.text(" Total HT : "+$scope.TotalHT.toFixed(2)+' €', 600, 550);
+                    doc.text(" Total TTC : "+$scope.TotalTTC.toFixed(2)+' €', 700, 550);
+                    doc.setFontSize(8);
                     doc.text("SERVICE DES TRAVAUX CHAUSSEE DE BOONDAEL 98, 1050 BRUXELLES Tel : 02.641.55.21 Fax : 02.641.54.79 ", 220, 570);
                     doc.text("Générer le : "+today+" à "+time, 60, 570);
                 }
+                //,
+                //afterPageAdd: function(data){
+                //    doc.setFontSize(9);
+                //    doc.text(" Total HT : "+$scope.TotalHT.toFixed(2)+' €', 600, 500);
+                //    doc.text(" Total TTC : "+$scope.TotalTTC.toFixed(2)+' €', 700, 500);
+                //}
             });
             // Output as Data URI
             //doc.output('datauri');
@@ -688,42 +632,5 @@ app.controller('assessmentLocationCtrl', function ($scope, $route, $modal, $moda
         }
         getImageFromUrl('assets/global/img/logoCPASXL.jpg', createPDF);
     };
-
-
-
 });
 
-app.controller('stockLastMvtListCtrl', function ($rootScope, $scope, $route, $modal, $modalInstance, $filter, item, Data, toaster) {
-
-    console.log(item);
-    $scope.title = 'Liste Dernière mouvement ';
-    var original = item;
-
-    $scope.cancel = function () {
-        $modalInstance.dismiss('Close');
-    };
-
-    $scope.isClean = function() {
-        return angular.equals(original, $scope.stock);
-    };
-
-    $scope.loadData = function () {
-        Data.get('lastMvtStockTravaux').then(function(data){
-            $scope.lastMvtMaterial = data.data;
-        });
-    };
-    $scope.stock = angular.copy(item);
-    $scope.loadData();
-
-    $scope.columns = [
-        {text:"REFERENCE",predicate:"REFERENCE",sortable:true,dataType:"number"},
-        {text:"ARTICLE",predicate:"ARTICLE",sortable:true},
-        {text:"STOCK DEPART",predicate:"STOCK DEPART",sortable:true},
-        {text:"STOCK ARRIVEE",predicate:"STOCK ARRIVEE",sortable:true},
-        {text:"QTE",predicate:"QTE",sortable:true},
-        {text:"DATE MVT",predicate:"DATE MVT"},
-        {text:"COMMENTAIRE",predicate:"Commentaire",sortable:true}
-    ];
-
-
-});

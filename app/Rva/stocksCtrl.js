@@ -77,11 +77,11 @@ app.controller('stocksRvaCtrl', function ($scope, $rootScope, $modal, $filter, D
         console.log('onFocus');
     };
 
-    $scope.openStockEditAddMvt = function (p, size) {
+    $scope.openStockEditAddMvt = function (p) {
         var modalInstance = $modal.open({
           templateUrl: 'partials/RVA/stockEditAddMvt.html',
           controller: 'stockRvaEditAddMvtCtrl',
-          size: size,
+          //size: size,
           resolve: {
             item: function () {
               return p;
@@ -89,9 +89,7 @@ app.controller('stocksRvaCtrl', function ($scope, $rootScope, $modal, $filter, D
           }
         });
         modalInstance.result.then(function(stock) {
-            console.log(stock);
-            $scope.loadStocks();
-            $scope.filterArticle = {'nom_article' : stock.stockArticle.nom_article};
+
         });
     };
 
@@ -510,8 +508,9 @@ app.controller('stockRvaAddCtrl', function ($scope, $route, $modal, $modalInstan
 
 app.controller('stockRvaDeliveryCtrl', function ($rootScope, $scope, $route, $modal, $modalInstance, $filter, item, Data, toaster) {
 
+    console.log(item);
     var DateNow = $filter("date")(Date.now(), 'yyyy-MM-dd');
-    $scope.title = 'Reception au Stock Economat';
+    $scope.title = 'Reception au Stock';
     $scope.subTitle = item.nom_article;
     $scope.buttonText = 'Ajouter Reception';
 

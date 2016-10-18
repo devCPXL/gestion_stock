@@ -9,8 +9,11 @@ require_once 'dbHelper.php';
 
 define("RVA_SERVICE", 15);
 define("TRAVAUX_SERVICE", 19);
+define("INFORMATIQUE_SERVICE", 17);
+
 define("ID_ECONOMAT", 4);
 define("ID_MAGASIN_TRAVAUX", 7);
+define("ID_MAGASIN_INFORMATIQUE", 90);
 
 //\Slim\Slim::registerAutoloader();
 $app = new Slim();
@@ -46,6 +49,10 @@ include_once 'travaux/stocks.php';
 
 include_once 'travaux/tools.php';
 
+include_once 'it/orderCartridge.php';
+
+include_once 'it/stocks.php';
+
 // ======== Start Session ============================= //
 
 $app->get('/session', 'getSession');
@@ -64,8 +71,9 @@ function getMenu($id_service) {
         session_name("intranet_v2_session");
         session_start();
     }
-    $rows['session'] = $_SESSION;
+//    $rows['session'] = $_SESSION;
     $id_agent = (empty($_SESSION['User'][0]->id_agent)) ? '' : $_SESSION['User'][0]->id_agent;
+
     if (!empty($id_agent)){
 
         $rows = $db->selectComplex("
@@ -76,6 +84,7 @@ function getMenu($id_service) {
                 and gu.id_service_url = $id_service
             ");
     }
+
     echoResponse(200, $rows);
 };
 

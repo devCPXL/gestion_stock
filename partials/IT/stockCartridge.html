@@ -4,14 +4,14 @@
     }
 </style>
 <nav>
-    <button type="button" class="btn btn-sm btn-warning" ng-click="openAddTool(article);">
-        <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
-        <span class="btn-txt">Ajouter Nouveau Outil</span>
-    </button>
-    <button type="button" class="btn btn-sm btn-info" ng-click="openAddMvt('TOOL');">
-        <span class="glyphicon glyphicon-transfer" aria-hidden="true"></span>
-        <span class="btn-txt">Ajouter un mouvement</span>
-    </button>
+    <!--<button type="button" class="btn btn-sm btn-warning" ng-click="openAddTool(article);">-->
+        <!--<span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>-->
+        <!--<span class="btn-txt">Ajouter Nouveau Outil</span>-->
+    <!--</button>-->
+    <!--<button type="button" class="btn btn-sm btn-info" ng-click="openAddMvt('TOOL');">-->
+        <!--<span class="glyphicon glyphicon-transfer" aria-hidden="true"></span>-->
+        <!--<span class="btn-txt">Ajouter un mouvement</span>-->
+    <!--</button>-->
     <!--<button type="button" class="btn btn-sm btn-info" ng-click="openOrderInternal(c);">-->
         <!--<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>-->
         <!--<span class="btn-txt">Préparer Commande Etage</span>-->
@@ -29,37 +29,37 @@
             <div class="row">
                 <div class="col-md-8">
 
-                    <ui-select id="filterLocation" ng-model="filterLocation.location" theme="bootstrap" reset-search-input="true" style="width: 230px;">
-                        <ui-select-match placeholder="Chercher Stock ...">
-                            <span>{{$select.selected.name_location | limitTo : 20}}</span>
-                            <button class="clear" ng-click="clear('filterLocation')">X</button>
+                    <ui-select id="filterAgent" ng-model="filterAgent.orderCartridge" theme="bootstrap" reset-search-input="true" style="width: 250px;">
+                        <ui-select-match placeholder="Chercher Demandeur(se)  ...">
+                            <span>{{$select.selected.lName + ' ' + $select.selected.fName | limitTo : 30}}</span>
+                            <button class="clear" ng-click="clear('filterAgent')">X</button>
                         </ui-select-match>
-                        <ui-select-choices repeat="l in items | unique:'name_location' | orderBy:'name_location' | filter: $select.search">
-                            <small ng-bind-html="l.name_location | highlight: $select.search"></small>
+                        <ui-select-choices repeat="l in items | unique:'lName' | orderBy:'lName' | filter: $select.search">
+                            <small ng-bind-html="l.fName | highlight: $select.search"></small>
+                            <small ng-bind-html="l.lName | highlight: $select.search"></small>
                         </ui-select-choices>
                     </ui-select>
 
-                    <ui-select id="filterTool" ng-model="filterTool.location" theme="bootstrap" reset-search-input="true" style="width: 350px;">
+                    <ui-select id="filterArticle" ng-model="filterArticle.orderCartridge" theme="bootstrap" reset-search-input="true" style="width: 350px;">
                         <ui-select-match placeholder="Chercher article...">
-                            <span>{{$select.selected.nom | limitTo : 40}}</span>
-                            <button class="clear" ng-click="clear('filterTool')">X</button>
+                            <span>{{$select.selected.name_article + ' / ' + $select.selected.code_barre | limitTo : 40}}</span>
+                            <button class="clear" ng-click="clear('filterArticle')">X</button>
                         </ui-select-match>
-                        <ui-select-choices repeat="l in items | unique:'nom' | orderBy:'nom' | filter: $select.search">
-                            <small ng-bind-html="l.nom | highlight: $select.search"></small> /
-                            <small ng-bind-html="l.code_barre | highlight: $select.search"></small> /
-                            <small ng-bind-html="l.mark | highlight: $select.search"></small>
+                        <ui-select-choices repeat="l in items | unique:'name_article' | orderBy:'name_article' | filter: $select.search">
+                            <small ng-bind-html="l.name_article | highlight: $select.search"></small> /
+                            <small ng-bind-html="l.code_barre | highlight: $select.search"></small>
                         </ui-select-choices>
                     </ui-select>
 
-                    <ui-select id="filterFamily" ng-model="filterFamily.location" theme="bootstrap" reset-search-input="true" style="width: 250px;">
-                        <ui-select-match placeholder="Chercher Famille...">
-                            <span>{{$select.selected.name_family | limitTo : 30}}</span>
-                            <button class="clear" ng-click="clear('filterFamily')">X</button>
-                        </ui-select-match>
-                        <ui-select-choices repeat="l in items | unique:'name_family' | orderBy:'name_family' | filter: $select.search">
-                            <small ng-bind-html="l.name_family | highlight: $select.search"></small>
-                        </ui-select-choices>
-                    </ui-select>
+                    <!--<ui-select id="filterFamily" ng-model="filterFamily.location" theme="bootstrap" reset-search-input="true" style="width: 250px;">-->
+                        <!--<ui-select-match placeholder="Chercher Famille...">-->
+                            <!--<span>{{$select.selected.name_family | limitTo : 30}}</span>-->
+                            <!--<button class="clear" ng-click="clear('filterFamily')">X</button>-->
+                        <!--</ui-select-match>-->
+                        <!--<ui-select-choices repeat="l in items | unique:'name_family' | orderBy:'name_family' | filter: $select.search">-->
+                            <!--<small ng-bind-html="l.name_family | highlight: $select.search"></small>-->
+                        <!--</ui-select-choices>-->
+                    <!--</ui-select>-->
 
                     <!--<select id="filterStatus" ng-model="filterTool.nom"  data-ng-change="changeFilter()" data-style="btn-info" >-->
                         <!--<option value="">Tous les Outils</option>-->
@@ -96,38 +96,30 @@
                 </thead>
                 <tbody>
                 <tr ng-repeat="t in (filtered = (items
-                | filter : filterLocation.location.name_location : true
-                | filter : filterTool.location.nom : true
-                | filter : filterFamily.location.name_family : true
-                | filter : filterRow
+                | filter : filterAgent.orderCartridge.lName : true
+                | filter : filterArticle.orderCartridge.code_barre : true
                 | filter : search
                 ))
                 | startFrom :(currentPage-1)* entryLimit
                 | limitTo : entryLimit
                 "
                     id="{{t.id_stock}}"
-                    animate-on-change='t.nom + t.mark + t.code_barre'
+                    animate-on-change=''
                     ng-animate="'animate'" >
-                    <td>{{t.id_stock}}</td>
-                    <td>{{t.name_location}}</td>
-                    <td>{{t.nom}}</td>
-                    <td>{{t.code_barre}}</td>
-                    <td>{{t.mark}}</td>
-                    <td>{{t.unite}}</td>
-                    <td>{{t.description_f}}</td>
+                    <td>{{t.id_order_cartridge}}</td>
+                    <td>{{t.lName + ' ' + t.fName}}</td>
+                    <td>{{t.name_service}}</td>
+                    <td>{{t.name_article + ' ' + t.mark + ' ' + t.code_barre}}</td>
+                    <td>{{t.description_article}}</td>
+                    <td>{{t.date_created}}</td>
 
                     <td>
-                        <button class="btn btn-success" ng-class="{1:'btn-success', 0:'btn-danger'}[t.quantite_current]" data-ng-show="true">
-                            <i ng-class="{1:'glyphicon-ok', 0:'glyphicon-log-out'}[t.quantite_current]" class="glyphicon"></i>
-                        </button>
-                    </td>
-                    <!--<td>{{t.quantite_current}}</td>-->
-                    <td>{{t.name_family}}</td>
-                    <td>
-                        <button type="button" class="btn btn-default fa fa-edit" class="btn" ng-click="openAddTool(t);"></button>
+                        <button type="button" class="btn btn-default fa fa-edit" class="btn" ng-click="openAddMvt(t);"></button>
                     </td>
                     <td>
-                        <button type="button" class="btn btn-default fa fa-list" class="btn" ng-click="getListMvt(t);"></button>
+                        <button id="btn-status-stock" data-ng-hide="" data-ng-disabled=""
+                                class="btn" ng-class="{Active:'btn-success', Inactive:''}[t.status]" ng-click="changeMaterialStatus(t);">
+                            {{t.status}}</button>
                     </td>
                     <!--<td><button class="btn" ng-class="{Active:'btn-success', Inactive:''}[t.status]" ng-click="changeitemstatus(c);">{{t.status}}</button></td>-->
                 </tr>

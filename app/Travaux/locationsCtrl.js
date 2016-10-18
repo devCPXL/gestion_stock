@@ -1,19 +1,57 @@
 
-app.controller('locationsCtrl', function ($scope, $route, $modal, $filter, Data, jsonNumericCheck) {
+app.controller('locationsCtrl', function ($rootScope, $scope, $route, $modal, $filter, Data, jsonNumericCheck) {
     $scope.locations = {};
-    Data.get('locations').then(function(data){
+    var templateUrl = "";
+
+    var columnsTra = [
+        {   nameColumn:"id_salle",              text:"ID",                  visibility: "true"},
+        {   nameColumn:"type_location",         text:"ART BUEGETAIRE",      visibility: "true"},
+        {   nameColumn:"description_f",         text:"LOCALISATION BAT",    visibility: "true"},
+        {   nameColumn:"start_date",            text:"DATE DEBUT",          visibility: "true"},
+        {   nameColumn:"end_date",              text:"DATE FIN",            visibility: "true"},
+        {   nameColumn:"id_agent",              text:"CHEF D'EQUIPE",       visibility: "true"},
+        {   nameColumn:"further_information",   text:"DESCRIPTION CHANTIER",visibility: "true"}
+        //,{   text:"MAJ", predicate:"MAJ"}
+    ];
+
+    var columnsInfo = [
+        {   nameColumn:"id_salle",              text:"ID",          visibility: "true"},
+        {   nameColumn:"type_location",         text:"BATIMENT",    visibility: "true"},
+        {   nameColumn:"description_f",         text:"LOCAL",       visibility: "true"},
+        {   nameColumn:"start_date",            text:"DATE DEBUT",  visibility: "false"},
+        {   nameColumn:"end_date",              text:"DATE FIN",    visibility: "false"},
+        {   nameColumn:"id_agent",              text:"AGENT",       visibility: "false"},
+        {   nameColumn:"further_information",   text:"DESCRIPTION ",visibility: "true"}
+        //,{   text:"MAJ", predicate:"MAJ"}
+    ];
+
+    switch ($rootScope.id_service)
+    {   case ID_TRAVAUX_SERVICE:
+            $scope.columns = columnsTra;
+            templateUrl = 'partials/TRAVAUX/locationEdit.html';
+            break;
+        case ID_IT_SERVICE:
+            $scope.columns = columnsInfo;
+            templateUrl = 'partials/IT/locationEdit.html';
+            break;
+    }
+
+    Data.get('locations/'+$rootScope.id_service).then(function(data){
         $scope.locations = jsonNumericCheck.d(data.data);
     });
 
     $scope.open = function (p,size) {
 
         var modalInstance = $modal.open({
-            templateUrl: 'partials/TRAVAUX/locationEdit.html',
+            templateUrl: templateUrl,
             controller: 'locationEditCtrl',
             size: size,
             resolve: {
                 item: function () {
                     return p;
+                },
+                columns: function(){
+                    return $scope.columns;
                 }
             }
         });
@@ -40,23 +78,13 @@ app.controller('locationsCtrl', function ($scope, $route, $modal, $filter, Data,
         });
     };
     
-    $scope.columns = [
-        {text:"ID",predicate:"id_salle",sortable:true,dataType:"number"},
-        {text:"CORPS DE METIER",predicate:"CORPS DE METIER",sortable:false},
-        {text:"NOM CHANTIER",predicate:"NOM CHANTIER",sortable:true},
-        {text:"DATE DEBUT",predicate:"DATE DEBUT",sortable:true},
-        {text:"DATE FIN",predicate:"DATE FIN",sortable:true},
-        {text:"AGENT",predicate:"AGENT",sortable:true},
-        {text:"COMMENTAIRE",predicate:"COMMENTAIRE",sortable:false},
-        {text:"MAJ",predicate:"MAJ",sortable:false}
-    ];
-
 });
 
 
-app.controller('locationEditCtrl', function ($scope, $modalInstance, item, Data, jsonNumericCheck) {
+app.controller('locationEditCtrl', function ($rootScope, $scope, $modalInstance, item, columns, Data, jsonNumericCheck) {
     $scope.location = {};
     $scope.agents = {};
+    $scope.columns = columns;
     console.log(item);
 
     console.log("$scope.agents : ");
@@ -88,6 +116,7 @@ app.controller('locationEditCtrl', function ($scope, $modalInstance, item, Data,
 
         location.uid = $scope.uid;
         delete location.name;
+        location.id_service = $rootScope.id_service; // set Service to Location Row
         console.log(location);
         if(angular.isDefined(location.id_location)){
             Data.put('location/'+location.id_location, location).then(function (result) {

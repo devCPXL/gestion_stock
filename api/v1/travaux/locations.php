@@ -8,8 +8,8 @@
 
 // === Locations ================================================================================= //
 
-$app->get('/locations','getLocations');
-function getLocations() {
+$app->get('/locations/:id_service','getLocations');
+function getLocations($id_service) {
     global $db;
     $rows = $db->selectComplex("
     SELECT  id_location, description_f, DATE_FORMAT(gl.start_date,'%Y-%m-%d') as start_date,
@@ -19,6 +19,7 @@ function getLocations() {
     FROM gestion_location gl
     LEFT JOIN cpas_agents on cpas_agents.id_agent = gl.id_agent
 --    left join cpas_contrats on cpas_agents.id_agent = cpas_contrats.id_agent
+    WHERE gl.id_service = $id_service
     order by gl.type_location asc, gl.description_f asc
     ");
     echoResponse(200, $rows);

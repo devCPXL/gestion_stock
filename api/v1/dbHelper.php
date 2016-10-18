@@ -101,10 +101,12 @@ class dbHelper {
         return $response;
     }
     function insert($table, $columnsArray, $requiredColumnsArray) {
-        if (!isset($_SESSION) && !isset($_SESSION['User'])) {
+        if (!isset($_SESSION)) {
             session_name("intranet_v2_session");
             session_start();
-            $user = $_SESSION['User'][0];
+        }
+        if (isset($_SESSION) && isset($_SESSION["User"])) {
+            $user = $_SESSION["User"][0];
             $columnsArray->user_creation = $user->id_agent;
             $columnsArray->dt_creation = date("Y-m-d H:i:s");
             $this->verifyRequiredParams($columnsArray, $requiredColumnsArray);
@@ -136,10 +138,12 @@ class dbHelper {
         }
     }
     function update($table, $columnsArray, $where, $requiredColumnsArray){
-        if (!isset($_SESSION) && !isset($_SESSION['User'])){
+        if (!isset($_SESSION)) {
             session_name("intranet_v2_session");
             session_start();
-            $user = $_SESSION['User'][0];
+        }
+        if (isset($_SESSION) && isset($_SESSION["User"])) {
+            $user = $_SESSION["User"][0];
             $columnsArray->user_update = $user->id_agent;
             $columnsArray->dt_update = date("Y-m-d H:i:s");
 
@@ -157,7 +161,6 @@ class dbHelper {
                     $a[":" . $key] = $value;
                 }
                 $c = rtrim($c, ", ");
-
                 $stmt = $this->db->prepare("UPDATE $table SET $c WHERE 1=1 " . $w);
                 $stmt->execute($a);
                 $affected_rows = $stmt->rowCount();
@@ -257,8 +260,13 @@ class dbHelper {
             session_name("intranet_v2_session");
             session_start();
         }
-        $result['session'] = true;
-        $result['id_ser'] = $_SESSION['Contrat'][0]->id_ser;
+        if(!empty($_SESSION['Contrat'][0]->id_ser)){
+            $result['session'] = true;
+            $result['id_ser'] = $_SESSION['Contrat'][0]->id_ser;
+            $result['id_agent'] = (empty($_SESSION['User'][0]->id_agent)) ? '' : $_SESSION['User'][0]->id_agent;
+        }
+        else
+            $result['session'] = false;
 
         return $result;
     }

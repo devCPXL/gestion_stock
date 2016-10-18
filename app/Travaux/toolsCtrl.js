@@ -1,10 +1,13 @@
 /**
  * Created by lakroubassi.n on 4/08/2015.
  */
-app.controller('toolsCtrl', function ($scope, $rootScope, $modal, $filter, Data, $location, $window, myService, jsonNumericCheck) {
+app.controller('toolsCtrl', function ($scope, $rootScope, $modal, $filter, Data, $location, $window,filterFilter, setElementsScope, $parse, myService, jsonNumericCheck) {
     $scope.stock = {};
     $scope.filterLocation = {};
     $scope.filterTool = {};
+    $scope.filterFamily = {};
+
+    $scope.items = {};
 
     $scope.clear = function(filterName) {
         $scope[filterName] = {};
@@ -12,24 +15,28 @@ app.controller('toolsCtrl', function ($scope, $rootScope, $modal, $filter, Data,
     $scope.loadData = function(){
 
         Data.get('tools/'+$rootScope.id_service).then(function(data){
-            $scope.tools = data.data;
+            $scope.items = data.data;
         });
 
         Data.get('familys/'+$rootScope.id_service).then(function(data){
             $scope.familys = data.data;
         });
 
-        Data.get('locations').then(function(data){
-            $scope.locations = data.data;
-        });
-
     };
 
-    //$scope.loadStocks = function(){
-    //    Data.get('stocks').then(function(data){
-    //        $scope.stocks = jsonNumericCheck.d(data.data);
-    //    });
-    //};
+    // pagination controls
+    $scope.currentPage = 1;
+    $scope.totalItems = $scope.items.length;
+    $scope.entryLimit = 10; // items per page
+    $scope.noOfPages = Math.ceil($scope.totalItems / $scope.entryLimit);
+
+    // $watch search to update pagination
+    $scope.$watch('search', function (newVal, oldVal) {
+        $scope.filtered = filterFilter($scope.items, newVal);
+        $scope.totalItems = $scope.filtered.length;
+        $scope.noOfPages = Math.ceil($scope.totalItems / $scope.entryLimit);
+        $scope.currentPage = 1;
+    }, true);
 
     $scope.loadData();
 
@@ -63,8 +70,10 @@ app.controller('toolsCtrl', function ($scope, $rootScope, $modal, $filter, Data,
             controller: 'addMvtCtrl',
             size: size,
             resolve: {
-                type_stock: function () {
-                    return p;
+                params: function () {
+                    return {
+                        type_stock : p
+                    };
                 }
             }
         });
@@ -108,7 +117,8 @@ app.controller('toolsCtrl', function ($scope, $rootScope, $modal, $filter, Data,
     };
 
     $scope.columns = [
-        {text:"MAGASIN/CHANTIER",predicate:"MAGASIN/CHANTIER"},
+        {text:"ID",predicate:"ID"},
+        {text:"STOCK",predicate:"STOCK"},
         {text:"MODELE",predicate:"NOM"},
         {text:"REFERENCE",predicate:"MODELE"},
         {text:"MARQUE",predicate:"MARQUE"},

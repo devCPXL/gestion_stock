@@ -56,25 +56,25 @@ function postFamily(){
     echoResponse(200, $rows);
 };
 
-$app->get('/familysTOOL/:id_service', 'getFamilysTools');
-function getFamilysTools($id_service) {
+$app->get('/familys/:band/:id_service', 'getFamilysBand');
+function getFamilysBand($band, $id_service) {
     global $db;
     $rows = $db->selectComplex("Select id_family, code, description
                                 From gestion_family
                                 Where id_service = $id_service
-                                and id_family IN(3)");
+                                and band = '$band' ");
     echoResponse(200, $rows);
 };
 
 
-$app->get('/familysMATERIAL/:id_service', 'getFamilysMaterials');
-function getFamilysMaterials($id_service) {
-    global $db;
-    $rows = $db->selectComplex("Select id_family, code, description
-                                From gestion_family
-                                Where id_service = $id_service
-                                and id_family NOT IN(3)");
-    echoResponse(200, $rows);
-};
+//$app->get('/familysMATERIAL/:id_service', 'getFamilysMaterials');
+//function getFamilysMaterials($id_service) {
+//    global $db;
+//    $rows = $db->selectComplex("Select id_family, code, description
+//                                From gestion_family
+//                                Where id_service = $id_service
+//                                and id_family NOT IN(3)");
+//    echoResponse(200, $rows);
+//};
 
 //familysTools

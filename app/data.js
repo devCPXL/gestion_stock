@@ -107,9 +107,6 @@ app.factory('setElementsScope', function(){
                     model1.assign($scope, parseInt($rootScope.elements[key].disable_element_value, 10));
                 }
         });
-
-
-        console.log($scope);
     }
     return {set:set};
 });

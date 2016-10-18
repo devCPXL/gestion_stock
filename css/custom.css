@@ -114,6 +114,7 @@ transition-duration: .1s;
 }
 .input-icon>.search-icon {
 padding: 0 3px;
+    margin: 0px;
 z-index: 2;
 position: absolute;
 top: 1px;
@@ -257,7 +258,7 @@ padding-right: 6px;
 .panel-body {
     /*display: block;*/
     max-height: 615px;
-    /*min-height: 400px;*/
+    min-height: 500px;
     /*min-height: 100%;*/
     overflow-y:scroll;
 }
