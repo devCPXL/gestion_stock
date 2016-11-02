@@ -32,7 +32,7 @@ function getStocksCartridges($id_location, $id_article) {
     global $db;
     $rows = $db->selectComplex("
         SELECT gs.id_stock, gs.id_article as gs_id_article, gs.id_location, gs.quantite_current, gs.stock_alert, gs.stock_min, gs.type_stock, gs.status,
-        ga.id_article, ga.nom, ga.code_barre, ga.description_f, ga.id_family, ga.mark, ga.vat, ga.unite, ga.price, ga.type_article
+        ga.id_article, ga.nom as nom_article, ga.code_barre, ga.description_f, ga.id_family, ga.mark, ga.vat, ga.unite, ga.price, ga.type_article
         FROM gestion_stock gs
             LEFT JOIN gestion_article ga
                 ON ga.id_article = gs.id_article

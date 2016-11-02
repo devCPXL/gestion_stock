@@ -27,8 +27,6 @@
 
         <div class="panel-heading">
             <div class="row">
-                <div class="col-md-8">
-
                     <ui-select id="filterLocation" ng-model="filterLocation.location" theme="bootstrap" reset-search-input="true" style="width: 230px;">
                         <ui-select-match placeholder="Chercher Stock ...">
                             <span>{{$select.selected.name_location | limitTo : 20}}</span>
@@ -61,6 +59,16 @@
                         </ui-select-choices>
                     </ui-select>
 
+                    <div class="sw-search filter-tool">
+                        <div class="nav-search" id="nav-search">
+                            Filter: <span class="input-icon">
+                                <input placeholder="Filter Liste Outils ..." class="nav-search-input" ng-model="filterRow"
+                                       ng-change="resetLimit();"  autocomplete="off" type="text" style="width:300px;">
+                                <i class="search-icon fa fa-search nav-search-icon"></i>
+                            </span>
+                        </div>
+                    </div>
+
                     <!--<select id="filterStatus" ng-model="filterTool.nom"  data-ng-change="changeFilter()" data-style="btn-info" >-->
                         <!--<option value="">Tous les Outils</option>-->
                         <!--<option ng-repeat="t in items | unique:'quantite_current' " value="{{t.quantite_current}}" on-finish-render="ngRepeatFinished" data-icon="glyphicon glyphicon-filter" >-->
@@ -74,17 +82,9 @@
                             <!--{{t.name_family}}-->
                         <!--</option>-->
                     <!--</select>-->
-                </div>
-                <div class="col-md-4">
-                    <!--<div class="sw-search filter-tool" >-->
-                        <!--<div class="nav-search" id="nav-search">-->
-                            <!--Filter: <span class="input-icon">-->
-                                <!--<input placeholder="Filter Liste Outils ..." class="nav-search-input" ng-model="filterLine" ng-change="resetLimit();"  autocomplete="off" type="text" style="width:300px;">-->
-                                <!--<i class="search-icon fa fa-search nav-search-icon"></i>-->
-                            <!--</span>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                </div>
+                <!--<div class="col-md-4">-->
+
+                <!--</div>-->
             </div>
         </div>
         <div class="panel-body">
