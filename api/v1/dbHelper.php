@@ -46,6 +46,35 @@ class dbHelper {
         return $response;
     }
 
+    function selectComplex_s($query){
+        try{
+            $a = array();
+//            $w = "";
+//            foreach ($where as $key => $value) {
+//                $w .= " and " .$key. " like :".$key;
+//                $a[":".$key] = $value;
+//            }
+            $stmt = $this->db->prepare($query);
+            $stmt->execute($a);
+            $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
+//            $table_fields = $stmt->fetchAll(PDO::FETCH_COLUMN);
+            if(count($rows)<=0){
+                $response["status"] = "warning";
+                $response["message"] = "No data found.";
+            }else{
+                $response["status"] = "success";
+                $response["message"] = "Data selected from database";
+            }
+            $response = $rows;
+//            $response["table_fields"] = $table_fields;
+        }catch(PDOException $e){
+            $response["status"] = "error";
+            $response["message"] = 'Select Join Failed: ' .$e->getMessage();
+            $response["data"] = null;
+        }
+        return $response;
+    }
+
     function selectComplex($query){
         try{
             $a = array();

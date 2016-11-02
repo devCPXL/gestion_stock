@@ -131,43 +131,38 @@
 
                     <td style="width: 100px;">
 
-                            <div class="btn-group">
-                                <a class="btn btn-circle btn-default btn-sm" href="" data-toggle="dropdown" aria-expanded="true">
-                                    <i class="fa fa-cog fa-spin fa-3x fa-fw"></i> Actions <i class="fa fa-angle-down"></i>
-                                </a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li data-ng-hide="" data-ng-disabled="true">
-                                        <!--<i class="fa fa-pencil"></i>-->
-                                        <a href="">
-                                        <button type="button" class="btn btn-default btn-sm " id="btn-edit-article"
+                        <div class="btn-group">
+                            <a class="btn btn-circle btn-default btn-sm" href="" data-toggle="dropdown" aria-expanded="true">
+                                <i class="fa fa-cog fa-spin fa-3x fa-fw"></i> Actions <i class="fa fa-angle-down"></i>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a href="" id="btn-edit-article"
                                         ng-click="openAddMaterial(t);" data-ng-hide="t.id_location != id_MainStock">
-                                            <i class="fa fa-pencil"></i>
-                                            Editer Article </button>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="" id="btn-add-inventory" data-ng-hide="" data-ng-disabled=""
-                                           ng-click="openAddInventory(t);" data-ng-hide="t.id_location != id_MainStock">
-                                            <i class="fa fa-plus-circle"></i> Ajouter Inventaire </a>
-                                    </li>
-                                    <li>
-                                        <a href="" id="btn-list-mvt" data-ng-hide="" data-ng-disabled="" ng-click="getListMvt(t);">
-                                            <i class="fa fa-th-list"></i> Liste Mouvement </a>
-                                    </li>
-                                    <li class="divider">
-                                    </li>
-                                    <li>
-                                        <a href="" id="btn-add-deliveryStock" data-ng-hide="" data-ng-disabled=""
-                                           ng-click="openStockDelivery(t)" data-ng-hide="t.id_location != id_MainStock">
-                                            <i class="fa fa-plus-circle"></i> Ajouter Reception </a>
-                                    </li>
-                                    <li>
-                                        <a href="" id="btn-list-deliveryStock" data-ng-hide="" data-ng-disabled=""
-                                           ng-click="openStockDeliveryList(t)" data-ng-hide="t.id_location != id_MainStock">
-                                            <i class="fa fa-th-list"></i> Liste Reception </a>
-                                    </li>
-                                </ul>
-                            </div>
+                                        <i class="fa fa-pencil"></i> Editer Article </a>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" id="btn-add-inventory" data-ng-hide="" data-ng-disabled="" ng-click="openAddInventory(t);">
+                                        <i class="fa fa-plus-circle"></i> Ajouter Inventaire </a>
+                                </li>
+                                <li>
+                                    <a href="" id="btn-list-mvt" data-ng-hide="" data-ng-disabled="" ng-click="getListMvt(t);">
+                                        <i class="fa fa-th-list"></i> Liste Mouvement </a>
+                                </li>
+                                <li class="divider">
+                                </li>
+                                <li>
+                                    <a href="" id="btn-add-deliveryStock" data-ng-disabled="" ng-click="openStockDelivery(t)"
+                                       data-ng-hide="t.id_location != id_MainStock">
+                                        <i class="fa fa-plus-circle"></i> Ajouter Reception </a>
+                                </li>
+                                <li>
+                                    <a href="" id="btn-list-deliveryStock" data-ng-disabled="" ng-click="openStockDeliveryList(t)"
+                                       data-ng-hide="t.id_location != id_MainStock">
+                                        <i class="fa fa-th-list"></i> Liste Reception </a>
+                                </li>
+                            </ul>
                         </div>
                         <!--<button id="btn-edit-article" data-ng-hide="" data-ng-disabled=""-->
                                 <!--type="button" class="btn btn-default fa fa-history" title="Editer Article" class="btn" ng-click="openAddMaterial(t);" data-ng-hide="t.id_location != id_MainStock"></button>-->

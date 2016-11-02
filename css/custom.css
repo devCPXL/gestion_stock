@@ -434,7 +434,7 @@ padding-right: 6px;
     width: 80px;
 }
 .selectOption {
-    width: 73% !important;
+    width: 70% !important;
 }
 .link-item {
     cursor: pointer;
@@ -488,4 +488,25 @@ padding-right: 6px;
 .table>tbody>tr>td{
     padding: 4px;
     font-size: 13px;
+}
+
+.multiselect-parent .dropdown-toggle {
+    width: 370px;
+}
+
+.logo{
+    position: absolute;
+    background-color: white;
+    padding: 6px 6px 1px 7px;
+    /*-webkit-box-shadow: 0px 0px 12px -2px rgba(66,138,202,1);*/
+    /*-moz-box-shadow: 0px 0px 12px -2px rgba(66,138,202,1);*/
+    /*box-shadow: 0px 0px 12px -2px rgba(66,138,202,1);*/
+}
+
+.logo img{
+    width: 191px;
+}
+
+.blog-nav{
+    padding-left: 205px;
 }

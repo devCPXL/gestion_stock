@@ -29,10 +29,12 @@ app.controller('locationsCtrl', function ($rootScope, $scope, $route, $modal, $f
     {   case ID_TRAVAUX_SERVICE:
             $scope.columns = columnsTra;
             templateUrl = 'partials/TRAVAUX/locationEdit.html';
+            $scope.title_location = 'chantiers';
             break;
         case ID_IT_SERVICE:
             $scope.columns = columnsInfo;
             templateUrl = 'partials/IT/locationEdit.html';
+            $scope.title_location = 'services'
             break;
     }
 
@@ -90,7 +92,7 @@ app.controller('locationEditCtrl', function ($rootScope, $scope, $modalInstance,
     console.log("$scope.agents : ");
     console.log($scope.agents);
 
-    Data.get('agents').then(function(data){
+    Data.get('agentsTravaux').then(function(data){
         $scope.agents = jsonNumericCheck.d(data.data);
 
         if(!angular.isDefined(item)){
@@ -105,8 +107,8 @@ app.controller('locationEditCtrl', function ($rootScope, $scope, $modalInstance,
     $scope.cancel = function () {
         $modalInstance.dismiss('Close');
     };
-    $scope.title        = (angular.isDefined(item)) ? 'Editer Chantier'        : 'Ajouter Chantier';
-    $scope.buttonText   = (angular.isDefined(item)) ? 'Mise à jour Chantier'   : 'Ajouter nouveau Chantier';
+    $scope.title        = (angular.isDefined(item)) ? 'Editer'        : 'Ajouter';
+    $scope.buttonText   = (angular.isDefined(item)) ? 'Mise à jour'   : 'Ajouter nouveau';
 
     var original = item;
     $scope.isClean = function() {

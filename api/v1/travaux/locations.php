@@ -59,8 +59,8 @@ function postLocation()
     echoResponse(200, $rows);
 };
 
-$app->get('/agents','getAgents');
-function getAgents() {
+$app->get('/agentsTravaux','getAgentsTravaux');
+function getAgentsTravaux() {
     global $db;
     $rows = $db->selectComplex("select cpas_agents.id_agent, nom , prenom
                                         from cpas_contrats

@@ -53,6 +53,8 @@ include_once 'it/orderCartridge.php';
 
 include_once 'it/stocks.php';
 
+include_once 'urlElementUser.php';
+
 // ======== Start Session ============================= //
 
 $app->get('/session', 'getSession');
@@ -106,6 +108,37 @@ function putElements() {
 
     echoResponse(200, $rows);
 };
+
+/** get list Agent */
+
+$app->post('/agents', 'postAgents');
+function postAgents() {
+    global $db, $app;
+
+    $name = $app->request()->getBody();
+
+    $rows = $db->selectComplex_s("select distinct cpas_agents.id_agent, nom , prenom
+                                        from cpas_contrats
+                                        left join cpas_agents on cpas_agents.id_agent = cpas_contrats.id_agent
+                                        where actif = 1 and cpas_agents.nom like '%$name%' or cpas_agents.prenom like '%$name%'");
+    echoResponse(200, $rows);
+};
+
+$app->get('/agents/:name', 'getAgents');
+function getAgents($name) {
+    global $db, $app;
+
+//    $name = $app->request()->getBody();
+
+    $rows = $db->selectComplex_s("select distinct cpas_agents.id_agent, nom , prenom
+                                        from cpas_contrats
+                                        left join cpas_agents on cpas_agents.id_agent = cpas_contrats.id_agent
+                                        where actif = 1 and cpas_agents.nom like '%$name%' or cpas_agents.prenom like '%$name%'");
+    echoResponse(200, $rows);
+};
+
+
+
 
 $app->put('/agent', 'putAgent');
 function putAgent() {

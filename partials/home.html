@@ -20,7 +20,7 @@
     </div>
 </div>
 <div class="container" style="margin-top:50px;" id="homeCtrl">
-    <div class="row">
+    <div class="row show-grid">
         <div class="col-xs-4 col-md-4 wrapper-content" style="text-align: center;">
                 <!--class="col-xs-offset-3 col-xs-4 col-xs-offset-2 col-md-offset-3 col-md-3 col-md-offset-3 btn-rva " -->
 
@@ -39,7 +39,7 @@
         </div>
 
         <div class=" col-xs-4 col-md-4 wrapper-content btn-travaux" style="text-align: center;">
-            <div class="widget red-bg p-lg text-center" data-ng-show="idServiceUser == idTravauxService || id_agent == 1093" ng-click="go('/TRAVAUX/Articles')">
+            <div class="widget red-bg p-lg text-center" data-ng-show="idServiceUser == idTravauxService || id_agent == 1093" ng-click="go('/TRAVAUX/Stocks')">
                 <div class="m-b-md">
                     <i class="fa fa-th-list fa-4x"></i>
                     <h3 class="font-bold no-margins">
@@ -51,7 +51,7 @@
         </div>
 
         <div class=" col-xs-4 col-md-4 wrapper-content btn-informatique" style="text-align: center;">
-            <div class="widget red-bg p-lg text-center" data-ng-show="idServiceUser == idItService || id_agent == 1093" ng-click="go('/IT/Suppliers')">
+            <div class="widget red-bg p-lg text-center" data-ng-show="idServiceUser == idItService || id_agent == 1093" ng-click="go('/IT/StockMaterial')">
                 <div class="m-b-md">
                     <i class="fa fa-print fa-4x"></i>
                     <h3 class="font-bold no-margins">
@@ -62,4 +62,22 @@
             </div>
         </div>
     </div>
+
+    <hr />
+
+    <div class="row show-grid">
+        <div class=" col-xs-4 col-md-4 wrapper-content " style="text-align: center;">
+            <div class="widget red-bg p-lg text-center" data-ng-show="id_agent == 1093" ng-click="go('/AdminPanel')">
+                <div class="m-b-md">
+                    <i class="fa fa-users fa-4x"></i>
+                    <h3 class="font-bold no-margins">
+                        Admin Panel
+                    </h3>
+                    <div>Administration Apps.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 </div>
