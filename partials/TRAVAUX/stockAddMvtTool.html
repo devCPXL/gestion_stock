@@ -17,10 +17,9 @@
                 </ui-select-choices>
             </ui-select>
             </form-element>
-
             <form-element label="ARTICLE" mod="toolMvt">
                 <ui-select ng-model="toolMvt.stockArticle" theme="bootstrap" ng-disabled="disabled" ng-change="changeStockArticle()" style="width: 319px;">
-                    <ui-select-match placeholder="chercher un article..."> <div>{{$select.selected.quantite_current +' - '+$select.selected.nom_article}}</div></ui-select-match>
+                    <ui-select-match placeholder="chercher un article..."> <div>{{$select.selected.quantite_current +' - '+$select.selected.nom_article+' - '+$select.selected.code_barre}}</div></ui-select-match>
                     <ui-select-choices repeat="article in stocksArticle | filter: $select.search" ui-disable-choice="article.quantite_current == 0">
                         <small ng-bind-html="article.quantite_current"></small>
                         <small ng-bind-html="article.nom_article | highlight: $select.search"></small>
