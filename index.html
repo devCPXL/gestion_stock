@@ -31,6 +31,8 @@
   <!--<link rel="stylesheet" href="css/style.css"/>-->
   <link rel="stylesheet" href="css/toaster.css">
 
+  <link rel="stylesheet" href="css/select2.css">
+
   <!--<link rel="stylesheet" href="css/jquery.dataTables.css"/>-->
   <!--<link rel="stylesheet" href="css/jquery.dataTables.min.css"/>-->
 
@@ -41,7 +43,16 @@
 
   <link rel="stylesheet" href="jQuery-File-Upload-9.10.0/css/jquery.fileupload.css">
 
-  <!-- Some Bootstrap Helper Libraries -->
+  <!-- load Plugins -->
+
+  <link rel="stylesheet" href="api/plugins/bootstrap-select/bootstrap-select.min.css">
+  <link rel="stylesheet" href="api/plugins/select2/select2.css">
+  <link rel="stylesheet" href="api/plugins/jquery-multi-select/css/multi-select.css">
+
+
+
+
+    <!-- Some Bootstrap Helper Libraries -->
   <script src="js/jquery.min.js"></script>
 
   <script src="js/bootstrap.min.js"></script>
@@ -52,6 +63,12 @@
 
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+
+  <script src="api/plugins/bootstrap-select/bootstrap-select.min.js"></script>
+  <script src="api/plugins/select2/select2.min.js"></script>
+  <script src="api/plugins/select2/select2_locale_fr.js"></script>
+  <script src="api/plugins/jquery-multi-select/js/jquery.multi-select.js"></script>
 
   <div class="blog-masthead">
       <div class="container-fluid" ng-include="'partials/menu.html'"></div>
@@ -69,6 +86,7 @@
   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
 
   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-sanitize.js"></script>
+
   <script src="js/select.js"></script>
 
   <!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>-->
@@ -77,7 +95,7 @@
   <script src="js/ui-bootstrap-tpls-0.11.2.min.js"></script>
   <!--<script data-require="angular-ui-bootstrap@0.3.0" data-semver="0.3.0" src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.3.0.min.js"></script>-->
 
-<script src="js/stickytableheaders.js"></script>
+  <script src="js/stickytableheaders.js"></script>
 
   <script src="angular-file-upload-master/examples/console-sham.js"></script>
   <script src="angular-file-upload-master/angular-file-upload.js"></script>
@@ -91,6 +109,12 @@
   <!--jsPDF lib-->
   <script type="text/javascript" src="api/libs/jsPDF/dist/jspdf.min.js"></script>
   <script type="text/javascript" src="api/libs/jsPDF/dist/jspdf.plugin.autotable.js"></script>
+
+  <!-- angularjs dropdown multiselect -->
+  <script src="js/lodash.min.js"></script>
+  <script src="js/angularjs-dropdown-multiselect.js"></script>
+
+
 
   <!-- AngularJS custom codes -->
 
@@ -118,6 +142,9 @@
   <script src="app/Travaux/movementCtrl.js"></script>
 
   <script src="app/It/stockCartridgeCtrl.js"></script>
+  <script src="app/components-dropdowns.js"></script>
+  <script src="app/adminPanelCtrl.js"></script>
+
 
 
 <!--jQuery-File-Upload-->
@@ -128,3 +155,4 @@
 
 </body>
 </html>
+

@@ -3,35 +3,35 @@
   <component name="ChangeListManager">
     <list default="true" id="0a8e544d-f0ba-4017-8934-02df6854873c" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/IT/locationEdit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/v1/it/orderCartridge.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/It/stockCartridgeCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Travaux/locationsCtrl.js" afterPath="$PROJECT_DIR$/app/Travaux/locationsCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/TRAVAUX/locations.html" afterPath="$PROJECT_DIR$/partials/TRAVAUX/locations.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/importJsonFile.php" afterPath="$PROJECT_DIR$/partials/importJsonFile.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Rva/stocksCtrl.js" afterPath="$PROJECT_DIR$/app/Rva/stocksCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v1/dbHelper.php" afterPath="$PROJECT_DIR$/api/v1/dbHelper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v1/travaux/stocks.php" afterPath="$PROJECT_DIR$/api/v1/travaux/stocks.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/TRAVAUX/articleEdit.html" afterPath="$PROJECT_DIR$/partials/TRAVAUX/articleEdit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v1/rva/familys.php" afterPath="$PROJECT_DIR$/api/v1/rva/familys.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/TRAVAUX/articles.html" afterPath="$PROJECT_DIR$/partials/TRAVAUX/articles.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/TRAVAUX/stocks.html" afterPath="$PROJECT_DIR$/partials/TRAVAUX/stocks.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/TRAVAUX/tools.html" afterPath="$PROJECT_DIR$/partials/TRAVAUX/tools.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v1/travaux/locations.php" afterPath="$PROJECT_DIR$/api/v1/travaux/locations.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/familyEditCtrl.js" afterPath="$PROJECT_DIR$/app/familyEditCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/RVA/stockDelivery.html" afterPath="$PROJECT_DIR$/partials/RVA/stockDelivery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/homeCtrl.js" afterPath="$PROJECT_DIR$/app/homeCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v1/index.php" afterPath="$PROJECT_DIR$/api/v1/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/home.html" afterPath="$PROJECT_DIR$/partials/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Travaux/toolsCtrl.js" afterPath="$PROJECT_DIR$/app/Travaux/toolsCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.js" afterPath="$PROJECT_DIR$/app/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Travaux/stocksCtrl.js" afterPath="$PROJECT_DIR$/app/Travaux/stocksCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v1/travaux/tools.php" afterPath="$PROJECT_DIR$/api/v1/travaux/tools.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/data.js" afterPath="$PROJECT_DIR$/app/data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v1/rva/articles.php" afterPath="$PROJECT_DIR$/api/v1/rva/articles.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/TRAVAUX/locationEdit.html" afterPath="$PROJECT_DIR$/partials/TRAVAUX/locationEdit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/v1/it/orderCartridge.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Travaux/articlesTravauxCtrl.js" afterPath="$PROJECT_DIR$/app/Travaux/articlesTravauxCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/homeCtrl.js" afterPath="$PROJECT_DIR$/app/homeCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/TRAVAUX/articleEdit.html" afterPath="$PROJECT_DIR$/partials/TRAVAUX/articleEdit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/data.js" afterPath="$PROJECT_DIR$/app/data.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/TRAVAUX/locationEdit.html" afterPath="$PROJECT_DIR$/partials/TRAVAUX/locationEdit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v1/index.php" afterPath="$PROJECT_DIR$/api/v1/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Travaux/stocksCtrl.js" afterPath="$PROJECT_DIR$/app/Travaux/stocksCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/importJsonFile.php" afterPath="$PROJECT_DIR$/partials/importJsonFile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v1/travaux/locations.php" afterPath="$PROJECT_DIR$/api/v1/travaux/locations.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Travaux/toolsCtrl.js" afterPath="$PROJECT_DIR$/app/Travaux/toolsCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/TRAVAUX/tools.html" afterPath="$PROJECT_DIR$/partials/TRAVAUX/tools.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.js" afterPath="$PROJECT_DIR$/app/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v1/rva/articles.php" afterPath="$PROJECT_DIR$/api/v1/rva/articles.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/TRAVAUX/articles.html" afterPath="$PROJECT_DIR$/partials/TRAVAUX/articles.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/familyEditCtrl.js" afterPath="$PROJECT_DIR$/app/familyEditCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/TRAVAUX/stocks.html" afterPath="$PROJECT_DIR$/partials/TRAVAUX/stocks.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v1/travaux/tools.php" afterPath="$PROJECT_DIR$/api/v1/travaux/tools.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v1/dbHelper.php" afterPath="$PROJECT_DIR$/api/v1/dbHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v1/travaux/stocks.php" afterPath="$PROJECT_DIR$/api/v1/travaux/stocks.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/RVA/stockDelivery.html" afterPath="$PROJECT_DIR$/partials/RVA/stockDelivery.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/TRAVAUX/locations.html" afterPath="$PROJECT_DIR$/partials/TRAVAUX/locations.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Rva/stocksCtrl.js" afterPath="$PROJECT_DIR$/app/Rva/stocksCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Travaux/locationsCtrl.js" afterPath="$PROJECT_DIR$/app/Travaux/locationsCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v1/rva/familys.php" afterPath="$PROJECT_DIR$/api/v1/rva/familys.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/home.html" afterPath="$PROJECT_DIR$/partials/home.html" />
     </list>
     <ignored path="gestion_stock.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,61 +47,88 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="gestion_stock" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="articleEdit.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partials/TRAVAUX/articleEdit.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.038462">
-              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/app.js">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="articles.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partials/TRAVAUX/articles.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="169" column="57" selection-start-line="169" selection-start-column="57" selection-end-line="169" selection-end-column="57" />
+              <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stockCartridgeCtrl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/It/stockCartridgeCtrl.js">
+      <file leaf-file-name="adminPanel.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partials/adminPanel.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="articlesTravauxCtrl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Travaux/articlesTravauxCtrl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9122808">
-              <caret line="169" column="85" selection-start-line="169" selection-start-column="85" selection-end-line="169" selection-end-column="85" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="articles.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/v1/rva/articles.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.048193">
-              <caret line="171" column="73" selection-start-line="171" selection-start-column="73" selection-end-line="171" selection-end-column="73" />
+              <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
               <folding>
-                <marker date="1476197604036" expanded="true" signature="333:756" placeholder="SELECT ga.id..gestion_article..." />
-                <marker date="1476197604036" expanded="true" signature="1344:1702" placeholder="select ga.id..gestion_article..." />
-                <marker date="1476197604036" expanded="true" signature="1456:1578" placeholder="select * fro..gestion_stock..." />
+                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#ui-select#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adminPanelCtrl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/adminPanelCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#50#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partials/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.038462">
+              <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partials/menu.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="50" selection-start-line="0" selection-start-column="50" selection-end-line="0" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urlElementUser.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/v1/urlElementUser.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="19" />
+              <folding>
+                <element signature="e#6#95#0#PHP" expanded="true" />
+                <marker date="1477657392542" expanded="true" signature="193:251" placeholder="select id_ur..gestion_url..." />
+                <marker date="1477657392542" expanded="true" signature="415:450" placeholder="select id_ur..gestion_url..." />
+                <marker date="1477657392542" expanded="true" signature="415:489" placeholder="select id_ur..gestion_url..." />
+                <marker date="1477657392542" expanded="true" signature="415:498" placeholder="select id_ur..gestion_url..." />
+                <marker date="1477657392542" expanded="true" signature="415:499" placeholder="select id_ur..gestion_user_url..." />
               </folding>
             </state>
           </provider>
@@ -110,28 +137,8 @@
       <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40106243">
-              <caret line="260" column="17" selection-start-line="260" selection-start-column="17" selection-end-line="260" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stockCartridge.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partials/IT/stockCartridge.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.038462">
-              <caret line="111" column="83" selection-start-line="111" selection-start-column="83" selection-end-line="111" selection-end-column="83" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stocks.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partials/TRAVAUX/stocks.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.923077">
-              <caret line="188" column="158" selection-start-line="187" selection-start-column="24" selection-end-line="188" selection-end-column="158" />
+            <state vertical-scroll-proportion="0.4636785">
+              <caret line="182" column="10" selection-start-line="182" selection-start-column="10" selection-end-line="182" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -142,6 +149,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -152,52 +160,56 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/api/v1/.htaccess" />
-        <option value="$PROJECT_DIR$/partials/RVA/batiments.html" />
-        <option value="$PROJECT_DIR$/api/v1/rva/batiments.php" />
         <option value="$PROJECT_DIR$/api/v1/rva/locations.php" />
         <option value="$PROJECT_DIR$/api/v1/rva/suppliers.php" />
         <option value="$PROJECT_DIR$/app/Rva/sallesCtrl.js" />
-        <option value="$PROJECT_DIR$/api/v1/config.php" />
-        <option value="$PROJECT_DIR$/partials/menu.html" />
         <option value="$PROJECT_DIR$/app/Rva/articlesCtrl.js" />
         <option value="$PROJECT_DIR$/partials/RVA/suppliers.html" />
         <option value="$PROJECT_DIR$/partials/RVA/articles.html" />
         <option value="$PROJECT_DIR$/app/Rva/stocksCtrl.js" />
         <option value="$PROJECT_DIR$/partials/RVA/stockDelivery.html" />
-        <option value="$PROJECT_DIR$/api/v1/travaux/locations.php" />
         <option value="$PROJECT_DIR$/app/data.js" />
         <option value="$PROJECT_DIR$/partials/TRAVAUX/locationEdit.html" />
         <option value="$PROJECT_DIR$/partials/INFORMATIQUE/locationEdit.html" />
-        <option value="$PROJECT_DIR$/partials/TRAVAUX/locations.html" />
-        <option value="$PROJECT_DIR$/api/v1/dbHelper.php" />
         <option value="$PROJECT_DIR$/api/v1/rva/familys.php" />
         <option value="$PROJECT_DIR$/app/familyEditCtrl.js" />
-        <option value="$PROJECT_DIR$/app/Travaux/locationsCtrl.js" />
         <option value="$PROJECT_DIR$/partials/IT/cartridges.html" />
         <option value="$PROJECT_DIR$/partials/importJsonFile.php" />
         <option value="$PROJECT_DIR$/partials/TRAVAUX/tools.html" />
         <option value="$PROJECT_DIR$/partials/TRAVAUX/articles.html" />
-        <option value="$PROJECT_DIR$/api/v1/index.php" />
         <option value="$PROJECT_DIR$/api/v1/rva/articles.php" />
         <option value="$PROJECT_DIR$/api/v1/it/stocks.php" />
         <option value="$PROJECT_DIR$/api/v1/travaux/stocks.php" />
-        <option value="$PROJECT_DIR$/partials/TRAVAUX/stocks.html" />
         <option value="$PROJECT_DIR$/partials/TRAVAUX/stockAddMvtTool.html" />
         <option value="$PROJECT_DIR$/app/Travaux/toolsCtrl.js" />
         <option value="$PROJECT_DIR$/app/Travaux/stocksCtrl.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/api/v1/travaux/tools.php" />
         <option value="$PROJECT_DIR$/app/Travaux/movementCtrl.js" />
         <option value="$PROJECT_DIR$/api/v1/it/orderCartridge.php" />
         <option value="$PROJECT_DIR$/css/components-rounded.css" />
         <option value="$PROJECT_DIR$/app/homeCtrl.js" />
-        <option value="$PROJECT_DIR$/app/app.js" />
-        <option value="$PROJECT_DIR$/partials/home.html" />
         <option value="$PROJECT_DIR$/partials/TRAVAUX/articleEdit.html" />
         <option value="$PROJECT_DIR$/partials/IT/stockCartridge.html" />
         <option value="$PROJECT_DIR$/app/It/stockCartridgeCtrl.js" />
         <option value="$PROJECT_DIR$/app/Travaux/articlesTravauxCtrl.js" />
+        <option value="$PROJECT_DIR$/partials/TRAVAUX/locations.html" />
+        <option value="$PROJECT_DIR$/partials/TRAVAUX/stocks.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/api/v1/config.php" />
+        <option value="$PROJECT_DIR$/partials/home.html" />
+        <option value="$PROJECT_DIR$/app/Travaux/locationsCtrl.js" />
+        <option value="$PROJECT_DIR$/api/v1/travaux/locations.php" />
+        <option value="$PROJECT_DIR$/api/v1/dbHelper.php" />
+        <option value="$PROJECT_DIR$/app/components-dropdowns.js" />
+        <option value="$PROJECT_DIR$/js/lodash.min.js" />
+        <option value="$PROJECT_DIR$/app/app.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/angularjs-dropdown-multiselect.js" />
+        <option value="$PROJECT_DIR$/api/v1/index.php" />
+        <option value="$PROJECT_DIR$/api/v1/urlElementUser.php" />
+        <option value="$PROJECT_DIR$/partials/adminPanel.html" />
+        <option value="$PROJECT_DIR$/app/adminPanelCtrl.js" />
+        <option value="$PROJECT_DIR$/partials/menu.html" />
         <option value="$PROJECT_DIR$/css/custom.css" />
       </list>
     </option>
@@ -212,10 +224,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1432" />
-    <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="916" />
+    <option name="x" value="1447" />
+    <option name="y" value="4" />
+    <option name="width" value="1587" />
+    <option name="height" value="890" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -242,6 +254,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -284,29 +297,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TRAVAUX" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gestion_stock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gestion_stock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IT" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -323,18 +314,8 @@
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gestion_stock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gestion_stock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -349,28 +330,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Travaux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gestion_stock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gestion_stock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="It" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -389,28 +348,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="v1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gestion_stock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gestion_stock" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="v1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rva" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -430,7 +367,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files" />
       </pane>
@@ -438,17 +374,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../intranet_v2_dev" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gestion_stock_dev" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="U:\html\gestion_stock\css\images" />
+      <recent name="U:\html\gestion_stock\js" />
+      <recent name="U:\html\gestion_stock\app" />
+      <recent name="U:\html\gestion_stock\api\plugins" />
       <recent name="U:\html\gestion_stock\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="U:\html\gestion_stock\css" />
-      <recent name="U:\html\gestion_stock\partials" />
-      <recent name="U:\html\gestion_stock\app\It" />
-      <recent name="U:\html\gestion_stock\partials\IT" />
     </key>
   </component>
   <component name="RunManager">
@@ -504,14 +444,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1432" y="-8" width="1456" height="916" extended-state="6" />
+    <frame x="1447" y="4" width="1587" height="890" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20208333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19777341" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19454771" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961586" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40555555" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -522,7 +462,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47459728" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4744898" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -543,88 +483,382 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/homeCtrl.js">
+    <entry file="file://$PROJECT_DIR$/partials/TRAVAUX/articles.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28369704">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="23" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partials/home.html">
+    <entry file="file://$PROJECT_DIR$/partials/adminPanel.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.923077">
-          <caret line="53" column="118" selection-start-line="53" selection-start-column="118" selection-end-line="53" selection-end-column="118" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#ui-select#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partials/TRAVAUX/articleEdit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.038462">
-          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.js">
+    <entry file="file://$PROJECT_DIR$/app/adminPanelCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="169" column="57" selection-start-line="169" selection-start-column="57" selection-end-line="169" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/TRAVAUX/stocks.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.923077">
-          <caret line="188" column="158" selection-start-line="187" selection-start-column="24" selection-end-line="188" selection-end-column="158" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/IT/stockCartridge.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.038462">
-          <caret line="111" column="83" selection-start-line="111" selection-start-column="83" selection-end-line="111" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/It/stockCartridgeCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Travaux/articlesTravauxCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9122808">
-          <caret line="169" column="85" selection-start-line="169" selection-start-column="85" selection-end-line="169" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/v1/rva/articles.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.048193">
-          <caret line="171" column="73" selection-start-line="171" selection-start-column="73" selection-end-line="171" selection-end-column="73" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1476197604036" expanded="true" signature="333:756" placeholder="SELECT ga.id..gestion_article..." />
-            <marker date="1476197604036" expanded="true" signature="1344:1702" placeholder="select ga.id..gestion_article..." />
-            <marker date="1476197604036" expanded="true" signature="1456:1578" placeholder="select * fro..gestion_stock..." />
+            <element signature="e#0#50#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/v1/urlElementUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <element signature="e#6#95#0#PHP" expanded="true" />
+            <marker date="1477657392542" expanded="true" signature="193:251" placeholder="select id_ur..gestion_url..." />
+            <marker date="1477657392542" expanded="true" signature="415:450" placeholder="select id_ur..gestion_url..." />
+            <marker date="1477657392542" expanded="true" signature="415:489" placeholder="select id_ur..gestion_url..." />
+            <marker date="1477657392542" expanded="true" signature="415:498" placeholder="select id_ur..gestion_url..." />
+            <marker date="1477657392542" expanded="true" signature="415:499" placeholder="select id_ur..gestion_user_url..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40106243">
-          <caret line="260" column="17" selection-start-line="260" selection-start-column="17" selection-end-line="260" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="493" column="13" selection-start-line="493" selection-start-column="13" selection-end-line="493" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/TRAVAUX/stocks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="156" column="84" selection-start-line="156" selection-start-column="84" selection-end-line="156" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/TRAVAUX/articleEdit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="78" selection-start-line="69" selection-start-column="66" selection-end-line="69" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="436" column="13" selection-start-line="436" selection-start-column="13" selection-end-line="436" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/TRAVAUX/locationEdit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/IT/locationEdit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/TRAVAUX/locations.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="141" selection-start-line="28" selection-start-column="141" selection-end-line="28" selection-end-column="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Travaux/locationsCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/TRAVAUX/locationEdit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/IT/locationEdit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/TRAVAUX/locations.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="141" selection-start-line="28" selection-start-column="141" selection-end-line="28" selection-end-column="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3148148">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/v1/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25616437">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/homeCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58465606">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="28" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Travaux/locationsCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="87" column="11" selection-start-line="87" selection-start-column="11" selection-end-line="87" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/TRAVAUX/stocks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.3846154">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="83" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/select2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/plugins/bootstrap-select/i18n/defaults-eu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/v1/dbHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.769231">
+          <caret line="48" column="28" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/plugins/select2/select2_locale_en.js.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39643347">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/plugins/select2/select2_locale_fr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/select.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Rva/articlesCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.33730158">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/RVA/articleEdit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53561646">
+          <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components-dropdowns.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22486773">
+          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7818182">
+          <caret line="114" column="15" selection-start-line="114" selection-start-column="15" selection-end-line="114" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/lodash.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="133" column="363" selection-start-line="133" selection-start-column="363" selection-end-line="133" selection-end-column="363" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/underscore-min.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="1727" selection-start-line="0" selection-start-column="1727" selection-end-line="0" selection-end-column="1727" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/underscore.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5185184">
+          <caret line="4" column="2538" selection-start-line="4" selection-start-column="2538" selection-end-line="4" selection-end-column="2538" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/angularjs-dropdown-multiselect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="154" column="42" selection-start-line="154" selection-start-column="42" selection-end-line="154" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.044973545">
+          <caret line="2" column="144" selection-start-line="2" selection-start-column="144" selection-end-line="2" selection-end-column="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/v1/travaux/locations.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.923077">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="69" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="90" column="2" selection-start-line="90" selection-start-column="2" selection-end-line="90" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/v1/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.307692">
+          <caret line="55" column="34" selection-start-line="55" selection-start-column="34" selection-end-line="55" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/familyEditCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="11" selection-start-line="7" selection-start-column="8" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/v1/urlElementUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <element signature="e#6#95#0#PHP" expanded="true" />
+            <marker date="1477657392542" expanded="true" signature="193:251" placeholder="select id_ur..gestion_url..." />
+            <marker date="1477657392542" expanded="true" signature="415:450" placeholder="select id_ur..gestion_url..." />
+            <marker date="1477657392542" expanded="true" signature="415:489" placeholder="select id_ur..gestion_url..." />
+            <marker date="1477657392542" expanded="true" signature="415:498" placeholder="select id_ur..gestion_url..." />
+            <marker date="1477657392542" expanded="true" signature="415:499" placeholder="select id_ur..gestion_user_url..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/TRAVAUX/articleEdit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.07123288">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="65" selection-end-column="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/adminPanel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#ui-select#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/TRAVAUX/articles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/adminPanelCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#50#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.038462">
+          <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="50" selection-start-line="0" selection-start-column="50" selection-end-line="0" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4636785">
+          <caret line="182" column="10" selection-start-line="182" selection-start-column="10" selection-end-line="182" selection-end-column="10" />
           <folding />
         </state>
       </provider>

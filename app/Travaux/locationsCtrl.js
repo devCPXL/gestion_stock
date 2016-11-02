@@ -92,7 +92,7 @@ app.controller('locationEditCtrl', function ($rootScope, $scope, $modalInstance,
     console.log("$scope.agents : ");
     console.log($scope.agents);
 
-    Data.get('agents').then(function(data){
+    Data.get('agentsTravaux').then(function(data){
         $scope.agents = jsonNumericCheck.d(data.data);
 
         if(!angular.isDefined(item)){

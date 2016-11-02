@@ -1,6 +1,6 @@
 'use strict';
 
-var app = angular.module('myApp', ['ngRoute', 'ui.bootstrap', 'ngAnimate', 'toaster', 'ui.select', 'ngSanitize']); // 'angularFileUpload'
+var app = angular.module('myApp', ['ngRoute', 'ui.bootstrap', 'ngAnimate', 'toaster', 'ui.select', 'ngSanitize', 'angularjs-dropdown-multiselect']); // 'angularFileUpload'
 
 //var id_serviceRva = 260, id_serviceTravaux = 370;
 //var id_serviceRva = 15, id_serviceTravaux = 19;
@@ -146,6 +146,11 @@ app.config(['$routeProvider','$locationProvider',
             title: 'Liste demande cartouche',
             templateUrl: 'partials/IT/stockCartridge.html',
             controller: 'stockCartridgeCtrl'
+        })
+        .when('/AdminPanel', {
+            title: 'Admin Panel',
+            templateUrl: 'partials/adminPanel.html',
+            controller: 'adminPanelCtrl'
         })
         .otherwise({
             redirectTo: '/home'
