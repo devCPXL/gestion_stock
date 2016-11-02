@@ -2,7 +2,7 @@
     <button id="btn-add-location" data-ng-disabled="btn_add_location_disable" data-ng-hide="btn_add_location_hide"
             type="button" class="btn btn-info btn-sm " ng-click="open(location);">
         <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
-        <span class="btn-txt">Ajouter nouveau Chantier</span>
+        <span class="btn-txt">Ajouter nouveau {{title_location}}</span>
     </button>
 </nav>
 <div class="table-responsive">
@@ -10,7 +10,7 @@
   <div class="panel-heading">
       <div class="row">
           <div class="col-md-8">
-            Liste des Chantiers
+            Liste des {{title_location}}
           </div>
           <div class="col-md-4">
               <div class="sw-search" >
@@ -26,7 +26,7 @@
     </div>
   <div class="panel-body">
       <table data-toggle="table" data-cache="false" data-height="200" class="table table-hover table-striped" data-height="200" >
-          <tr ng-show="locations.length==0"><td style="vertical-align:middle;"><i class="fa fa-ban fa-3x"></i>&nbsp;Aucune Chantier trouvée.</td></tr>
+          <tr ng-show="locations.length==0"><td style="vertical-align:middle;"><i class="fa fa-ban fa-3x"></i>&nbsp;Aucune {{title_location}} trouvée.</td></tr>
           <tr ng-hide="locations.length>-1"><td style="vertical-align:middle;"><i class="fa fa-cog fa-3x fa-spin"></i>&nbsp;Loading</td></tr>
           <thead>
               <tr>

@@ -166,8 +166,8 @@ app.controller('articleTravauxEditCtrl', function ($rootScope, $scope, $route, $
                     $('#SelectSupplier option[value='+entry+']').prop('disabled', true);
                 });
         }
-        // const ID_FAMILY_CARTRIDGE : 46
-        if(item.id_family == ID_FAMILY_CARTRIDGE && article.type_article != undefined){
+        // const ID_FAMILY_CARTRIDGE = 46
+        if(item.id_family == ID_FAMILY_CARTRIDGE && $scope.article.type_article != undefined){
             $scope.article.type_article = JSON.parse("[" + $scope.article.type_article + "]");
             for(var i=0; i<$scope.article.type_article.length;i++) $scope.article.type_article[i] = $scope.article.type_article[i].toString();
             $scope.article.type_article.forEach(function(entry) {

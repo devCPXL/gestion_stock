@@ -82,6 +82,7 @@ function getMenu($id_service) {
                 JOIN gestion_url gu on gu.id_url = guu.id_url
                 where guu.id_user = $id_agent
                 and gu.id_service_url = $id_service
+                and gu.status = 'on'
             ");
     }
 
