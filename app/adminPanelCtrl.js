@@ -2,8 +2,9 @@
  * Created by lakroubassi.n on 26/10/2016.
  */
 
-app.controller('adminPanelCtrl', function ($scope,$rootScope, $location, $route, Data, $http, $timeout) {
+app.controller('adminPanelCtrl', function ($scope, $rootScope, $location, $route, Data, $http, $timeout) {
     console.log('adminPanelCtrl');
+    console.log(document.URL)
 
     $scope.agent = {};
     $scope.disabled = undefined;
@@ -26,7 +27,8 @@ app.controller('adminPanelCtrl', function ($scope,$rootScope, $location, $route,
     }
 
     $scope.searchAgents = function($select) {
-        return $http.get('http://10.102.97.208/gestion_stock/api/v1/agents/'+$select.search).then(function(response){
+        var adsUrl = $location.absUrl().split('#')[0];
+        return $http.get(adsUrl+'api/v1/agents/'+$select.search).then(function(response){
             //console.log(response);
             $scope.searchRes = response.data;
         });
