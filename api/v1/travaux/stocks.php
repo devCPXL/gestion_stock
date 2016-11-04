@@ -70,7 +70,7 @@ function getStocksMaterials($id_service, $id_location) {
 
 // === Get Movements Stock TRAVAUX ===================================================== //
 
-$app->get('/movementsStockTravaux/:id_stock', 'getMovementsStock');
+$app->get('/movementsStock/:id_stock', 'getMovementsStock');
 function getMovementsStock($id)
 {
     global $db;
