@@ -147,6 +147,11 @@ app.config(['$routeProvider','$locationProvider',
             templateUrl: 'partials/IT/stockCartridge.html',
             controller: 'stockCartridgeCtrl'
         })
+        .when('/IT/MouvementsStock/:id', {
+            title: 'Liste de Mouvements',
+            templateUrl: 'partials/movementList.html',
+            controller: 'listMvtCtrl'
+        })
         .when('/AdminPanel', {
             title: 'Admin Panel',
             templateUrl: 'partials/adminPanel.html',
