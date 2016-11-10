@@ -20,3 +20,24 @@ function getUrlUser($id_user) {
                                 where id_user = $id_user");
     echoResponse(200, $rows);
 };
+
+$app->put('/urlUser/:id_user', 'putUrlUser');
+function putUrlUser($id_user){
+    global $app, $db, $rows;
+
+    $data = json_decode($app->request()->getBody());
+
+    foreach($data->urlDataOrigin as $key => $value){
+        $value->id_user = $id_user;
+        $rows['urlDataOrigin'][$key] = $db->delete('gestion_user_url',$value);
+    }
+
+    foreach($data->urlDataSelected as $key => $value){
+        $value->id_user = $id_user;
+        $rows['urlDataSelected'][$key] = $db->insert('gestion_user_url',$value, array());
+    }
+
+//    $rows = $db->delete(gestion_user_url, )
+    echoResponse(200, $rows);
+
+};

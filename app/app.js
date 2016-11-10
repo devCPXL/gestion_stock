@@ -113,6 +113,10 @@ app.config(['$routeProvider','$locationProvider',
             title: 'import Json File',
             templateUrl: 'partials/importJsonFile.php'
         })
+        .when('/importJsonFileCartridge', {
+            title: 'import Json File',
+            templateUrl: 'partials/importJsonFile_Cartridge.php'
+        })
         .when('/RVA/importJsonFile', {
             title: 'import Json File',
             templateUrl: 'partials/RVA/importJsonFile.php'
