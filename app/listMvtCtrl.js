@@ -22,7 +22,7 @@ app.controller('listMvtCtrl', function ($scope, $route, $rootScope, $routeParams
     //alert($scope.desiredLocation);
 
 
-    var apiMethodeMovementsStock = ($rootScope.id_service == ID_RVA_SERVICE) ? 'movementsStockRva' : (($rootScope.id_service == ID_TRAVAUX_SERVICE) ? 'movementsStockTravaux' : '');
+    var apiMethodeMovementsStock = ($rootScope.id_service == ID_RVA_SERVICE) ? 'movementsStockRva' : 'movementsStock';
 
     Data.get(apiMethodeMovementsStock+'/'+id).then(function (data){
         //$scope.movements= data.data;

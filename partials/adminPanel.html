@@ -44,7 +44,7 @@
                 <div class="row">
                     <div class="portlet-body form">
                         <!-- BEGIN FORM-->
-                        <form action="#" class="form-horizontal form-row-sepe">
+                        <form name="form" class="form-horizontal form-row-sepe" novalidate>
                             <div class="form-body">
                                 <!--<div class="selectRow">-->
                                     <!--<input type="hidden" ng-model="selected" id="remoteDataAgents" data-ng-change="changeAgent();" name='input' />-->
@@ -53,26 +53,29 @@
                                 <div class="row">
                                     <div class="col-md-5">
                                         <label>Agent</label>
-                                        <ui-select ng-model="agent.selected" data-ng-change="changeAgent(agent.selected)" style="min-width: 300px;">
+                                        <ui-select ng-model="agent.selected" data-ng-change="changeAgent(agent.selected)" style="min-width: 300px;" required >
                                             <ui-select-match placeholder="Chercher agent...">{{$select.selected.nom +' '+ $select.selected.prenom}}</ui-select-match>
                                             <ui-select-choices refresh="searchAgents($select)" refresh-delay="300" repeat="searchRes in searchRes">
                                                 <span ng-bind-html="searchRes.nom +' '+ searchRes.prenom | highlight: $select.search"></span>
                                             </ui-select-choices>
                                         </ui-select>
+                                        <small ng-show="form.agent.selected.$dirty && form.agent.selected.$invalid" class="help-inline">Agent Requie</small>
                                     </div>
                                     <div class="col-md-4">
                                         <label>liste Liens</label>
                                         <div ng-dropdown-multiselect="" options="urlData" selected-model="urlDataSelected" style="min-width: 300px;"
-                                             extra-settings="urlExtraSettings" translation-texts="urlTranslationTexts"></div>
+                                             extra-settings="urlExtraSettings" translation-texts="urlTranslationTexts" validation="required" validation-result="urlDataSelected" required>
+
+                                            <small ng-show="form.urlDataSelected.$dirty && form.urlDataSelected.$invalid" class="help-inline">Liens Requie</small>
+                                        </div>
                                     </div>
-                                    <div class="col-md-3">
-                                        <!--<label>_</label>-->
-                                        <br />
-                                        <button type="submit" class="btn green">Valider</button>
-                                        <button type="button" class="btn default">Annuler</button>
+                                    <div class="col-md-3" >
+                                        <div style="margin: 25px 0px 0px 25px;">
+                                            <button type="submit" data-ng-click="saveUrlUser()" ng-disabled="form.$invalid" class="btn green">Valider</button>
+                                            <button type="button" data-ng-click="reset()"class="btn default">Reset</button>
+                                        </div>
                                     </div>
                                 </div>
-
 
                             </div>
                         </form>

@@ -113,6 +113,10 @@ app.config(['$routeProvider','$locationProvider',
             title: 'import Json File',
             templateUrl: 'partials/importJsonFile.php'
         })
+        .when('/importJsonFileCartridge', {
+            title: 'import Json File',
+            templateUrl: 'partials/importJsonFile_Cartridge.php'
+        })
         .when('/RVA/importJsonFile', {
             title: 'import Json File',
             templateUrl: 'partials/RVA/importJsonFile.php'
@@ -146,6 +150,11 @@ app.config(['$routeProvider','$locationProvider',
             title: 'Liste demande cartouche',
             templateUrl: 'partials/IT/stockCartridge.html',
             controller: 'stockCartridgeCtrl'
+        })
+        .when('/IT/MouvementsStock/:id', {
+            title: 'Liste de Mouvements',
+            templateUrl: 'partials/movementList.html',
+            controller: 'listMvtCtrl'
         })
         .when('/AdminPanel', {
             title: 'Admin Panel',

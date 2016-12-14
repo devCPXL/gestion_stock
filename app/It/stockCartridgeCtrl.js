@@ -60,6 +60,7 @@ app.controller('stockCartridgeCtrl', function ($scope, $rootScope, $modal, $filt
         {text:"DEMANDEUR(se)",predicate:"DEMANDEUR"},
         {text:"SERVICE",predicate:"SERVICE"},
         {text:"IMPRIMANTE",predicate:"IMPRIMANTE"},
+        {text:"COULEUR",predicate:"COULEUR"},
         {text:"DESCRIPTION",predicate:"DESCRIPTION"},
         {text:"DATE",predicate:"DATE"},
         {text:"MVT",predicate:"MVT"},
