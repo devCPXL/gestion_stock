@@ -239,7 +239,7 @@ app.controller('stocksTravauxCtrl', function ($scope, $rootScope, $modal, $filte
         });
     };
 
-    $scope.openLastMvt = function(p,size){
+    $scope.openLastMvt = function(type,size){
         var modalInstance = $modal.open({
             templateUrl: 'partials/lastMvtList.html',
             controller: 'stockLastMvtListCtrl',
@@ -247,6 +247,9 @@ app.controller('stocksTravauxCtrl', function ($scope, $rootScope, $modal, $filte
             resolve: {
                 item: function(){
                     return false;
+                },
+                type : function(){
+                    return type;
                 }
             }
         });

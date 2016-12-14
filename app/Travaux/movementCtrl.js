@@ -92,7 +92,7 @@ app.controller('addMvtCtrl', function ($rootScope, $scope, $route, $modal, $filt
 });
 
 
-app.controller('stockLastMvtListCtrl', function ($rootScope, $scope, $route, $modal, $modalInstance, $filter, item, Data, toaster) {
+app.controller('stockLastMvtListCtrl', function ($rootScope, $scope, $route, $modal, $modalInstance, $filter, item, type, Data, toaster) {
 
     console.log(item);
     $scope.title = 'Liste Dernière mouvement ';
@@ -107,7 +107,7 @@ app.controller('stockLastMvtListCtrl', function ($rootScope, $scope, $route, $mo
     };
 
     $scope.loadData = function () {
-        Data.get('lastMvtStockTravaux/'+$rootScope.id_service).then(function(data){
+        Data.get('lastMvtStockTravaux/' + $rootScope.id_service + '/' + type).then(function(data){
             $scope.lastMvtMaterial = data.data;
         });
     };

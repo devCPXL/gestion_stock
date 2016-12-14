@@ -94,6 +94,24 @@ app.controller('toolsCtrl', function ($scope, $rootScope, $modal, $filter, Data,
         $window.open(host+'#/TRAVAUX/MouvementsStock/'+stock.id_stock, '_blank');
     };
 
+    $scope.openLastMvt = function(type,size){
+        var modalInstance = $modal.open({
+            templateUrl: 'partials/lastMvtList.html',
+            controller: 'stockLastMvtListCtrl',
+            size: size,
+            resolve: {
+                item: function(){
+                    return false;
+                },
+                type : function(){
+                    return type;
+                }
+            }
+        });
+        modalInstance.result.then(function() {
+        });
+    };
+
     $scope.$on('ngRepeatFinished', function(ngRepeatFinishedEvent){
         $('#filterTool').selectpicker();
         $('#filterTool').selectpicker('refresh');

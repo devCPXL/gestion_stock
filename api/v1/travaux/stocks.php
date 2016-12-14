@@ -113,8 +113,8 @@ function getMovementsStock($id)
 };
 
 // === Get Last Movements Stock TRAVAUX ===================================================== //
-$app->get('/lastMvtStockTravaux/:id_service', 'getLastMvtStockTravaux');
-function getLastMvtStockTravaux($id_service)
+$app->get('/lastMvtStockTravaux/:id_service/:type', 'getLastMvtStockTravaux');
+function getLastMvtStockTravaux($id_service, $type)
 {
     global $db;
 
@@ -144,7 +144,7 @@ function getLastMvtStockTravaux($id_service)
 
             LEFT JOIN gestion_article ga            on ga.id_article = gs_f.id_article
 
-        WHERE gs_f.type_stock = 'MATERIAL'
+        WHERE gs_f.type_stock = '$type'
         AND gs_f.id_service = $id_service
         Order By gsm.dt_creation DESC
         LIMIT 100
